@@ -39,12 +39,12 @@ class DatabaseHelper(context: Context) {
 
 
     // ------------------------- insert method ----------------------------------- //
-    val dbcreation2 = DatabaseCreation(context)
+    //val dbcreation2 = DatabaseCreation(context)
 
     val db = dbCreation.writableDatabase
 
     // Create a new map of values, where column names are the keys
-    fun insertData(id:String, nama:String, jenis:String, daerah:String, deskripsi:String,
+    fun insertData(id:String, nama:String, jenis:String, daerah:String, deskripsi:String, video:String,
                    gambar1:String, gambar2:String, gambar3:String, gambar4:String, gambar5: String){
         val values = ContentValues().apply {
             put(DatabaseContract.BudayaColumns._ID, id)
@@ -52,24 +52,7 @@ class DatabaseHelper(context: Context) {
             put(DatabaseContract.BudayaColumns.JENIS, jenis)
             put(DatabaseContract.BudayaColumns.DAERAH, daerah)
             put(DatabaseContract.BudayaColumns.DESKRIPSI, deskripsi)
-            put(DatabaseContract.BudayaColumns.GAMBAR_1, gambar1)
-            put(DatabaseContract.BudayaColumns.GAMBAR_2, gambar2)
-            put(DatabaseContract.BudayaColumns.GAMBAR_3, gambar3)
-            put(DatabaseContract.BudayaColumns.GAMBAR_4, gambar4)
-            put(DatabaseContract.BudayaColumns.GAMBAR_5, gambar5)
-        }
-
-        // Insert the new row, returning the primary key value of the new row
-        db?.insert(DatabaseContract.BudayaColumns.TABLE_BUDAYA, null, values)
-    }
-
-    fun insertData_Video(nama:String, jenis:String, daerah:String, deskripsi:String, video:String,
-                         gambar1:String, gambar2:String, gambar3:String, gambar4:String, gambar5: String){
-        val values = ContentValues().apply {
-            put(DatabaseContract.BudayaColumns.NAME, nama)
-            put(DatabaseContract.BudayaColumns.JENIS, jenis)
-            put(DatabaseContract.BudayaColumns.DAERAH, daerah)
-            put(DatabaseContract.BudayaColumns.DESKRIPSI, deskripsi)
+            put(DatabaseContract.BudayaColumns.VIDEO, video)
             put(DatabaseContract.BudayaColumns.GAMBAR_1, gambar1)
             put(DatabaseContract.BudayaColumns.GAMBAR_2, gambar2)
             put(DatabaseContract.BudayaColumns.GAMBAR_3, gambar3)
