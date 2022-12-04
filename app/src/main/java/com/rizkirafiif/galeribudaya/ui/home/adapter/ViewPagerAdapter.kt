@@ -8,16 +8,17 @@ import com.rizkirafiif.galeribudaya.ui.home.kategori.*
 
 class ViewPagerAdapter(fragment: Fragment) :
     FragmentStateAdapter(fragment) {
-    override fun getItemCount(): Int = 5
+    override fun getItemCount(): Int = 6
 
     override fun createFragment(position: Int): Fragment {
         var fragment = Fragment()
         when(position){
-            0 -> fragment = BendaSeniFragment()
-            1 -> fragment = MakananFragment()
-            2 -> fragment = PakaianFragment()
-            3 -> fragment = TarianFragment()
-            4 -> fragment = SenjataFragment()
+            0 -> fragment = MakananFragment()
+            1 -> fragment = PakaianFragment()
+            2 -> fragment = TarianFragment()
+            3 -> fragment = SenjataFragment()
+            4 -> fragment = BendaSeniFragment()
+            5 -> fragment = SeniTakBendaFragment()
         }
         return fragment
     }

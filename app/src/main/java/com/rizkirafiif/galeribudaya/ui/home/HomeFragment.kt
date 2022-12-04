@@ -33,14 +33,16 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         viewPagerAdapter = ViewPagerAdapter(this)
 
         with(binding){
+            viewPager.isSaveEnabled = false;
             viewPager.adapter = viewPagerAdapter
             TabLayoutMediator(tlKategori, viewPager){ tab, position ->
                 when(position){
-                    0 -> tab.text = "Benda Kesenian"
-                    1 -> tab.text = "Makanan"
-                    2 -> tab.text = "Pakaian"
-                    3 -> tab.text = "Tarian"
-                    4 -> tab.text = "Senjata"
+                    0 -> tab.text = "Makanan"
+                    1 -> tab.text = "Pakaian"
+                    2 -> tab.text = "Tarian"
+                    3 -> tab.text = "Senjata"
+                    4 -> tab.text = "Kesenian benda lainnya"
+                    5 -> tab.text = "kesenian non-benda lainnya"
                 }
             }.attach()
         }

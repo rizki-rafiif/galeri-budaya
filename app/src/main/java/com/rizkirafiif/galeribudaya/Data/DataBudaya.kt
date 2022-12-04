@@ -15,5 +15,13 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
+        dbHelper.insertData("1","Rencong", "Senjata", "Aceh"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
     }
 }

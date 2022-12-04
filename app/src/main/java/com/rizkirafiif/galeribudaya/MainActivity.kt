@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
-        DataBudaya(applicationContext).executeDB()
+        //DataBudaya(applicationContext).executeDB()
     }
 
     private fun setCurrentFragment(fragment: Fragment) =
