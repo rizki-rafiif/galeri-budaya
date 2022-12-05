@@ -26,6 +26,9 @@ class DatabaseHelper(context: Context) {
     fun open() {
         database = dbCreation.writableDatabase
     }
+    fun openRead(){
+        database = dbCreation.readableDatabase
+    }
     fun close() {
         dbCreation.close()
         if (database.isOpen) database.close()
