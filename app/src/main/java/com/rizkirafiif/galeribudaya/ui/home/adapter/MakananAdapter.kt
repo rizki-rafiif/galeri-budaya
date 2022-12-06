@@ -20,7 +20,7 @@ class MakananAdapter(context: Context?)
 
     class MakananViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         private val binding = ItemVpContentHomeBinding.bind(itemView)
-//        private val args = MakananFragment().makananArgs
+
 
         fun bind(data:Budaya, position: Int){
             with(binding){
@@ -33,20 +33,9 @@ class MakananAdapter(context: Context?)
             }
             itemView.setOnClickListener {
                 // navigation
-                // fragment transaction using id
-//                val id = args.transaksi.id
-//                val nama = args.transaksi.nama.toString()
-//                val daerah = args.transaksi.daerah.toString()
-//                val deskripsi = args.transaksi.deskripsi.toString()
-//                val videom = args.transaksi.deskripsi.toString()
-//                val gambar1 = args.transaksi.gambar1.toString()
-//                val gambar2 = args.transaksi.gambar2.toString()
-//                val gambar3 = args.transaksi.gambar3.toString()
-//                val gambar4 = args.transaksi.gambar4.toString()
-//                val gambar5 = args.transaksi.gambar5.toString()
-
-
-                val action = MakananFragmentDirections.actionMakananToDetail(position)
+                val id = Budaya(position, null, null, null, null,
+                    null, null, null, null, null, null)
+                val action = MakananFragmentDirections.actionMakananToDetail(id)
                 itemView.findNavController().navigate(action)
             }
         }

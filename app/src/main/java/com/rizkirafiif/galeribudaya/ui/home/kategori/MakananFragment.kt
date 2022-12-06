@@ -34,7 +34,7 @@ class MakananFragment : Fragment(R.layout.fragment_makanan) {
         return binding.root
     }
 
-    //val makananArgs : MakananFragmentArgs by navArgs()
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -58,7 +58,7 @@ class MakananFragment : Fragment(R.layout.fragment_makanan) {
     @OptIn(DelicateCoroutinesApi::class)
     private fun loadData(){
         GlobalScope.launch {
-            val cursor = databaseHelper.queryMakanan2("makanan")
+            val cursor = databaseHelper.queryMakanan()
             var budaya = helper.mapCursorToArrayList(cursor)
             if (budaya.size > 0){
                 adapter.listMakanan = budaya

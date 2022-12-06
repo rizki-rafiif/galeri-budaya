@@ -64,6 +64,6 @@ class DataBudaya(context: Context) {
             , ""
             , "")
 
-        dbHelper.close()
+        //dbHelper.close()
     }
 }

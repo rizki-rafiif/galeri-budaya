@@ -42,8 +42,8 @@ class DatabaseHelper(context: Context) {
         return database.query( TABLE_BUDAYA, null, "$_ID = ?", arrayOf(id), null, null, null, null)
     }
 
-    fun queryMakanan(makanan:String):Cursor{
-        val query = "SELECT * FROM todo WHERE category='makanan'"
+    fun queryMakanan():Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'makanan'"
         return database.rawQuery(query, null)
     }
 

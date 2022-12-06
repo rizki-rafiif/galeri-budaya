@@ -29,8 +29,8 @@
         android:label="fragment detail"
         tools:layout="@layout/fragment_detail">
         <argument
-            android:name="receive"
-            app:argType="int"/>
+            android:name="id"
+            app:argType="com.rizkirafiif.galeribudaya.Data.Budaya" />
     </fragment>
 
     <fragment
