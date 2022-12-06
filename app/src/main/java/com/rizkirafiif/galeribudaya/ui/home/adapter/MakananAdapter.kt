@@ -1,11 +1,13 @@
 package com.rizkirafiif.galeribudaya.ui.home.adapter
 
+import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.appcompat.view.menu.MenuView.ItemView
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -29,7 +31,7 @@ class MakananAdapter(private val listMakanan : List<Budaya>)
             }
             itemView.setOnClickListener {
                 // navigation
-
+                // fragment transaction using id
             }
         }
 
@@ -41,7 +43,13 @@ class MakananAdapter(private val listMakanan : List<Budaya>)
     }
 
     override fun onBindViewHolder(holder: MakananViewHolder, position: Int) {
-        val data = listMakanan[position]
+        //val data = listMakanan[position]
+        holder.bind(listMakanan[position], position)
+    }
+
+    // method to bridging data
+    companion object {
+        const val EXTRA_MYDATA = "extra_mydata"
     }
 
     override fun getItemCount(): Int = this.listMakanan.size
