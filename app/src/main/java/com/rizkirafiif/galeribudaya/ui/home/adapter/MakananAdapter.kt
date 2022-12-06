@@ -1,25 +1,27 @@
 package com.rizkirafiif.galeribudaya.ui.home.adapter
 
-import android.os.Bundle
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import androidx.appcompat.view.menu.MenuView.ItemView
-import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentManager
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.ItemVpContentHomeBinding
+import com.rizkirafiif.galeribudaya.ui.home.kategori.MakananFragmentDirections
 
-class MakananAdapter(private val listMakanan : List<Budaya>)
+class MakananAdapter(context: Context?)
     : RecyclerView.Adapter<MakananAdapter.MakananViewHolder>() {
+
+    var listMakanan = ArrayList<Budaya>()
 
     class MakananViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
         private val binding = ItemVpContentHomeBinding.bind(itemView)
+//        private val args = MakananFragment().makananArgs
+
         fun bind(data:Budaya, position: Int){
             with(binding){
                 tvTitleContent.text = data.nama
@@ -32,6 +34,20 @@ class MakananAdapter(private val listMakanan : List<Budaya>)
             itemView.setOnClickListener {
                 // navigation
                 // fragment transaction using id
+//                val id = args.transaksi.id
+//                val nama = args.transaksi.nama.toString()
+//                val daerah = args.transaksi.daerah.toString()
+//                val deskripsi = args.transaksi.deskripsi.toString()
+//                val videom = args.transaksi.deskripsi.toString()
+//                val gambar1 = args.transaksi.gambar1.toString()
+//                val gambar2 = args.transaksi.gambar2.toString()
+//                val gambar3 = args.transaksi.gambar3.toString()
+//                val gambar4 = args.transaksi.gambar4.toString()
+//                val gambar5 = args.transaksi.gambar5.toString()
+
+
+                val action = MakananFragmentDirections.actionMakananToDetail(position)
+                itemView.findNavController().navigate(action)
             }
         }
 
@@ -47,10 +63,6 @@ class MakananAdapter(private val listMakanan : List<Budaya>)
         holder.bind(listMakanan[position], position)
     }
 
-    // method to bridging data
-    companion object {
-        const val EXTRA_MYDATA = "extra_mydata"
-    }
 
     override fun getItemCount(): Int = this.listMakanan.size
 }

@@ -6,6 +6,8 @@ import android.database.Cursor
 import android.database.SQLException
 import android.database.sqlite.SQLiteDatabase
 import android.provider.BaseColumns
+import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.DAERAH
+import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.JENIS
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.TABLE_BUDAYA
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion._ID
 
@@ -34,10 +36,19 @@ class DatabaseHelper(context: Context) {
         if (database.isOpen) database.close()
     }
     fun queryAll(): Cursor {
-        return database.query( TABLE_BUDAYA, null, null, null, null, null, "$_ID ASC")
+        return database.query( TABLE_BUDAYA, null, null, null, null, null, "$DAERAH ASC")
     }
     fun queryById(id: String): Cursor {
         return database.query( TABLE_BUDAYA, null, "$_ID = ?", arrayOf(id), null, null, null, null)
+    }
+
+    fun queryMakanan(makanan:String):Cursor{
+        val query = "SELECT * FROM todo WHERE category='makanan'"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryMakanan2(makanan: String):Cursor{
+        return database.query(TABLE_BUDAYA, null, "$JENIS = ?", arrayOf(makanan), null, null, null, null)
     }
 
 

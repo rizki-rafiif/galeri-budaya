@@ -47,6 +47,14 @@ class DataBudaya(context: Context) {
             , "https://cdn-cas.orami.co.id/parenting/images/kain_khas_batak-2.width-1000.jpg"
             , ""
             , "")
+        dbHelper.insertData("6","kuah pliek", "makanan", "aceh"
+            , "Ini adalah makanan khas Aceh yang paling disukai masyarakatnya terutama yang berada di daerah Timur Aceh, Aceh Pidie dan sekitarnya. Bahan utama dari kuah pliek ini adalah pliek u, yaitu sisa perahan kelapa pada pembuatan minyak kelapa bukan melalui pemanasan tetapi melalui fermentasi. Ciri makanan khas Aceh ini adalah pencampuran berbagai sayuran yang telah dipotong kecil-kecil termasuk cabai hijau."
+            , ""
+            , "https://cdn-cas.orami.co.id/parenting/images/Makanan_khas_ACEH_1.width-1000.jpg"
+            , ""
+            , ""
+            , ""
+            , "")
         dbHelper.insertData("","", "", ""
             , ""
             , ""

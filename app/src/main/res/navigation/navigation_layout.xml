@@ -23,4 +23,24 @@
         android:label="fragment_about"
         tools:layout="@layout/fragment_about"/>
 
+    <fragment
+        android:id="@+id/fragment_detail"
+        android:name="com.rizkirafiif.galeribudaya.ui.detail.DetailFragment"
+        android:label="fragment detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="receive"
+            app:argType="int"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_makanan"
+        android:name="com.rizkirafiif.galeribudaya.ui.home.kategori.MakananFragment"
+        android:label="fragment makanan"
+        tools:layout="@layout/fragment_makanan">
+        <action
+            android:id="@+id/action_makanan_to_detail"
+            app:destination="@id/fragment_detail"/>
+    </fragment>
+
 </navigation>
