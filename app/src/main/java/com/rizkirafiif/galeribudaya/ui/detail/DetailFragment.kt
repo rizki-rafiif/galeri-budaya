@@ -9,6 +9,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
+import com.google.android.material.snackbar.Snackbar
 import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentDetailBinding
@@ -32,6 +34,7 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     private var _binding: FragmentDetailBinding?= null
     private val binding get() = _binding!!
     private lateinit var databaseHelper: DatabaseHelper
+    private var contenDetail = ArrayList<Budaya>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -46,19 +49,27 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val id = requireArguments().getInt("posisi")
-        val cursor = databaseHelper.queryById(id)
-        val _id = cursor.getColumnIndexOrThrow(_ID).toInt()
-        val nama = cursor.getColumnIndexOrThrow(NAME).toString()
-        val jenis = cursor.getColumnIndexOrThrow(JENIS).toString()
-        val daerah = cursor.getColumnIndexOrThrow(DAERAH).toString()
-        val deskripsi = cursor.getColumnIndexOrThrow(DESKRIPSI).toString()
-        val video = cursor.getColumnIndexOrThrow(VIDEO).toString()
-        val gambar1 = cursor.getColumnIndexOrThrow(GAMBAR_1).toString()
-        val gambar2 = cursor.getColumnIndexOrThrow(GAMBAR_2).toString()
-        val gambar3 = cursor.getColumnIndexOrThrow(GAMBAR_3).toString()
-        val gambar4 = cursor.getColumnIndexOrThrow(GAMBAR_4).toString()
-        val gambar5 = cursor.getColumnIndexOrThrow(GAMBAR_5).toString()
+
+        databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
+        databaseHelper.open()
+
+        val id = requireArguments().getInt("position")
+        val cursor = databaseHelper.queryById((id + 1))
+        var budaya = helper.mapDetailCursorToArrayList(cursor)
+        contenDetail = budaya
+
+        println("datanya " + contenDetail[0].toString())
+
+        val nama = contenDetail[0].toString()
+        val jenis = contenDetail[1].toString()
+        val daerah = contenDetail[2].toString()
+        val deskripsi = contenDetail[3].toString()
+        val video = contenDetail[4].toString()
+        val gambar1 = contenDetail[5].toString()
+        val gambar2 = contenDetail[6].toString()
+        val gambar3 = contenDetail[7].toString()
+        val gambar4 = contenDetail[8].toString()
+        val gambar5 = contenDetail[9].toString()
 
         binding.tvNamaDetail.text = nama
         binding.tvDeskripsiDetail.text = "Jenis: $jenis\n" +
@@ -71,7 +82,14 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
                                     "link gambar 2: $gambar5"
         Glide.with(requireContext())
             .load(gambar1)
+            .apply(RequestOptions().override(400, 400))
+            .apply(RequestOptions().centerCrop())
             .into(binding.ivDetail)
+    }
+
+    private fun loadData(pos:Int){
+        val cursor = databaseHelper.queryById(pos)
+
     }
 
 

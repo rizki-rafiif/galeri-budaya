@@ -82,26 +82,8 @@ class MakananFragment : Fragment() {
         }
     }
 
-    fun passDataCom(id : Int) {
-        val bundle = Bundle()
-        bundle.putInt("posisi", id)
 
-        val transaction = this.requireActivity().supportFragmentManager.beginTransaction()
-        val frag2 = DetailFragment()
-        frag2.arguments = bundle
 
-        transaction.replace(R.id.fragment_makanan, frag2)
-        transaction.addToBackStack(null)
-        transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
-        transaction.commit()
-    }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        if (context is Activity){
-            (context as Activity).also { fragmentActivity = it as FragmentActivity }
-        }
-    }
 
     override fun onDestroyView() {
         super.onDestroyView()
