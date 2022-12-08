@@ -5,12 +5,15 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.commit
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentBendaSeniBinding
 import com.rizkirafiif.galeribudaya.databinding.FragmentHomeBinding
+import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
 import com.rizkirafiif.galeribudaya.ui.home.adapter.ViewPagerAdapter
+import kotlinx.coroutines.DelicateCoroutinesApi
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
@@ -47,6 +50,21 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             }.attach()
         }
     }
+
+    // https://johncodeos.com/how-to-pass-data-between-fragments-in-android-using-kotlin/
+    //@OptIn(DelicateCoroutinesApi::class)
+//    fun passDataCom(id:Int){
+////        val bundle = Bundle()
+////        bundle.putInt("posisi", id)
+////        val fragDetail = DetailFragment()
+////        fragDetail.arguments = bundle
+////
+////        requireActivity().supportFragmentManager.commit {
+////            replace(R.id.fragment_container_view, fragDetail)
+////            setReorderingAllowed(true)
+////            addToBackStack(null)
+////        }
+//    }
 
     override fun onDestroyView() {
         super.onDestroyView()

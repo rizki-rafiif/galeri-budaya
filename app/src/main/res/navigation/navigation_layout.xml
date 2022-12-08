@@ -31,6 +31,9 @@
         <argument
             android:name="id"
             app:argType="com.rizkirafiif.galeribudaya.Data.Budaya" />
+        <action
+            android:id="@+id/to_makanan"
+            app:destination="@id/fragment_makanan"/>
     </fragment>
 
     <fragment
@@ -40,6 +43,15 @@
         tools:layout="@layout/fragment_makanan">
         <action
             android:id="@+id/action_makanan_to_detail"
+            app:destination="@id/fragment_detail"/>
+    </fragment>
+    <fragment
+        android:id="@+id/item"
+        android:label="item budaya"
+        android:name="com.rizkirafiif.galeribudaya.ui.home.HomeFragment"
+        tools:layout="@layout/item_vp_content_home">
+        <action
+            android:id="@+id/item_makanan_to_detail"
             app:destination="@id/fragment_detail"/>
     </fragment>
 
