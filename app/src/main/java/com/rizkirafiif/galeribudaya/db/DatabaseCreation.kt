@@ -22,7 +22,7 @@ class DatabaseCreation(context: Context) : SQLiteOpenHelper
         private const val DATABASE_NAME = "db_galeri_budaya"
         private const val DATABASE_VERSION = 1
         private const val SQL_CREATE_TABLE_GALERI_BUDAYA = "CREATE TABLE $TABLE_BUDAYA" +
-                " (${_ID} TEXT ," +
+                " ( $_ID TEXT ," +
                 " $NAME TEXT ," +
                 " $JENIS TEXT ," +
                 " $DAERAH TEXT ," +

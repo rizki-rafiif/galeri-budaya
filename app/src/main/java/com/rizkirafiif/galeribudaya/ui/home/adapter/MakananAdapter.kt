@@ -41,19 +41,10 @@ class MakananAdapter(context: Context)
                 tvShortDescContent.text = data.deskripsi
                 Glide.with(itemView.context)
                     .load(data.gambar1)
+                    .apply(RequestOptions.overrideOf(120, 160))
                     .apply(RequestOptions.centerCropTransform())
                     .into(ivContent)
 
-            }
-            itemView.setOnClickListener {
-                // navigation
-//                val id = Budaya(position, null, null, null, null,
-//                    null, null, null, null, null, null)
-//                val action = HomeFragmentDirections.itemMakananToDetail(id)
-//                itemView.findNavController().navigate(action)
-
-                val makananFragment = MakananFragment()
-                makananFragment.passDataCom(position)
             }
         }
 
@@ -73,7 +64,15 @@ class MakananAdapter(context: Context)
             val fragDetail = DetailFragment()
             fragDetail.arguments = bundle
 
+            val bin = holder.itemView.context
 
+            (bin as MainActivity).runOnUiThread {
+                bin.supportFragmentManager.commit {
+                    replace(R.id.fragment_container_view, fragDetail)
+                    setReorderingAllowed(true)
+                    addToBackStack(null)
+                }
+            }
         }
     }
 

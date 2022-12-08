@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Galeri Budaya</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex enim, vehicula vel leo et, porta rhoncus libero. Cras in turpis id massa bibendum dictum. Ut tempus suscipit dui, id porttitor purus efficitur eu. Duis hendrerit quam id erat luctus, et pretium enim sodales. Vestibulum imperdiet, risus et maximus iaculis, augue felis pulvinar ante, a hendrerit turpis orci ut nisi. Donec a maximus est. Curabitur consequat sit amet ante eget mollis. Pellentesque non pretium metus. Aliquam erat volutpat. Integer efficitur placerat lacus nec porta. Vivamus auctor diam tortor, rhoncus placerat purus blandit eu. Integer dictum diam justo, vel laoreet lectus venenatis convallis. Aliquam cursus ex vitae commodo sodales. Maecenas sit amet quam a nibh molestie posuere sed efficitur erat. Praesent vitae elit leo.</string>
 </resources>
