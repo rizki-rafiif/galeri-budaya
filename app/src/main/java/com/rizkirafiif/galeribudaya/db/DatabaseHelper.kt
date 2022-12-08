@@ -38,12 +38,17 @@ class DatabaseHelper(context: Context) {
     fun queryAll(): Cursor {
         return database.query( TABLE_BUDAYA, null, null, null, null, null, "$DAERAH ASC")
     }
-    fun queryById(id: String): Cursor {
-        return database.query( TABLE_BUDAYA, null, "$_ID = ?", arrayOf(id), null, null, null, null)
-    }
+//    fun queryById(id: String): Cursor {
+//        return database.query( TABLE_BUDAYA, null, "$_ID = ?", arrayOf(id), null, null, null, null)
+//    }
 
     fun queryMakanan():Cursor{
         val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'makanan'"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryById(id:Int):Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $_ID = '$id'"
         return database.rawQuery(query, null)
     }
 

@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     android:id="@+id/item_budaya"
     android:background="@drawable/bg_item"
+    android:elevation="6dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
