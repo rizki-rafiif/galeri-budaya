@@ -21,8 +21,6 @@ class MakananFragment : Fragment() {
     private val binding get() = _binding!!
     private lateinit var adapter: MakananAdapter
     private lateinit var databaseHelper: DatabaseHelper
-    private lateinit var comm: Communicator
-    private lateinit var fragmentActivity: FragmentActivity
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -53,7 +51,6 @@ class MakananFragment : Fragment() {
             }
         }
 
-        //comm = requireActivity() as Communicator
 
     }
 
