@@ -61,6 +61,16 @@ class DatabaseHelper(context: Context) {
         return database.rawQuery(query, null)
     }
 
+    fun queryDaerah(daerah: String):Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $DAERAH = '$daerah'"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryOfDaerah():Cursor{
+        val query = "SELECT DISTINCT $DAERAH FROM $TABLE_BUDAYA ORDER BY $DAERAH ASC"
+        return database.rawQuery(query, null)
+    }
+
 
     // ------------------------- insert method ----------------------------------- //
     //val dbcreation2 = DatabaseCreation(context)

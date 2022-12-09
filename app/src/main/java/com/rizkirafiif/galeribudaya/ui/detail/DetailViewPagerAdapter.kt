@@ -1,4 +1,4 @@
-package com.rizkirafiif.galeribudaya.ui.home.adapter
+package com.rizkirafiif.galeribudaya.ui.detail
 
 import android.content.Context
 import android.view.LayoutInflater

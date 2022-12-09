@@ -42,6 +42,7 @@
             app:layout_constraintTop_toBottomOf="@id/iv_text_galeri_budaya"/>
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_browse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/et_search"
