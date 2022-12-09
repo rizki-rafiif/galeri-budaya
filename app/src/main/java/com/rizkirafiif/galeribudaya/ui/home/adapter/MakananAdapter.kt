@@ -46,8 +46,7 @@ class MakananAdapter(context: Context)
                     .into(ivContent)
                 itemView.setOnClickListener {
                     val bundle = Bundle()
-                    val pos = position.toString()
-                    bundle.putString("position", pos)
+                    bundle.putString("position", data.id)
                     val fragDetail = DetailFragment()
                     fragDetail.arguments = bundle
 
