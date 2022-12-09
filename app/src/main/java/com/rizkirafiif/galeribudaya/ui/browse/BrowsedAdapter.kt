@@ -1,4 +1,4 @@
-package com.rizkirafiif.galeribudaya.ui.home.adapter
+package com.rizkirafiif.galeribudaya.ui.browse
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,16 +12,15 @@ import com.bumptech.glide.request.RequestOptions
 import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
+import com.rizkirafiif.galeribudaya.databinding.ItemBrowseABinding
 import com.rizkirafiif.galeribudaya.databinding.ItemVpContentHomeBinding
 import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
+import com.rizkirafiif.galeribudaya.ui.home.adapter.MakananAdapter
 
-class MakananAdapter(context: FragmentManager)
-    : RecyclerView.Adapter<MakananAdapter.MakananViewHolder>() {
-
-    var listMakanan = ArrayList<Budaya>()
-
-
-    class MakananViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
+class BrowsedAdapter(fragmentManager: FragmentManager):
+    RecyclerView.Adapter<BrowsedAdapter.BrowsedViewHolder>() {
+    var listBudaya = ArrayList<Budaya>()
+    class BrowsedViewHolder(view: View) : RecyclerView.ViewHolder(view){
         private val binding = ItemVpContentHomeBinding.bind(itemView)
 
         fun bind(data:Budaya){
@@ -51,19 +50,17 @@ class MakananAdapter(context: FragmentManager)
                 }
             }
         }
-
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MakananViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BrowsedAdapter.BrowsedViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_vp_content_home, parent, false)
-        return MakananViewHolder(view)
+        return BrowsedViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: MakananViewHolder, position: Int) {
-        //val data = listMakanan[position]
-        holder.bind(listMakanan[position])
+    override fun onBindViewHolder(holder: BrowsedViewHolder, position: Int) {
+        holder.bind(listBudaya[position])
     }
 
+    override fun getItemCount(): Int = this.listBudaya.size
 
-    override fun getItemCount(): Int = this.listMakanan.size
 }
