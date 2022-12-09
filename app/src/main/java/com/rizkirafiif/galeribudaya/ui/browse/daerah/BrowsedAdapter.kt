@@ -1,4 +1,4 @@
-package com.rizkirafiif.galeribudaya.ui.browse
+package com.rizkirafiif.galeribudaya.ui.browse.daerah
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,10 +12,8 @@ import com.bumptech.glide.request.RequestOptions
 import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
-import com.rizkirafiif.galeribudaya.databinding.ItemBrowseABinding
 import com.rizkirafiif.galeribudaya.databinding.ItemVpContentHomeBinding
 import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
-import com.rizkirafiif.galeribudaya.ui.home.adapter.MakananAdapter
 
 class BrowsedAdapter(fragmentManager: FragmentManager):
     RecyclerView.Adapter<BrowsedAdapter.BrowsedViewHolder>() {
@@ -52,7 +50,7 @@ class BrowsedAdapter(fragmentManager: FragmentManager):
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BrowsedAdapter.BrowsedViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BrowsedViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_vp_content_home, parent, false)
         return BrowsedViewHolder(view)
     }

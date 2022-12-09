@@ -5,16 +5,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.EditorInfo
+import android.widget.EditText
+import android.widget.TextView
+import androidx.fragment.app.commit
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import com.rizkirafiif.galeribudaya.Data.Budaya
+import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
-import com.rizkirafiif.galeribudaya.databinding.FragmentAboutBinding
 import com.rizkirafiif.galeribudaya.databinding.FragmentBrowseBinding
-import com.rizkirafiif.galeribudaya.databinding.FragmentHomeBinding
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
 import com.rizkirafiif.galeribudaya.helper
-import com.rizkirafiif.galeribudaya.ui.home.adapter.MakananAdapter
+import com.rizkirafiif.galeribudaya.ui.browse.result.ResultFragment
 
 class BrowseFragment : Fragment() {
     private var _binding: FragmentBrowseBinding?= null
@@ -38,7 +41,6 @@ class BrowseFragment : Fragment() {
 
         adapter = BrowseAdapter(childFragmentManager)
         binding.rvBrowse.adapter = adapter
-
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
         if (savedInstanceState == null){
@@ -49,6 +51,26 @@ class BrowseFragment : Fragment() {
                 adapter.listBudaya = list
             }
         }
+        val dataSearch = requireActivity().findViewById<EditText>(R.id.et_search)
+        val data = dataSearch.text.toString()
+        val bundle = Bundle()
+        bundle.putString("search", data)
+        val fragRes = ResultFragment()
+        fragRes.arguments = bundle
+
+        binding.etSearch.requestFocus()
+
+        binding.etSearch.setOnEditorActionListener(TextView.OnEditorActionListener { textView, itemId, keyEvent ->
+            if (keyEvent != null){
+                requireActivity().supportFragmentManager.commit {
+                    replace(R.id.fragment_container_view, fragRes)
+                    setReorderingAllowed(true)
+                    addToBackStack(null)
+                }
+                return@OnEditorActionListener true
+            }
+            false
+        })
     }
 
     private fun loadData(){
