@@ -21,7 +21,6 @@
             android:layout_marginTop="24dp"
             android:src="@drawable/ic_gambar_text_galeri_budaya"/>
 
-
         <EditText
             android:id="@+id/et_search"
             android:layout_width="0dp"
@@ -31,10 +30,9 @@
             android:background="@drawable/bg_rounded"
             android:drawableEnd="@drawable/ic_search"
             android:elevation="8dp"
-            android:hint="Cari sesuatu"
+            android:hint="Cari Nama Warisan Budaya"
             android:imeOptions="actionSearch"
             android:inputType="text"
-            android:maxLines="1"
             android:paddingHorizontal="16dp"
             android:paddingVertical="11dp"
             app:layout_constraintLeft_toLeftOf="parent"

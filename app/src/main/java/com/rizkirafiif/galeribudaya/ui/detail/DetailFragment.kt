@@ -63,9 +63,9 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
                 "Deskripsi:\n$deskripsi"
         binding.tvLinkGambar.text = "link gambar 1: $gambar1\n" +
                 "link gambar 2: $gambar2\n" +
-                "link gambar 2: $gambar3\n" +
-                "link gambar 2: $gambar4\n" +
-                "link gambar 2: $gambar5"
+                "link gambar 3: $gambar3\n" +
+                "link gambar 4: $gambar4\n" +
+                "link gambar 5: $gambar5"
 //        Glide.with(requireContext())
 //            .load(gambar1)
 //            .into(binding.ivDetail)

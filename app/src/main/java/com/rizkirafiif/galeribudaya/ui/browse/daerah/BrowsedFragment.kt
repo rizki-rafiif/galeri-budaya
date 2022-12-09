@@ -1,4 +1,4 @@
-package com.rizkirafiif.galeribudaya.ui.browse
+package com.rizkirafiif.galeribudaya.ui.browse.daerah
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,6 @@ import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.databinding.FragmentBrowsedBinding
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
 import com.rizkirafiif.galeribudaya.helper
-import com.rizkirafiif.galeribudaya.ui.home.adapter.MakananAdapter
 
 
 class BrowsedFragment : Fragment() {
@@ -38,6 +37,7 @@ class BrowsedFragment : Fragment() {
         binding.rvBrowsed.adapter = adapter
 
         val daerah = requireArguments().getString("daerah", "")
+        binding.tvBrowsedTitle.text = daerah
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
         if (savedInstanceState == null){

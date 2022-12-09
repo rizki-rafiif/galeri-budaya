@@ -1,17 +1,12 @@
 package com.rizkirafiif.galeribudaya
 
-import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.FragmentTransaction
-import com.google.android.material.tabs.TabLayout
 import com.rizkirafiif.galeribudaya.Data.DataBudaya
 import com.rizkirafiif.galeribudaya.databinding.ActivityMainBinding
-import com.rizkirafiif.galeribudaya.db.DatabaseHelper
 import com.rizkirafiif.galeribudaya.ui.about.AboutFragment
 import com.rizkirafiif.galeribudaya.ui.browse.BrowseFragment
-import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
 import com.rizkirafiif.galeribudaya.ui.home.HomeFragment
 
 class MainActivity : AppCompatActivity() {

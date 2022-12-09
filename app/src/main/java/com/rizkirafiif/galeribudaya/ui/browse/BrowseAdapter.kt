@@ -11,6 +11,7 @@ import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.ItemBrowseABinding
+import com.rizkirafiif.galeribudaya.ui.browse.daerah.BrowsedFragment
 
 class BrowseAdapter(fragmentManager: FragmentManager):
     RecyclerView.Adapter<BrowseAdapter.BrowseViewHolder>() {

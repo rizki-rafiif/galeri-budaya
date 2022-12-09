@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.provider.BaseColumns
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.DAERAH
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.JENIS
+import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.NAME
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.TABLE_BUDAYA
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion._ID
 
@@ -68,6 +69,11 @@ class DatabaseHelper(context: Context) {
 
     fun queryOfDaerah():Cursor{
         val query = "SELECT DISTINCT $DAERAH FROM $TABLE_BUDAYA ORDER BY $DAERAH ASC"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryOfSearch(search:String):Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $NAME LIKE '%$search%'"
         return database.rawQuery(query, null)
     }
 
