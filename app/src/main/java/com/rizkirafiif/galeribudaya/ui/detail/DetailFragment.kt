@@ -8,9 +8,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.navArgs
+import androidx.viewpager.widget.ViewPager
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.tabs.TabLayout
 import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentDetailBinding
@@ -29,12 +31,16 @@ import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion._ID
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
 import com.rizkirafiif.galeribudaya.helper
+import com.rizkirafiif.galeribudaya.ui.home.HomeFragment
+import com.rizkirafiif.galeribudaya.ui.home.adapter.DetailViewPagerAdapter
 
 class DetailFragment : Fragment(R.layout.fragment_detail) {
     private var _binding: FragmentDetailBinding?= null
     private val binding get() = _binding!!
     private lateinit var databaseHelper: DatabaseHelper
     private lateinit var contenDetail : ArrayList<Budaya>
+    lateinit var viewPager: ViewPager
+    lateinit var detailViewPagerAdapter: DetailViewPagerAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -80,11 +86,19 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
                                     "link gambar 2: $gambar3\n" +
                                     "link gambar 2: $gambar4\n" +
                                     "link gambar 2: $gambar5"
-        Glide.with(requireContext())
-            .load(gambar1)
-            .apply(RequestOptions().override(400, 400))
-            .apply(RequestOptions().centerCrop())
-            .into(binding.ivDetail)
+//        Glide.with(requireContext())
+//            .load(gambar1)
+//            .into(binding.ivDetail)
+
+        val imageList = ArrayList<String>()
+        imageList.add(gambar1)
+        imageList.add(gambar2)
+        imageList.add(gambar3)
+        imageList.add(gambar4)
+        imageList.add(gambar5)
+
+        detailViewPagerAdapter = DetailViewPagerAdapter(requireContext(), imageList)
+        binding.vpDetail.adapter = detailViewPagerAdapter
     }
 
 

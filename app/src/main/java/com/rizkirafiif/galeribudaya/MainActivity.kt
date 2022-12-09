@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
+import com.google.android.material.tabs.TabLayout
 import com.rizkirafiif.galeribudaya.Data.DataBudaya
 import com.rizkirafiif.galeribudaya.databinding.ActivityMainBinding
+import com.rizkirafiif.galeribudaya.db.DatabaseHelper
 import com.rizkirafiif.galeribudaya.ui.about.AboutFragment
 import com.rizkirafiif.galeribudaya.ui.browse.BrowseFragment
 import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
@@ -32,7 +34,7 @@ class MainActivity : AppCompatActivity() {
             true
         }
 
-        // DataBudaya(applicationContext).executeDB()
+        DataBudaya(applicationContext).executeDB()
     }
 
     private fun setCurrentFragment(fragment: Fragment) =
@@ -40,7 +42,5 @@ class MainActivity : AppCompatActivity() {
             replace(R.id.fragment_container_view, fragment)
             commit()
         }
-
-
 
 }

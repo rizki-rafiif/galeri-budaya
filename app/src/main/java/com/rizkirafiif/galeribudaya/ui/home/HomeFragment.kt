@@ -23,6 +23,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     // deklarasi adapter viewpager2
     private lateinit var viewPagerAdapter: ViewPagerAdapter
 
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -53,20 +54,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         }
     }
 
-    // https://johncodeos.com/how-to-pass-data-between-fragments-in-android-using-kotlin/
-    //@OptIn(DelicateCoroutinesApi::class)
-//    fun passDataCom(id:Int){
-////        val bundle = Bundle()
-////        bundle.putInt("posisi", id)
-////        val fragDetail = DetailFragment()
-////        fragDetail.arguments = bundle
-////
-////        requireActivity().supportFragmentManager.commit {
-////            replace(R.id.fragment_container_view, fragDetail)
-////            setReorderingAllowed(true)
-////            addToBackStack(null)
-////        }
-//    }
 
     override fun onDestroyView() {
         super.onDestroyView()

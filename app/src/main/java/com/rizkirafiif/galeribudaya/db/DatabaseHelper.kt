@@ -31,6 +31,10 @@ class DatabaseHelper(context: Context) {
     fun openRead(){
         database = dbCreation.readableDatabase
     }
+    fun deleteAll(){
+        database = dbCreation.writableDatabase
+        database.delete(TABLE_BUDAYA, null, null)
+    }
     fun close() {
         dbCreation.close()
         if (database.isOpen) database.close()
@@ -42,18 +46,19 @@ class DatabaseHelper(context: Context) {
 //        return database.query( TABLE_BUDAYA, null, "$_ID = ?", arrayOf(id), null, null, null, null)
 //    }
 
-    fun queryMakanan():Cursor{
-        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'makanan'"
-        return database.rawQuery(query, null)
-    }
-
     fun queryById(id:String):Cursor{
         val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $_ID = '$id'"
         return database.rawQuery(query, null)
     }
 
-    fun queryMakanan2(makanan: String):Cursor{
-        return database.query(TABLE_BUDAYA, null, "$JENIS = ?", arrayOf(makanan), null, null, null, null)
+    fun queryMakanan():Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'makanan'"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryTarian():Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'tarian'"
+        return database.rawQuery(query, null)
     }
 
 
