@@ -1,31 +1,21 @@
 package com.rizkirafiif.galeribudaya.ui.home.adapter
 
-import android.app.Activity
-import android.content.Context
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.commit
-import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.rizkirafiif.galeribudaya.Data.Budaya
-import com.rizkirafiif.galeribudaya.Data.Communicator
 import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.ItemVpContentHomeBinding
 import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
-import com.rizkirafiif.galeribudaya.ui.home.HomeFragment
-import com.rizkirafiif.galeribudaya.ui.home.HomeFragmentDirections
-import com.rizkirafiif.galeribudaya.ui.home.kategori.MakananFragment
-import com.rizkirafiif.galeribudaya.ui.home.kategori.MakananFragmentDirections
 
-class MakananAdapter(context: Context)
+class MakananAdapter(context: FragmentManager)
     : RecyclerView.Adapter<MakananAdapter.MakananViewHolder>() {
 
     var listMakanan = ArrayList<Budaya>()

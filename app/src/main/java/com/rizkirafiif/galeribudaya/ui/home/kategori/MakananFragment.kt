@@ -1,31 +1,19 @@
 package com.rizkirafiif.galeribudaya.ui.home.kategori
 
-import android.app.Activity
-import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentActivity
-import androidx.fragment.app.FragmentManager
-import androidx.fragment.app.FragmentTransaction
-import androidx.fragment.app.commit
-import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import com.rizkirafiif.galeribudaya.Data.Budaya
 import com.rizkirafiif.galeribudaya.Data.Communicator
-import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentMakananBinding
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
 import com.rizkirafiif.galeribudaya.helper
-import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
 import com.rizkirafiif.galeribudaya.ui.home.adapter.MakananAdapter
-import kotlinx.coroutines.DelicateCoroutinesApi
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.async
-import kotlinx.coroutines.launch
 
 
 class MakananFragment : Fragment() {
@@ -51,7 +39,7 @@ class MakananFragment : Fragment() {
 
         binding.rvMakanan.layoutManager = LinearLayoutManager(this.context)
         binding.rvMakanan.setHasFixedSize(true)
-        adapter = MakananAdapter(this.requireContext())
+        adapter = MakananAdapter(childFragmentManager)
         binding.rvMakanan.adapter = adapter
 
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!

@@ -1,5 +1,6 @@
 package com.rizkirafiif.galeribudaya.ui.home
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -31,12 +32,13 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         return binding.root
     }
 
+    @SuppressLint("WrongConstant")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewPagerAdapter = ViewPagerAdapter(this)
-
         with(binding){
-            viewPager.isSaveEnabled = false;
+            viewPager.isSaveEnabled = false
+            viewPager.offscreenPageLimit = 7
             viewPager.adapter = viewPagerAdapter
             TabLayoutMediator(tlKategori, viewPager){ tab, position ->
                 when(position){
