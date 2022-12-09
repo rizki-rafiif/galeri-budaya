@@ -5,7 +5,7 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Budaya (
-    var id: Int = 0,
+    var id: String ?= null,
     var nama: String ?= null,
     var jenis: String ?= null,
     var daerah: String ?= null,

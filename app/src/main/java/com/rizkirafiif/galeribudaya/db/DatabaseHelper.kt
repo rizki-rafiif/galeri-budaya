@@ -47,7 +47,7 @@ class DatabaseHelper(context: Context) {
         return database.rawQuery(query, null)
     }
 
-    fun queryById(id:Int):Cursor{
+    fun queryById(id:String):Cursor{
         val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $_ID = '$id'"
         return database.rawQuery(query, null)
     }

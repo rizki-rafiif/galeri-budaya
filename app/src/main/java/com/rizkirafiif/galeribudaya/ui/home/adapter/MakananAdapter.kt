@@ -44,7 +44,23 @@ class MakananAdapter(context: Context)
                     .apply(RequestOptions.overrideOf(120, 160))
                     .apply(RequestOptions.centerCropTransform())
                     .into(ivContent)
+                itemView.setOnClickListener {
+                    val bundle = Bundle()
+                    val pos = position.toString()
+                    bundle.putString("position", pos)
+                    val fragDetail = DetailFragment()
+                    fragDetail.arguments = bundle
 
+                    val bin = itemView.context
+
+                    (bin as MainActivity).runOnUiThread {
+                        bin.supportFragmentManager.commit {
+                            replace(R.id.fragment_container_view, fragDetail)
+                            setReorderingAllowed(true)
+                            addToBackStack(null)
+                        }
+                    }
+                }
             }
         }
 
@@ -58,22 +74,6 @@ class MakananAdapter(context: Context)
     override fun onBindViewHolder(holder: MakananViewHolder, position: Int) {
         //val data = listMakanan[position]
         holder.bind(listMakanan[position], position)
-        holder.itemView.setOnClickListener {
-            val bundle = Bundle()
-            bundle.putInt("position", position)
-            val fragDetail = DetailFragment()
-            fragDetail.arguments = bundle
-
-            val bin = holder.itemView.context
-
-            (bin as MainActivity).runOnUiThread {
-                bin.supportFragmentManager.commit {
-                    replace(R.id.fragment_container_view, fragDetail)
-                    setReorderingAllowed(true)
-                    addToBackStack(null)
-                }
-            }
-        }
     }
 
 
