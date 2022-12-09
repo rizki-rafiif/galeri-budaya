@@ -54,7 +54,7 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
         databaseHelper.open()
 
         val id = requireArguments().getString("position", "1")
-        val cursor = databaseHelper.queryMakanan()
+        val cursor = databaseHelper.queryById(id)
         var budaya = helper.mapCursorToArrayList(cursor)
         contenDetail = budaya
 
