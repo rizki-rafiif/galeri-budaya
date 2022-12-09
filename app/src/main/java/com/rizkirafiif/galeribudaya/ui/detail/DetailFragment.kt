@@ -34,7 +34,7 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
     private var _binding: FragmentDetailBinding?= null
     private val binding get() = _binding!!
     private lateinit var databaseHelper: DatabaseHelper
-    private var contenDetail = ArrayList<Budaya>()
+    private lateinit var contenDetail : ArrayList<Budaya>
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -53,23 +53,23 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
 
-        val id = requireArguments().getInt("position")
-        val cursor = databaseHelper.queryById((id + 1))
-        var budaya = helper.mapDetailCursorToArrayList(cursor)
+        val id = requireArguments().getString("position", "1")
+        val cursor = databaseHelper.queryMakanan()
+        var budaya = helper.mapCursorToArrayList(cursor)
         contenDetail = budaya
 
-        println("datanya " + contenDetail[0].toString())
+        //println("datanya " + contenDetail[0].toString())
 
-        val nama = contenDetail[0].toString()
-        val jenis = contenDetail[1].toString()
-        val daerah = contenDetail[2].toString()
-        val deskripsi = contenDetail[3].toString()
-        val video = contenDetail[4].toString()
-        val gambar1 = contenDetail[5].toString()
-        val gambar2 = contenDetail[6].toString()
-        val gambar3 = contenDetail[7].toString()
-        val gambar4 = contenDetail[8].toString()
-        val gambar5 = contenDetail[9].toString()
+        val nama = contenDetail[0].nama.toString()
+        val jenis = contenDetail[0].jenis.toString()
+        val daerah = contenDetail[0].daerah.toString()
+        val deskripsi = contenDetail[0].deskripsi.toString()
+        val video = contenDetail[0].video.toString()
+        val gambar1 = contenDetail[0].gambar1.toString()
+        val gambar2 = contenDetail[0].gambar2.toString()
+        val gambar3 = contenDetail[0].gambar3.toString()
+        val gambar4 = contenDetail[0].gambar4.toString()
+        val gambar5 = contenDetail[0].gambar5.toString()
 
         binding.tvNamaDetail.text = nama
         binding.tvDeskripsiDetail.text = "Jenis: $jenis\n" +
@@ -85,11 +85,6 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
             .apply(RequestOptions().override(400, 400))
             .apply(RequestOptions().centerCrop())
             .into(binding.ivDetail)
-    }
-
-    private fun loadData(pos:Int){
-        val cursor = databaseHelper.queryById(pos)
-
     }
 
 
