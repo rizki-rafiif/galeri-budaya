@@ -1,18 +1,14 @@
 package com.rizkirafiif.galeribudaya.ui.browse
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.EditorInfo
-import android.widget.EditText
-import android.widget.TextView
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import com.rizkirafiif.galeribudaya.Data.Budaya
-import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentBrowseBinding
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
@@ -20,10 +16,11 @@ import com.rizkirafiif.galeribudaya.helper
 import com.rizkirafiif.galeribudaya.ui.browse.result.ResultFragment
 
 class BrowseFragment : Fragment() {
-    private var _binding: FragmentBrowseBinding?= null
+    private var _binding: FragmentBrowseBinding? = null
     private val binding get() = _binding!!
     private lateinit var adapter: BrowseAdapter
     private lateinit var databaseHelper: DatabaseHelper
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -43,41 +40,36 @@ class BrowseFragment : Fragment() {
         binding.rvBrowse.adapter = adapter
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
-        if (savedInstanceState == null){
+        if (savedInstanceState == null) {
             loadData()
         } else {
             val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
-            if (list != null){
+            if (list != null) {
                 adapter.listBudaya = list
             }
         }
-        val dataSearch = requireActivity().findViewById<EditText>(R.id.et_search)
-        val data = dataSearch.text.toString()
-        val bundle = Bundle()
-        bundle.putString("search", data)
-        val fragRes = ResultFragment()
-        fragRes.arguments = bundle
 
-        binding.etSearch.requestFocus()
-
-        binding.etSearch.setOnEditorActionListener(TextView.OnEditorActionListener { textView, itemId, keyEvent ->
-            if (keyEvent != null){
-                requireActivity().supportFragmentManager.commit {
-                    replace(R.id.fragment_container_view, fragRes)
-                    setReorderingAllowed(true)
-                    addToBackStack(null)
-                }
-                return@OnEditorActionListener true
+        binding.ibSearch.setOnClickListener {
+            val dataSearch = binding.etSearch.text.toString()
+            val bundle = Bundle()
+            bundle.putString("search", dataSearch)
+            val fragRes = ResultFragment()
+            fragRes.arguments = bundle
+            
+            requireActivity().supportFragmentManager.commit {
+                replace(R.id.fragment_container_view, fragRes)
+                setReorderingAllowed(true)
+                addToBackStack(null)
             }
-            false
-        })
+        }
+
     }
 
-    private fun loadData(){
+    private fun loadData() {
 
         val cursor = databaseHelper.queryOfDaerah()
         var budaya = helper.mapBrowseCursorToArrayList(cursor)
-        if (budaya.size > 0){
+        if (budaya.size > 0) {
             adapter.listBudaya = budaya
         } else {
             adapter.listBudaya = ArrayList()
@@ -89,4 +81,6 @@ class BrowseFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+
+
 }
