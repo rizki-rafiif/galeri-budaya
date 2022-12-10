@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         val browseFragment = BrowseFragment()
         val aboutFragment = AboutFragment()
 
+        setCurrentFragment(fragmentHome)
+
         binding.bottomNavigationView.setOnItemSelectedListener {
             when(it.itemId){
                 R.id.nav_menu_home -> setCurrentFragment(fragmentHome)
