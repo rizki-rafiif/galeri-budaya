@@ -39,12 +39,11 @@ class ResultFragment : Fragment() {
         binding.rvResult.adapter = adapter
 
         val nama = requireArguments().getString("search", "tari")
-        val nama2 = "tari"
         binding.tvResultTitle.text = nama
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
         if (savedInstanceState == null){
-            loadData(nama2)
+            loadData(nama)
         } else {
             val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
             if (list != null){
