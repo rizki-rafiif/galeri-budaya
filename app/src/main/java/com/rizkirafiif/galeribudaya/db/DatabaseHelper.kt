@@ -62,6 +62,27 @@ class DatabaseHelper(context: Context) {
         return database.rawQuery(query, null)
     }
 
+    fun querySenjata():Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'senjata'"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryPakaian():Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'pakaian'"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryBenda():Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'benda'"
+        return database.rawQuery(query, null)
+    }
+
+    fun queryNonBenda():Cursor{
+        val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $JENIS = 'non benda'"
+        return database.rawQuery(query, null)
+    }
+
+
     fun queryDaerah(daerah: String):Cursor{
         val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $DAERAH = '$daerah'"
         return database.rawQuery(query, null)

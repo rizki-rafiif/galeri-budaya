@@ -1,5 +1,6 @@
 package com.rizkirafiif.galeribudaya.ui.home.kategori
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -32,6 +33,7 @@ class MakananFragment : Fragment() {
     }
 
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -43,32 +45,38 @@ class MakananFragment : Fragment() {
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
         if (savedInstanceState == null){
-            loadData()
-        } else {
-            val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
-            if (list != null){
-                adapter.listMakanan = list
+            //loadData()
+            val cursor = databaseHelper.queryMakanan()
+            var budaya = helper.mapCursorToArrayList(cursor)
+            if (budaya.size > 0){
+                adapter.listMakanan = budaya
+            } else {
+                adapter.listMakanan = ArrayList()
+                binding.tvWarningNull.text = "Data masih kosong"
+                //Snackbar.make(binding.rvMakanan, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
             }
         }
+//        else {
+//            val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
+//            if (list != null){
+//                adapter.listMakanan = list
+//            }
+//        }
 
 
     }
 
     //@OptIn(DelicateCoroutinesApi::class)
-    private fun loadData(){
-
-        val cursor = databaseHelper.queryMakanan()
-        var budaya = helper.mapCursorToArrayList(cursor)
-        if (budaya.size > 0){
-            adapter.listMakanan = budaya
-        } else {
-            adapter.listMakanan = ArrayList()
-            Snackbar.make(binding.rvMakanan, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
-        }
-    }
-
-
-
+//    private fun loadData(){
+//        val cursor = databaseHelper.queryMakanan()
+//        var budaya = helper.mapCursorToArrayList(cursor)
+//        if (budaya.size > 0){
+//            adapter.listMakanan = budaya
+//        } else {
+//            adapter.listMakanan = ArrayList()
+//            //Snackbar.make(binding.rvMakanan, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
+//        }
+//    }
 
     override fun onDestroyView() {
         super.onDestroyView()
