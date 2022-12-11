@@ -1,5 +1,6 @@
 package com.rizkirafiif.galeribudaya.ui.home.kategori
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -32,6 +33,7 @@ class TarianFragment : Fragment(R.layout.fragment_tarian) {
         return binding.root
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -43,24 +45,14 @@ class TarianFragment : Fragment(R.layout.fragment_tarian) {
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
         if (savedInstanceState == null){
-            loadData()
-        } else {
-            val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
-            if (list != null){
-                adapter.listBud = list
+            val cursor = databaseHelper.queryTarian()
+            var budaya = helper.mapCursorToArrayList(cursor)
+            if (budaya.size > 0){
+                adapter.listBud = budaya
+            } else {
+                adapter.listBud = ArrayList()
+                binding.tvWarningNull.text = "Data masih kosong"
             }
-        }
-    }
-
-    private fun loadData(){
-
-        val cursor = databaseHelper.queryTarian()
-        var budaya = helper.mapCursorToArrayList(cursor)
-        if (budaya.size > 0){
-            adapter.listBud = budaya
-        } else {
-            adapter.listBud = ArrayList()
-            Snackbar.make(binding.rvTarian, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
         }
     }
 

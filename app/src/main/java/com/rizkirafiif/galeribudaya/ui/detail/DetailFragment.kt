@@ -6,8 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.commit
 import androidx.viewpager.widget.ViewPager
 import com.rizkirafiif.galeribudaya.Data.Budaya
+import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentDetailBinding
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
@@ -82,6 +84,10 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
 
         val dotsIndicator = requireActivity().findViewById<WormDotsIndicator>(R.id.dots_indicator)
         dotsIndicator.attachTo(binding.vpDetail)
+
+        binding.ibBack.setOnClickListener {
+            requireActivity().supportFragmentManager.popBackStack()
+        }
     }
 
     fun nullCheckerImage(gambar: String): Boolean {
