@@ -12,24 +12,24 @@ class DataBudaya(context: Context) {
             , "Menurut catatan sejarah, Rencong merupakan senjata tradisional yang digunakan di Kesultanan Aceh sejak masa pemerintahan Sultan Ali Mughayat Syah yang merupakan Sultan Aceh yang pertama. Kedudukan Rencong di Kesultanan Aceh sangatlah penting, Rencong selalu diselipkan di pinggang Sultan Aceh, selain itu para Ulee Balang dan masyarakat biasa juga menggunakan Rencong. Rencong emas milik Sultan Aceh dapat kita jumpai di Museum Sejarah Aceh"
             , ""
             , "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/COLLECTIE_TROPENMUSEUM_Dolk_met_rechthoekig_gebogen_hoornen_greep_en_houten_schede_TMnr_151-19.jpg/259px-COLLECTIE_TROPENMUSEUM_Dolk_met_rechthoekig_gebogen_hoornen_greep_en_houten_schede_TMnr_151-19.jpg"
-            , ""
-            , ""
+            , "https://kebudayaan.kemdikbud.go.id/ditwdb/wp-content/uploads/sites/9/2019/02/Rencong.jpg"
+            , "http://kebudayaan.kemdikbud.go.id/ditindb/wp-content/uploads/sites/9/2015/11/Rencong3.jpg"
             , ""
             , "")
-        dbHelper.insertData("2","tarian saman", "tarian", "aceh"
+        dbHelper.insertData("2","tari saman", "tarian", "aceh"
             , "Saman adalah salah satu kesenian tradisional yang tumbuh dan berkembang pada masyarakat Gayo di Kabupaten Gayo Lues, Aceh Tenggara, Aceh Timur (Kecamatan Serbejadi), Kabupaten Aceh Tamiang (Tamiang Hulu). Keberadaan saman pada masyarakat Gayo merupakan sebuah tradisi yang turun temurun dan menjadi bagian dalam kehidupan mereka."
             , ""
             , "http://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/56339-11.jpg"
-            , ""
-            , ""
+            , "https://pesona-indonesia.info/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/02/Tari-saman.jpg.webp"
+            , "https://awsimages.detik.net.id/community/media/visual/2021/11/23/tari-saman_169.jpeg?w=650&q=80"
             , ""
             , "")
-        dbHelper.insertData("3","tarian piring", "tarian", "aceh"
+        dbHelper.insertData("3","tari piring", "tarian", "aceh"
             , "Tarian ini ditarikan oleh 2 hingga 8 orang dan dilakukan secara berpasangan. Penari memakai cincin pada jari tengah di kedua tangannya dan masing-masing tangan memegang piring kecil (pisin). Penari terdiri dari laki-laki dan perempuan yang komposisinya seimbang. Penari bergerak dengan langkah yang mirip dengan langkah silat, langkah yang lebar dan rendah. Gerakan tariannya juga banyak melibatkan kontak mata diantara pasangan penari tersebut. Pring yang dipegang para penari diangkat dengan gerakan memutar-mutar tangan dan bahkan sesekali piring dilempar kemudian ditangkap kembali. Jika piring jatuh dan pecah, biasanya penari diberikan piring lain oleh seseorang yang merupakan bagian dari kelompok penari tersebut atau bahkan oleh penonton. Selama tarian berlangsung, para penari tak henti-hentinya mengetukan cincin di jari tengah mereka ke piring sehingga jalannya tarian pun menjadi semakin meriah."
             , ""
             , "https://asset.kompas.com/crops/L24Yf9OsnAq5gX8thjs9uhtlymQ=/85x43:598x384/750x500/data/photo/2021/12/21/61c1b92e7a7d9.jpg"
             , "https://1.bp.blogspot.com/-WGVG0CwtnJA/YRJfXYfDGmI/AAAAAAAADck/rTgxzos91kERzZrwOxJqiD8f6Pf3TBb8QCLcBGAsYHQ/w1200-h630-p-k-no-nu/03%2B-%2BTari%2BPiring.jpg"
-            , ""
+            , "https://www.kabarsumbar.com/wp-content/uploads/2022/09/3.jpeg"
             , ""
             , "")
         dbHelper.insertData("4","senjata toho", "senjata", "sumatra utara"
@@ -52,8 +52,40 @@ class DataBudaya(context: Context) {
             , "Ini adalah makanan khas Aceh yang paling disukai masyarakatnya terutama yang berada di daerah Timur Aceh, Aceh Pidie dan sekitarnya. Bahan utama dari kuah pliek ini adalah pliek u, yaitu sisa perahan kelapa pada pembuatan minyak kelapa bukan melalui pemanasan tetapi melalui fermentasi. Ciri makanan khas Aceh ini adalah pencampuran berbagai sayuran yang telah dipotong kecil-kecil termasuk cabai hijau."
             , ""
             , "https://cdn-cas.orami.co.id/parenting/images/Makanan_khas_ACEH_1.width-1000.jpg"
+            , "https://img-global.cpcdn.com/recipes/6216ffb8df7ca75b/1200x630cq70/photo.jpg"
+            , "http://assets.kompasiana.com/statics/crawl/555fd9400423bdfb688b4567.jpeg"
             , ""
+            , "")
+        dbHelper.insertData("7","silat pelintau", "non benda", "aceh"
+            , "Silat Pelintau dikukuhkan pada tahun 1953 oleh Maha Guru OK Said bin Unus yang merupakan putra asli Tamiang. Sebelumnya, beliau sempat berkelana sejak usia 15 tahun untuk mencari ilmu silat, mulai dari Samosir hingga ke Siak sampai akhirnya kembali ke Tamiang untuk berguru kepada Tengku Lotan. Dahulu, Silat Pelintau diajarkan secara sembunyi-sembunyi dan diajarkan kepada pemuda-pemuda Tamiang agar dapat mempertahankan dari dari serangan musuh dan utamanya membantu usaha-usaha untuk mengusir para penjajah Belanda dari tanah Tamiang. Setelah dikukhkan pada tahun 1953, barulah Silat Pelintau ini dapat diajarkan secara terang-terangan.\n" +
+                    "\n" +
+                    "Nama Pelintau diambil dari Bahasa Tamiang asli yaitu “pelin” dan “tau”. “Pelin” berarti semua sedangkan “tau” artinya tahu. Sehingga “pelintau” berarti “semua tahu”. Pada permainan pencak silat ini terdapat urutan permainan yang harus ditampilkan, meski pada beberapa kesempatan, bebrapa permainan bisa dihilangkan sebagian.\n" +
+                    "\n" +
+                    "Pada penampilan Pencak Silat Pelintau, pemain juga dapat menampilkan Tari Piring  sebagai selingan. Tari Piring dimainkan oleh penari perempuan berjumlah 4 sampai 8 orang dan basanya ditampilkan pada saat-saat khusus seperti malam berinai. Sementara property yang digunakan adalah 2 buah piring kecil yang dipegan oleh masing-masing penari yang pada jarinya manisnya terdapat cincin untuk diketuk-ketukan pada piring.\n" +
+                    "\n" +
+                    "Dari segi penyajian langkah, silat ini memiliki 4 pola gerak;\n" +
+                    "\n" +
+                    "1. Gerak salam sembah, yaitu gerak untuk menghormati para guru dan hadirin lainnya sebagai symbol menjaga keharmonisan dalam permainan dan kesadaran sebagai makhluk biasa.\n" +
+                    "\n" +
+                    "2. Gerak titi batang, yaitu gerak pembukaan guna mendapatkan keseimbangan tubuh di samping digunakan sebagai posisi berkonsentrasi sebelum memantapkan langkah-langkah gerak selanjutnya.\n" +
+                    "\n" +
+                    "3. Gerak langkah tiga dan langkah empat, yaitu merupakan gerak langkah dasar untuk pemecahan gerak-gerak langkah selanjutnya. Gerak langkah selanjutnya memunculkan beberapa jurus dan variasi langkah.\n" +
+                    "\n" +
+                    "4. Gerak salam terakhir, yaitu gerak yang merepresentasikan permohonan maaf kepada guru dan hadirin serta kawan pemain.\n" +
+                    "\n" +
+                    "Silat Pelintau bagi masyarakat Tamiang adalah silat seni. Ada dua jenis silat seni dimaksud yang popular pada masyarakat Tamiang, yaitu silat rebas tebang dan silat songsong. Jenis silat seni inilah yang membedakan silat Tamiang dengan silat-silat lainnya. Pada silat songsong, gerakannya digunakan untuk menyambut tamu kehormatan dan biasanya pada kehidupan masyarakat sehari-hari ditampilkan pada kenduri pernikahan di halaman rumahn untuk menyambut pihak keluarga besan. "
             , ""
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/12/pelintau-aceh-foto-mediaindonesiacom.jpg"
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/12/pelintau-aceh-foto-docplayerinfo.jpg"
+            , "https://1.bp.blogspot.com/-tCsY4-IobOU/XmzPbsH237I/AAAAAAAASoE/GgrmIwVAGacaI5Y0HU2yjJrKXYBBINtAACLcBGAsYHQ/s1600/IMG-20200314-WA0036.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("8","rumoh aceh", "benda", "aceh"
+            , "Rumah adalah bagian dari kebutuhan pokok manusia di berbagai daerah. Keberadaan rumoh Aceh hingga bentuknya yang sekarang telah melalui perjalanan sejarah yang panjang. Tidak diketahui pasti tahun kapan rumoh Aceh dibuat oleh orang Aceh sebagai tempat tinggal. Namun Keberadaan rumoh Aceh pernah diungkapkan oleh Siegel (1979: 147) yang terkait dengan ukirannya setelah membaca Hikayat Peoecoeat Moehamat, yang menyebutkan bahwa menjelang abad ke-18 semakin banyak rumah adat Aceh dihias dengan corak-corak ukir. Selain itu dari beberapa catatan yang dibuat oleh para penjelajah seperti John Davis, Ibnu Batutah yang pernah ke Aceh terdapat catatan bahwa di Aceh terdapat rumah dengan model panggung yang mana dibangun delapan kaki atau lebih dari tanah dan disangga oleh tiang-tiang kayu dengan jalan lintas di bawahnya. Namun demikian, sering dengan berjalannya waktu, rumoh Aceh lambat laun mulai ditinggalkan oleh masyarakat. Banyak anggota masyarakat yang mulai membangun rumah dengan menggunakan model rumah pada zaman sekarang. Dalam tradisi masyarakat Aceh merupakan salah satu unsur penting membangun tempat tinggal (membuat rumah). Dalam sebuah keluarga Aceh, rumah merupakan tempat tinggal yang begitu esensial dan menjadi lambang otoritas seorang laki-laki selaku kepala keluarga. Oleh karena itu belumlah dianggap seseorang itu sempurna hidupnya bila belum memiliki rumah tempat tinggalnya. Letak denah rumoh Aceh biasanya dibangun menghadap ke utara dan ke selatan sehingga letaknya tepat membujur dari arah timur ke barat. Umumnya rumoh Aceh dibangun di atas tiang-tiang setinggi 2,5 sampai 5 meter dari tanah. Rumoh Aceh rata-rata memiliki tiga ruang induk, yaitu ruang depan, ruang tengah dan ruang belakang. Rumoh Aceh rata-rata dibangun dalam ukuran besar, sebab selain berfungsi sebagai tempat tinggal, rumoh Aceh juga berfungsi sebagai tempat kegiatan-kegiatan sosial, seperti musyawarah, kenduri, peresmian khitanan dan lain sebagainya. (Muhammad, 1980 : 5). Rumoh Aceh bukan sekadar tempat hunian, tetapi merupakan ekspresi keyakinan terhadap Tuhan dan adaptasi terhadap alam. Oleh karena itu, melalui Rumoh Aceh kita dapat melihat budaya, pola hidup, dan nilai-nilai yang diyakini oleh masyarakat Aceh. Adaptasi masyarakat Aceh terhadap lingkungannya dapat dilihat dari bentuk Rumoh Aceh yang berbentuk panggung, tiang penyangganya yang terbuat dari kayu pilihan, dindingnya dari papan, dan atapnya dari rumbia. Pemanfaatan alam juga dapat dilihat ketika mereka hendak menggabungkan bagian-bagian rumah, mereka tidak menggunakan paku tetapi menggunakan pasak atau tali pengikat dari rotan. Walaupun hanya terbuat dari kayu, beratap daun rumbia, dan tidak menggunakan paku, Rumoh Aceh bisa bertahan hingga 200 tahun."
+            , ""
+            , "https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2021/11/16201233/1535_rumah-adat-aceh-krong-bade-foto-klipingco.jpg"
+            , "https://asset.kompas.com/crops/DrnkIrWsOIbApoQza_kNjWwYvDo=/0x0:799x533/750x500/data/photo/2020/04/29/5ea8d35e45164.png"
+            , "https://image.archify.com/blog/l/shutterstock_1791035183.jpg"
             , ""
             , "")
         dbHelper.insertData("","", "", ""
@@ -64,7 +96,6 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-
         //dbHelper.close()
     }
 }
