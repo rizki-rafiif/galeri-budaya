@@ -24,13 +24,13 @@ class DataBudaya(context: Context) {
             , "https://awsimages.detik.net.id/community/media/visual/2021/11/23/tari-saman_169.jpeg?w=650&q=80"
             , ""
             , "")
-        dbHelper.insertData("3","tari piring", "tarian", "aceh"
-            , "Tarian ini ditarikan oleh 2 hingga 8 orang dan dilakukan secara berpasangan. Penari memakai cincin pada jari tengah di kedua tangannya dan masing-masing tangan memegang piring kecil (pisin). Penari terdiri dari laki-laki dan perempuan yang komposisinya seimbang. Penari bergerak dengan langkah yang mirip dengan langkah silat, langkah yang lebar dan rendah. Gerakan tariannya juga banyak melibatkan kontak mata diantara pasangan penari tersebut. Pring yang dipegang para penari diangkat dengan gerakan memutar-mutar tangan dan bahkan sesekali piring dilempar kemudian ditangkap kembali. Jika piring jatuh dan pecah, biasanya penari diberikan piring lain oleh seseorang yang merupakan bagian dari kelompok penari tersebut atau bahkan oleh penonton. Selama tarian berlangsung, para penari tak henti-hentinya mengetukan cincin di jari tengah mereka ke piring sehingga jalannya tarian pun menjadi semakin meriah."
+        dbHelper.insertData("3","tari piriang (tari piring)", "tarian", "sumatra barat"
+            , "Tari Piring termasuk salah satu tari tradisional khas Minangkabau yang berumur ratusan tahun. Awalnya, tari ini dilakukan sebagai ritual guna mengucapkan rasa syukur masyarakat setempat kepada dewa-dewa karena mendapatkan hasil panen yang melimpah ruah. Ritual dilakukan oleh beberapa gadis cantik dengan membawa sesaji dalam bentuk makanan yang diletakkan di dalam piring. Para gadis tersebut didandani dengan pakaian yang bagus lalu mereka membawa makanan dalam piring sembari melangkah dengan gerakan yang dinamis. Setelah Islam masuk ke Minangkabau, tradisi Tari Piring tetap dilangsungkan. Akan tetapi, tari tersebut hanya ditampilkan sebagai sarana hiburan bagi masyarakat banyak pada acara-acara keramaian (pesta), seperti: pesta adat, pesta pernikahan, dan lain-lain. Beberapa tahun terakhir ini, pemerintah Sumatra Barat mengambil satu kebijakan untuk menjadikan Tari Piring sebagai salah satu aset untuk menarik para wisatawan berkunjung ke Sumatra Barat.Tarian ini dimainkan dengan menggunakan piring sebagai media utama. Para penari Tari Piring memainkan piring dengan cekatan tanpa terlepas dari genggaman sembari bergoyang dengan gerakan yang mengalir lembut dan teratur. Di samping itu, para penari juga sering melakukan tarian di atas pecahan kaca. Mereka menari, melompat-lompat, dan berguling-guling sembari membawa piring di atas pecahan kaca. Uniknya, para penari tersebut tidak terluka sedikitpun dan piring yang mereka bawa tidak jatuh."
             , ""
             , "https://asset.kompas.com/crops/L24Yf9OsnAq5gX8thjs9uhtlymQ=/85x43:598x384/750x500/data/photo/2021/12/21/61c1b92e7a7d9.jpg"
             , "https://1.bp.blogspot.com/-WGVG0CwtnJA/YRJfXYfDGmI/AAAAAAAADck/rTgxzos91kERzZrwOxJqiD8f6Pf3TBb8QCLcBGAsYHQ/w1200-h630-p-k-no-nu/03%2B-%2BTari%2BPiring.jpg"
             , "https://www.kabarsumbar.com/wp-content/uploads/2022/09/3.jpeg"
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483674061.jpg"
             , "")
         dbHelper.insertData("4","senjata toho", "senjata", "sumatra utara"
             , "Toho adalah tombak dalam bahasa Nias. Ada dua jenis Toho yang digunakan masyarakat Nias, yaitu Toho Sondrami yang dipakai untuk berburu dengan ciri mata tombak yang memiliki kait dan Toho Bulusa atau Burusa yaitu tombak yang dipakai untuk berperang. Toho merupakan benda yang digunakan Raja Sirao Uwu Zih?n?, tokoh utama dalam kisah tentang asal-usul Orang Nias untuk menguji sembilan orang anaknya yang salah satu dari mereka, jika berhasil melewati ujian akan diangkat menjadi raja. Dalam cerita itu disebutkan, Raja Sirao menitahkan kepada sembilan anaknya ?barangsiapa yang dapat menari seperti burung Rajawali di ujung mata Toho yang runcing itu dialah yang berhak menjadi raja?. Toho yang menjadi media menguji anak-anak Raja Sirao menjadi senjata klasik yang sejarahnya muncul bersama munculnya sejarah masyarakat Nias. Toho masih digunakan untuk upacara adat, perhiasan dan pelengkap dalam seni pertunjukan Nias. Mata Toho dibuat dari besi tempa oleh para Sihambu atau pandai besi. Ada beberapa bentuk Toho yangn umumnya berbentuk pipih dengan kait sebagai pembedanya. Panjang mata Toho dihitung dari ujung sampai pangkal mata Toho yang tersambung dengan kayu Akhe yang keras namun cukup lentur kira-kira 1,5 meter. Pangkal kayu Akhe yang batang Toho juga dibuat runcing sebagai mata tombak alternatif yang dapat digunakan jika mata tombak besi tertahan. Dengan demikian akan seolah-olah ada dua mata tombak."
@@ -194,14 +194,123 @@ class DataBudaya(context: Context) {
             , "https://courtina.id/ot/wp-content/uploads/2020/12/rumah-gadang.jpg"
             , ""
             , "")
-//        dbHelper.insertData("","", "", ""
-//            , ""
-//            , ""
-//            , ""
-//            , ""
-//            , ""
-//            , ""
-//            , "")
+        dbHelper.insertData("15","randang (rendang)", "makanan", "sumatra barat"
+            , "Rendang atau rondang dalam bahasa Minangkabau adalah salah satu makanan tradisional khas Minangkabau yang sangat terkenal di seluruh penjuru Nusantara. Randang sangat dikenal, baik di dalam maupun di luar negeri sebagai masakan dari Padang se hingga seringkali penyebutan rendang adalah rendang padang, bukan rendang Minangkabau. Padahal, daerah penghasil rondang itu sendiri adalah seluruh daerah yang ada di Sumatera Barat, tidak hanya di kota Padang. Rendang atau rondang adalah istilah yang digunakan secara umum di Minangkabau untuk menyatakan salah satu makanan atau masakan sebagai lauk ketika makan nasi. Randang memiliki sebutan yang berbeda-beda dalam masing-masing subsuku bangsa di Minangkabau. Ada yang menyebutnya rondang, andang, dan ondang, tergantung dialek masing-masing daerah. Penyebutan randang sebagai rendang Padang dilakukan oleh orang di luar Sumatera Barat (di rantau) karena orang selain lebih mengenal orang Minangkabau sebagai orang Padang juga karena Padang adalah ibukota Provinsi Sumatera Barat. Apabila disebut rondang, secara otomatis dalam pikiran seseorang yang terbayang adalah sebuah olahan masakan berbahan dasar daging dan santan yang dipadu dengan bumbu rempah-rempah. Randang tersebut memiliki beberapa warna, yakni merah kecoklatan, coklat, sampai coklat kehitaman.\n" +
+                    "\n" +
+                    "Sejarah randang diketahui telah ada pada tahun 1550 Masehi. Randang juga disebut dalam banyak kesusasteraan Melayu klasik seperti Hikayat Amir Hamzah yang membuktikannya sebagai masakan Melayu sejak 1550-an''. Buzurjumhur Hakim pun pergi pula ke kedai orang merendang daging kambing, lalu ia berkata: \"Beri apalah daging kambing rendangini barang segumpal:' Sahut orang merendang itu, \"Berilah harganya dahulu:' Meskipun demikian Randang diketahui telah ada di Sumatera Barat sebelum agama Islam masuk ke Sumatera Barat. Jika demikian, maka randang dianggap sudah ada sebelum masuknya Islam ke Sumatera Barat Artinya, randang sudah ada jauh sebelum abad VII Masehi karena Islam masuk ke Sumatera Barat pada tahun 674 Masehi dengan bukti adanya masyarakat Arab di daerah pesisir Pulau Sumatera. Akan tetapi bukti fisik keberadaan randang tersebut belum dapat ditemukan.\n" +
+                    "\n" +
+                    "Pengertian randong diambil dari kata morandong, yakni suatu proses pengolahan lauk berbahan dasar santan yang dimasak sampai kandungan airnya berkurang, bahkan sampai kering sehingga apabila disebut randong itu artinya olahan masakan yang kering tanpa mengandung air.\n" +
+                    "\n" +
+                    "Campuran santan dan bumbu yang telah kering menghasilkan warna coklat kehitaman yang enak. Akan tetapi, di beberapa daerah di Sumatera Barat, olahan randong tidak selalu berwarna coklat kehitaman. Bentuk akhirnya terbagi menjadi dua jenis, yakni randong kering dan randong basah (kolio). Rondong kering adalah rondong yang sudah berwarna coklat kehitaman, sedangkan randong basah adalah rondong yang masih berwarna merah kecoklatan sampai coklat.\n" +
+                    "\n" +
+                    "Randang juga dapat diartikan sebagai makanan yang \"diawetkan\" melalui proses pemanasan beberapa kali. Randang tercipta karena pada waktu dulu orang yang memasak daging yang banyak dengan santan dan bumbu tertentu sehingga tak habis dalam sehari, kemudian malam harinya dihangatkan, dan tidak habis juga. Agar tidak basi dan tidak terbuang, kembali keesokan harinya dihangatkan sampai pada akhirnya bumbu randang itu kering. Oleh karena itu, randang yang sebenarnya adalah kering air. Keringnya suatu randang menjadikannya tahan dan awet. Jadi, randang adalah sebuah olahan masakan dengan cara dirandang yakni dimasak dengan api sangai (api sangat kecil yang diatur agar jangan sampai menghanguskan) sampai kering yang proses memasaknya dilakukan secara tradisional, yakni dimasak di atas tungku dengan menggunakan kayu bakar. Pada awalnya dimasak dengan api besar, lalu dilanjutkan dengan menggunakan api sangai yang berasal dari pembakaran sabut kelapa. Proses memasak dari santan yang banyak mengandung air atau gulai, kemudian berkurang air menjadi ka/io, dan dilanjutkan dengan memasak kering air itulah yang disebut randang."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483945991.jpg"
+            , "https://asset.kompas.com/crops/qoZw5itTDfNAU86nkWh56hcmSMc=/0x0:0x0/750x500/data/photo/2015/12/16/0556233randang-itammp.jpg"
+            , "https://cdn-2.tstatic.net/tribunnews/foto/bank/images/rendang_20181004_110845.jpg"
+            , "https://img-global.cpcdn.com/recipes/3e328461099bcec8/680x482cq70/randang-padang-rendang-sapi-asli-padang-foto-resep-utama.jpg"
+            , "")
+        dbHelper.insertData("16","tari toga", "tarian", "sumatra barat"
+            , "Tani Toga yang artinya \"Tari Larangan\" adalah tari tradisional kuno Kerajaan Siguntur, kerajaan yang masih berhubungan dengan Kerajaan Minangkabau di Pagaruyung dan konon masih berhubungan dengan Kerajaan Malayu Dharmasraya di zaman Hindu-Buddha. Karena masih berhubungan dengan Minangkabau dan Malayu, beberapa gerak tari ini mirip dengan tari minang dan melayu.\n" +
+                    "\n" +
+                    "Menurut Pewaris Kerajaan Siguntur, Tani Toga merupakan tari resmi kerajaan sejak zaman Kerajaan Dharmasraya yang berpusat di Siguntur pada abad ke-14. Tari ini masih dipakai ketika Kerajaan Hindu-Buddha itu beralih ke Islam yang salah satu di antaranya menjadi Kerajaan Siguntur sejak abad ke-15 atau tahun 1673 dengan raja Islam pertama Sutan Abdul Jalil Sutan Syah Tuanku Bagindo Ratu.\n" +
+                    "\n" +
+                    "Waktu itu Tari Toga menjadi tari resmi kerajaan dan ditampilkan pada upacara penobatan raja (batagak gala), pesta perkawinan keluarga raja, upacara turun mandi anak raja, perayaan kemenangan pertempuran, dan gelanggang mencari jodoh putri raja.\n" +
+                    "\n" +
+                    "Ketika Belanda berhasil masuk ke Siguntur pada 1908 dan raja-raja di Siguntur dan sekitarnya terpaksa mengakui kedaulatan Pemerintahan Kolonial Belanda, raja kehilangan kedaulatannya. Banyak benda kerajaan yang diambil, termasuk tambo (riwayat kerajaan yang tertulis) dan aktivitas kesenian kerajaan, termasuk Tari Toga, pun vakum sudah.\n" +
+                    "\n" +
+                    "\"Tari Toga nyaris hilang, tan itu sudah lama tidak dimainkan dan hanya diingat dengan cerita turun-temurun, saya mengumpulkan informasi lagi dan menghidupkan kembali pada 1989,\" kata Tuan Putri Marhasnida, salah seorang pewaris Kerajaan Siguntur kepada PadangKini.com. Marhasnida adalah adik sepupu raja sekarang, Sultan Hendri Tuanku Bagindo Ratu.\n" +
+                    "\n" +
+                    "Ketika dirintis Marhasnida pada 1980-an, para penari dan pendendang sudah banyak yang meninggal. Untunglah ada seorang kakek yang usianya sudah lebih 80 tahun. Ia bekas pendendang yang masih hidup. Sang kakek masih hafal semua dendang Tani Toga karena sejak tidak lagi berdendang, is sering melantunkan dendangnya ketika Batobo. Batobo adalah membersihkan kebun atau menyabit di sawah bersama-sama, 30 sampai 60 orang. Si pendendang selalu Batobo agar orang-orang tak bosan bekerja seharian, ia disuruh berdendang sambil bekerja.\n" +
+                    "\n" +
+                    "\"Itulah sebabnya syair tetap diingat, sedangkan tarinya masih ada seorang nenek yang sudah bungkuk mengingatnya, dari ingatan itulah saya susun kembali dan melatih remaja di keluarga Kerajaan Siguntur untuk menarikan Tani Toga,\" kata sarjana pendidikan seni Institut Kejuruan dan Ilmu Pendidikan (IKIP) Padang (kini Universitas Negeri Padang) yang kini menjadi guru kesenian di SMP Negeri II Pulau Punjung, Dharmasraya itu.\n" +
+                    "\n" +
+                    "Tari Toga modifikasi Marhasnida ini kemudian ditampilkan di Radio Republik Indonesia (RRI) Padang pada 1990 dan dimainkan dalam berbagai acara Kerajaan Siguntur, termasuk menyambut peserta \"Arung Sejarah Bahari Ekspedisi Pamalayu\" yang diselenggarakan Balai Pelestarian Sejarah dan Nilai Tradisional Padang, akhir Desember 2007."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483949490.jpg"
+            , "https://cdn.antaranews.com/cache/730x487/2019/09/12/pkk2.jpg"
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("17","tato mentawai", "non benda", "sumatra barat"
+            , "Tato Mentawai adalah seni rupa masyarakat adat Mentawai Kepulauan Mentawai. Dalam masyarakatnya Mentawai tato merupakan peninggalan masyarakat prasejarah dari kebudayaan Neolithik. Penatoan dimulai dari telapak tangan, tangan, kaki, lalu ke seluruh tubuh. Pertama-tama, pada badan si anak dibuat gambar sketsa dengan menggunakan lidi. Setelah itu, dimasukkan zat pewarna ke dalam lapisan kulit dengan cara menusukkan jarum sambil dipukul perlahan. Jarum yang digunakan terbuat dari tulang hewan atau kayu karai yang diruncingkan. Adapun pewarna yang digunakan adalah campuran arang tempurung kelapa dan daun pisang. Setelah pewarna tadi masuk ke lapisan kulit, selesailah penatoan. Bahan pewarna tadi akan terserap permanen di kulit."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483949889.jpg"
+            , "https://cdns.klimg.com/newshub.id/news/2014/11/17/19627/657x328-5-hal-menarik-tentang-tatto-mentawai-yang-perlu-kamu-ketahui-141117z.jpg"
+            , "https://jernih.co/wp-content/uploads/tato-mentawai.jpg"
+            , "https://www.vantage.id/wp-content/uploads/2022/02/Tato-Mentawai-foto-suratkabar.id_-800x400.jpg"
+            , "")
+        dbHelper.insertData("18","songket silungkang", "pakaian", "sumatra barat"
+            , "Identifikasi dan Defenisi \n" +
+                    "\n" +
+                    "Songket adalah hasil kerajinan yang berupa bahan (kain) yang dibuat dari benang (kapas, sutra, dan sebagainya) dengan cara memasuk-masukan pakan secara melintang pada  lunsing. Songket Berasal dari istilah sungkit, dalam bahasa Melayu dan Indonesia berarti “mengait” atau “mencungkil”. Hal ini berkaitan dengan metode pembuatannya, mengaitkan dan mengambil benang dengan jumlah tertentu.\n" +
+                    "\n" +
+                    " \n" +
+                    "\n" +
+                    "Sejarah \n" +
+                    "\n" +
+                    "Banyak sekali informasi mengenai sejarah pertenunan Silungkang Sampai sekarang tidak ada kepastian tahun berapa penduduk Silungkang memiliki kepandaian bertenun? Banyak sekali informasi yang masih simpang siur mengenai asal usul sejarah tenun songket ini. Ada yang mengatakan bahwa bertenun sudah dibawa dari nenek moyang Silungkang dari daerah asal ke Silungkang (Munir Taher). Dimana kah daerah asal itu, apakah dari Taratak Boncah yang datang dari Pariangan Padang Panjang, sebuah nagari kecil yang selalu dirujuk sebagai daerah asal oleh berbagai nagari lain di Sumatera Barat, termasuk nagari Silungkang. Jika dikatakan bahwa perpindahan penduduk terjadi pada abad ke 6, maka tentu nenek moyang orang Silungkang sudah membawa kepandaian menenun dari negeri asal, apakah dari nagari Taratak Boncah atau dari nagari Priangan, Padang Panjang sebagai perpindahan awal. Nagari Priangan ini adalah nagari tempat para pedagang India bermukim untuk sementara menunggu produksi emas yang datang dari nagari Saruaso (Dobbin, 1977;1983). Kalau memang demikian, tentu saja hasil tenun awal sangat sederhana.\n" +
+                    "\n" +
+                    " \n" +
+                    "\n" +
+                    "Aspek Sosial \n" +
+                    "\n" +
+                    "Silungkang adalah bagian dari Wilayah Minangkabau yang manganut sistem kekerabatan berdasarkan keturanan ibu matrilineal yaitu garis keturunan ibu. Kerena sistem pewarisan harta pusaka tinggi menurut keturan ibu, sedangka laki-laki sebagi penjaga harta pusaka, hal ini membuat laik-laki Minangkabau untuk merantau. Sesuai dengan ungkapan “karatau madang di hulu, babuah babungo balun, marantau bujang dahulu, dirumah paguno balun”."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/201900831-penetapan-1_1566287445.jpg"
+            , "https://www.tribunsumbar.com/wp-content/uploads/2019/09/IMG-20190909-WA0002.jpg"
+            , "https://static.republika.co.id/uploads/images/inpicture_slide/koleksi-terbaru-shafira-menggunakan-sarung-majalaya-dan-songket-silungkang-_160309100304-896.jpg"
+            , ""
+            , "")
+
+        dbHelper.insertData("19","joget sonde", "tarian", "riau"
+            , "Tari Tradisi Joget Sonde merupakan tarian yang berasal dari Desa Sonde yang ada di Kecamatan Rangsang, Pesisir Kabupaten Kepulauan Meranti yang dikoreografi (diciptakan) oleh Cik Minah yang merupakan masyarakat asli Suku Akit dari Desa Sonde, Kecamatan Rangsang Pesisir, Kabupaten Kepulauan Meranti. Pada awalnya Joget Sonde ini diciptakan untuk mengungkapkan kebahagiaan si koreografer dan hanya sebagai sebuah tarian bergembira dan tarian hiburan. Karena tari ini terciptanya di Desa Sonde maka diberilah nama dengan sebutan Tari Joget Sonde. Sejarah Desa Sonde itu sendiri adalah pada zaman dahulu pohon sonde hanya terdapat di daerah kampung tersebut, di mana getah pohon sonde tersebut bisa dijual dengan harga yang tinggi. Karena banyak orang yang pergi mengambil kayu sonde dan daerah tersebut tidak memiliki nama maka masyarakat setempat memberi nama Sonde.Tari Tradisi Joget Sonde dalam kehidupan masyarakat Sonde, Kecamatan Rangsang Pesisir mempunyai peranan yang sangat penting sebagai sarana hiburan. Tari ini dapat membangun solidaritas yang tinggi dalam lingkungan masyarakat karena mengajarkan kepada generasi mudanya bagaimana bekerja sama dan membina rasa kekeluargaan antar masyarakat. Tari Tradisi Joget Sonde dipertunjukkan pertama kali di pada tahun 1960-an dalam acara pesta perkawinan."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483591908.jpg"
+            , "https://kebudayaan.kemdikbud.go.id/ditwdb/wp-content/uploads/sites/9/2016/11/20160123_2120101.jpg"
+            , "https://www.riautelevisi.com/foto_berita/22joget-sonde.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("20","nyanyi panjang", "non benda", "riau"
+            , "Nyanyi Panjang merupakan jenis sastra lisan bercorak naratif (cerita) yang dipertunjukan oleh tukang nyanyi panjang dengan cara dinyanyikan atau lagukan. Nyanyi Panjang mengandung arti Nyanyi yang bermakna pertunjukan dan Panjang yang bermakna waktu yang diperlukan untuk penyampaiannya. Oleh karena itu, Nyanyi Panjang adalah suatu cerita yang dinyanyikan atau dilagukan dengan penyampaian yang memakan waktu panjang atau lama, biasanya lebih dari satu malam untuk satu cerita. Cerita-cerita tersebut disampaikan oleh tukang cerita (kadangkala dipanggil dengan sebutan tukang Nyanyi Panjang) dengan menggunakan lagu dan irama tertentu yang sesuai dengan judul cerita tersebut.Nyanyi Panjang merupakan cerita tokoh yang mempunyai kekuatan supranatural yang didapatkan melalui berbagai cara. Nyanyi Panjang ini murni hasil kreatifitas masyarakat dan menjadi milik bersama, kemudian diwarisakan secara turun temurun dengan cara berguru pada tukang cerita. Tidak ada buku rujukan yang mereka jadikan pegangan. Karena itu, Nyanyi Panjang termasuk kategori kelisanan primer. Dalam pertunjukan Nyanyi Panjang, ada empat unsur yang saling berkaitan dan mempengaruhi yaitu: tukang cerita, cerita, suasana pertunjukan dan penonton."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483591165.jpg"
+            , "https://1001indonesia.net/asset/2022/12/Nyanyi-Panjang-1.jpg"
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("21","rumah lontiok", "benda", "riau"
+            , "Orang Kampar meyakini bahwa nenek moyang mereka datang ke daerah Kampar melalui jalur laut dan kemudian menyusuri Sungai Kampar hingga ke hulu yang dahulu dikenal dengan nama lauik ombun (laut embun). Nenek moyang tersebut juga diyakini sebagai komunitas yang hidup bergantung dari laut dan sungai. Pada awalnya mereka belum memiliki rumah atau tempat tinggal di darat, melainkan tinggal di dalam sampan kajang. Setelah beberapa lama menjalani hidup di dalam sampan, muncul dorongan untuk memiliki sebuah tempat tinggal yang lebih besar dan lebih nyaman. Maka kemudian mereka membuat tempat tinggal di darat dengan menggunakan kayu dan bahan-bahan yang disediakan oleh alam. Pada saat membuat tempat tinggal tersebut, para nenek moyang ini tidak ingin melupakan asal usul mereka yang pernah hidup di sampan. Maka dibuatlah sebuah tempat tinggal yang atapnya dibuat melentik ke atas sehingga menyerupai sampan kajang yang pernah mereka tinggali. Rumah-rumah lontiok ini dibuat dipinggir Sungai Kampar dan menghadap ke sungai. Lama kelamaan jenis rumah ini semakin banyak dibangun dan terbentuklah kampung-kampung yang didasarkan atas hubungan persukuan (klan). Rumah Lontiok merupakan rumah tradisi Orang Ocu di Kabupaten Kampar. Rumah ini tidak hanya digunakan sebagai rumah tinggal tetapi juga digunakan sebagai tempat pelaksanaan perayaan dan upacara adat setempat. Rumah lontiok dibuat berbentuk persegi panjang. Tiang pada dinding rumah lontiok dibuat sedikit condong, karena meniru tajuk sampan. Pada bagian depan rumah ada yang dibuat anjungan dan ada pula yang tidak. Anjungan ini berfungsi untuk melindungi bagian tangga rumah dari hujan dan panas, sehingga apabila hujan tiba, lantai rumah tidak langsung terkena air hujan. Atap rumah lontiok dibuat berbentuk atap kajang dan dibuat lontiok (lentik) pada kedua ujung atapnya sehingga terlihat berbentuk haluan dan buritan sampan. Bagian dalam rumah terbagi dalam tiga ruangan yang disebut bawah, tonga dan biliok. Pada zaman dahulu, tahapan membuat rumah lontiok dimulai dengan berunding. Perundingan dilakukan secara bertingkat dan dimulai dari perundingan di dalam keluarga luas menurut garis keturunan matrilineal atau yang disebut sapowuik (satu perut). Setelah dicapai kata mufakat, maka dilanjutkan perundingan ditingkat persukuan. Perundingan ini bertujuan untuk meminta bantuan anggota persukuan dan sekaligus meminta izin mendirikan rumah lontiok kepada penghulu suku. Setelah dicapai kata mufakat, maka dilakukanlah pencarian kayu di hutan. Mengambil kayu untuk pertama kali tidak boleh dilakukan sembarangan. Pengambilan harus dilakukan oleh orang yang dituakan dalam powuik, setelah itu barulah dilanjutkan oleh anggota keluarga/persukuan yang lainnya."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/Rumah%20Lontiok.jpg"
+            , "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1632745495/u6fcfrgbatjvqz2m7rhd.jpg"
+            , "https://katasumbar.com/wp-content/uploads/2021/09/IMG_20210921_131211_resize_9.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("22","tenun siak", "pakaian", "riau"
+            , "Perkembangan Tenun Siakbermula ketika Siak diperintah oleh Sultan Said Syarif Ali, sekitar tahun 1800, ketika usaha kerajinan tenun ini mulai dikenal luas. Menurut sejarah pada masa lalu ada seorang bernama Encik Siti binti E. Wan Karim yang berasal dari Trengganu, yang tenunannya menggunakan benang sutera, katun dan emas. Tenunan itu sangat disenangi oleh kalangan istana. la kemudian mengembangkan motif tradisional dan membuat ciptaan baru sehingga dikenal dan disukai kembali setelah usaha kerajinan tenun ini agak terlupakan. Hingga kini, penenun Siak dianggap lebih teguh mengembangkan corak asli Melayu, yaitu pucuk rebung, awan larat, bunga cengkih, tampuk manggis, semut beriring, siku keluang, dan itik pulang petang.\n" +
+                    "\n" +
+                    "Pakaian Melayu yang lengkap di buat dari bahan tenunan. Kata tenun, menurut Kamus Besar Bahasa Indonesia, berarti 'hasil kerajinan yang berupa bahan (kain) dibuat dari benang (kapas, sutra, dan sebagainya) dengan cara memasuk-masukkan pakan secara melintang pada lungsi (benang yng membujur)'. Berdasarkan pada pengertian tersebut, kata menenun diartikan sebagai 'membuat barang-barang tenun (dari benang, kapas, sutera, dan sebagainya)'. Selanjutnya, dijelaskan tenunan adalah 'hasil menenun, barang-barang yang ditenun'. Prinsip dasar pekerjaan menenun adalah mempersatukan benang yang melintang dengan benang yang membujur dengan cara-cara tertentu.\n" +
+                    "\n" +
+                    "Hasil tenunan ini dihiasi dengan berbagi corak. Corak tesebut ada yang berasal dari kelompok mayarakat itu sendiri dan ada pula yang datang atau diambil dari mayarakat lain melalui berbagai cara dan proses. Bagi orang Melayu Riau, corak tak hanya menjadi hiasan semata, tetapi juga merupakan lambang yang mengandung makna dan falsafah tertentu yang sarat berisi nilai-nilai luhur budaya tempatan. Dengan demikian, kedudukan corak menjadi semakin kokoh dan berfungsi pula sebagai penyebarluasan nilai-nilai luhur yang dimaksud.\n" +
+                    "\n" +
+                    "Corak dasar Melayu Riau umum bersumber dari alam, yakni terdiri atas flora, fauna, dan benda-benda angkasa. Benda-benda itulah yang direka-reka dalam bentuk-bentuk tertentu, baik menu rut bentuk asalnya seperti bunga kundur, bunga hutan, maupun dalam bentuk yang sudah diabstrakkan atau dimodifikasi sehingga tak lagi menampakkan wujud asalnya, tetapi hanya menggunakan namanya saja seperti itik pulang petang, semut beriring dan lebah bergantung. Diantara corak-corak tersebut, yang terbanyak dipakai adalah yang bersumber pada tumbuh-tumbuhan. Hal ini terjadi karena orang Melayu umumnya beragama Islam sehingga corak hewan dikhawatirkan menjurus kepada ha I-ha I yang berbau \"keberhalaan\".\n" +
+                    "\n" +
+                    "Nama-nama corak tersebut antara lain; bunga kundur, bunga melati, bunga setaman, kuntum takjadi, kuntum merekah, daun sirih, daun keladi, tampuk manggis, buah hutan, buah delima, kaluk pakis (kaluk paku), akar berpilin, pucuk rebung, itik pulang petang, semut beriring, balam dua setengger, ikan sekawan, bintang bertabur, awan /arat, segi empat, segi limo dan lain-lain. Masing-masing corak mengandung makna dan falsafah tertentu. Nilai-nilainya mengacu kepada sifat-sifat asal dari setiap benda atau makhluk yang dijadikan corak, yang dipadukan dengan nilai-nilai kepercayaan dan budaya tempatan, kemudian disimpai dengan nilai-nilai luhur agama Islam. Nilai ketaqwaan kepada Allah tertuang dalam motif bintang-bintang. Nilai-nilai kerukunan tertuang dalam corak balam dua setengger, akar berpilin dan kembang setaman, semut beriring, itik pulang petang, ikan sekawan dan sebagainya. Nilai kasih sayang tertuang dalam hampir semua corak bunga-bungaan; seperti bunga kundur, bunga melati, kembang setaman dan lain-lain. Nilai kesuburan tertuang dalam corakpucuk rebung dengan segala variasinya. Nilai tahu diri tertuang dalam corak kaluk paku, awan larat dan lainnya."
+            , ""
+            , "https://i1.wp.com/web.siakkab.go.id/wp-content/uploads/2019/10/71926911_1111862795671404_235814135709827072_n.jpg?resize=720%2C393&ssl=1"
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/201300013-penetapan-3_1530864153.jpg"
+            , "https://www.melayupedia.com/foto_berita/2021/11/2021-11-15-kain-tenun-siak-yang-melambangkan-kearifan-lokal.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("","", "", ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
         //dbHelper.close()
     }
 }
