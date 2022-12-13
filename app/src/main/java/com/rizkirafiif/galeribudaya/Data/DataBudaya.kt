@@ -581,66 +581,78 @@ class DataBudaya(context: Context) {
             , "https://www.batiqa.com/upload/news/l/lampung-gulai-taboh_tj8ky.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "", ""
+        dbHelper.insertData("46","kain tapis", "pakaian", "lampung"
+            , "Makna dan Simbol dalam Kain Tapis\n" +
+                    "\n" +
+                    "Awai mula kain tapis dibuat sebagai bentuk penghormatan kepada leluhur, misalnya saja adanya motif kapal, kapal digambarkan sebagai wahana atau kendaraan roh dalam perjalanan menuju alam setelah meninggal (alam baka). Serta dikaitkan dengan bentuk pemujaan terhadap tokoh leluhur atau nenek moyang. Selanjutnya penggunaan kain tapis dalam perkembangannya dimanfaatkan pada acara-acara adat sepanjang lingkaran hidup yang terkait dengan ritual keagamaan. Ritual tersebut adalah sarana untuk menghubungkan manusia dengan alam roh. Penggunaan kain tapis sangat erat kaitannya dengan penggunaan secara praktis dan fungsi simbolis yang kemudian diberi makna ritual. Muatan simbol pada kain ta pis adalah sebagai penghubung dari berbagai makna pelaksanaan upacara adat di sepanjang lingkaran hidup manusia.\n" +
+                    "\n" +
+                    "Makna simbolis yang terkandung dalam motif kain tapis selalu berkaitan dengan lingkungannya, secara filosofis erat kaitannya dengan kehidupan masyarakat Lampung baik masyarakat Lampung pesisir/saibatin maupun masyarakat Lampung pepadun. Sebagai contoh motif tapis dengan motif kapal. Kapal dianggap sebagai kendaraan yang membawa perjalanan kehidupan manusia mulai dari kelahiran, masa anak-anak, masa remaja, dewasa, masa perkawinan, sampai pada masa kematian. Motif ini dianggap sebagai simbol perjalanan hidup manusia.\n" +
+                    "\n" +
+                    "Sementara itu fungsi praktis kain tapis sangat terkait dengan salah satu perlengkapan dalam upacara adat. Berbagai tata cara penggunaan dan letak kain mengisyaratkan bahwa kain Tapis sangat menentukan kesempurnaan dalam persyaratan kesucian dan keagungan sebuah upacara adat. Kain Tapis juga mencerminkan status sosial seseorang dalam masyarakat adat, apakah dia sebagai tokoh adat, tokoh masyarakat, dan mencerminkan tingkat kepenyimbangan. Karena jenis kain tapis tertentu hanya dimiliki dan dipergunakan oleh kalangan terbatas, seperti pada kelompok pemimpin adat/penyimbang.\n" +
+                    "\n" +
+                    "Fungsi praktis kain Tapis pada umumnya karena dikenakan oleh kaum wanita saat pada acara-acara adat; kemudian dikenakan oleh para penari; sebagai mas kawin pada upacara perkawinan; sebagai hadiah pada upacara perkawinan maupun khitanan; penutup dan pembungkus makanan; alas kepala dan alas tempat duduk dalam berbagai upacara adat; sapu tangan pengantin wanita; serta penutup punggung mempelai (kain nampan). Sedangkan pada kain pelepai dan tatibin dipergunakan atau dibentangkan pada dinding sewaktu ada upacara: khitanan anak penyimbang; perkawinan; kematian; dipakai sebagai gendongan bayi saat upacara cukuran bayi; ngelamo; dan pada saat bayi diberi gelar adat."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483948702.jpg"
+            , "https://lh3.googleusercontent.com/-zv-474uOxB8/YBqZl9JNSUI/AAAAAAAAIXY/udYD62kpX7UX9xLaaZpe7YEq16Xo749TQCLcBGAsYHQ/w1200-h630-p-k-no-nu/1612355988058399-0.png"
+            , "https://bisniswisata.co.id/wp-content/uploads/2019/10/TAPIS.jpg"
             , ""
+            , "")
+        dbHelper.insertData("47","rumah lamban pesagi", "benda", "lampung"
+            , "Rumah Lamban Pesagi adalah rumah adat orang Lampung. Arti kata lamban adalah rumah dan pesagi adalah persegi, karena denahnya berbentuk segi empat. Lamban pesagi merupakan rumah panggung dengan atap perisai yang memiliki teritis panjang berbentuk pelana. Teritis yang berupa kanopi pada pintu masuk utama disangga konsol miring yang panjangnya sampai ke lantai rumah. Terdapat tangga dari papan yang dilengkapi dengan railing sederhana. Struktur panggung terputus dengan struktur dinding rumah. Posisi dinding lebih menjorok keluar sedikit dan ditopang oleh balok-balok atas struktur panggung. Dinding rumah cenderung tertutup dan hanya memiliki sedikit bukaan berupa jendela. Tiang-tiang panggung diletakkan pada pondasi umpak yang berbentuk segi empat. Kolong rumah panggung digunakan untuk kandang atau gudang."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483951289.JPG"
+            , "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1550139326/dpfmyx4ay1beytwggj30.jpg"
+            , "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1550138609/hzf1hwmzlbzgo189z3ae.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("48","adu kerito surong", "non benda", "kepulauan bangka belitung"
+            , "Olahraga tradisional Adu Kerito Surong bukan sekedar olahraga rekreatif, melainkan juga olahraga yang mempertontonkan keterampilan, kekuatan raga, ketangkasan, kebersamaan, dan kemampuan menjaga keseimbangan. Olahraga tradisional Adu Kerito Surong senyatanya berkembang di seluruh pelosok Pulau Bangka, terutama di Kabupaten Bangka Tengah. Di kabupaten ini olahraga tradisional Kerito Surong berkembang di Desa Sungai Selan, Desa Namang, Desa Simpang Katis, Desa Dul, dan desa-desa yang umumnya masih menggunakan alat angkutan tradisional berupa Kerito Surong.Secara historis Kerito Surong pada awalnya berkembang di wilayah sekitar tambang timah di Muntok pada zaman Belanda. Para penggunanya adalah masyarakat keturunan Cina. Pada waktu itu Kerito Surong bukan hanya menjadi alat pengangkut timah, tetapi juga digunakan sebagai alat transportasi untuk mengangkut berbagai barang, termasuk manusia. Selanjutnya, penduduk asli (masyarakat Melayu Bangka) menggunakannya sebagai alat angkut dalam kegiatan sehari-hari, terutama untuk mengangkut hasil pertanian (lada, kolang-kaling, mangga, dan juga kayu bakar). Tetapi yang lebih sering, alat angkut ini digunakan untuk mengangkut hasil panen lada ke tempat perendaman (sungai). Sehabis panen lada masyarakat Melayu Bangka bersuka ria, dan menggunakan Kerito Surong sebagai pemainan untuk menghibur diri. Olahraga tradisional Adu Kerito Surong ini diangkat melalui kegiatan sehari-hari petani lada yang membuat suasana panen lada menjadi semarak dan penuh warna."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485145109.jpg"
             , ""
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "", ""
+        dbHelper.insertData("49","perang ketupat", "non benda", "kepulauan bangka belitung"
+            , "Setiap tahun yaitu pada pertengahan bulan Syaban Tahun Hijriyah dilaksanakan Upacara Tradisional Desa Tempilang yaitu Upacara Adat Perang Ketupat. Upacara tradisional ini dilaksanakan dalam 5 (lima) tahapan: Penimbongan; Ngancak; Perang Ketupat; Nganyot Perae; Taber Kampung. Perang ketupat dilaksanakan setiap tahun sekali secara turun temurun, untuk menghalau bahaya yang disebut dengan tradisi tolak bala. Selanjutnya berkembang atau berubah saling melempar ketupat antar warga yang bertujuan untuk membersihkan diri dan kampung setempat. Seluruh peserta tidak boleh marah atau dendam walaupun terasa sakit atau terkena bagian yang tidak semestinya. Ketupat yang jadi alat untuk melempar berisi tepung beras dan enak dimakan. Tradisi ini biasanya dilaksanakan di Pantai Pasir Kuning Kecamatan Tempilang Kabupaten Bangka Barat."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483950913.jpg"
             , ""
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "", ""
+        dbHelper.insertData("50","tari gajah menunggang", "tarian", "kepulauan bangka belitung"
+            , "Tarian Gajah Menunggang berasal dari Suku Laut (Suku Sekak) yang bermukim di pesisir Pantai Pulau Lepar, Kabupaten Bangka Selatan. Tarian ini merupakan gambaran bagaimana keadaan perahu-perahu yang dibawa gelombang laksana menunggang gajah. Secara filosofis Tari Gajah Menunggang memiliki makna yang mendalam pada tradisi Orang Sekak, antara lain:\n" +
+                    "Menggambarkan rasa kegembiraan mereka dalam melaksanakan sesuatu yang berat dengan harapan akan dapat selesai apabila dikerjakan dengan bersama-sama, walaupun dalam mengarungi lautan sekalipun.\n" +
+                    "Menggambarkan bagaimana perahu mereka melawan gelombang.\n" +
+                    "Menggambarkan bagaimana cara mereka merubah haluan dalam keadaan yang diperlukan.\n" +
+                    "Menggambarkan rasa gembira setelah selesai upacara dan mereka merasa bahagia."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483602580.jpg"
+            , "https://cdn-2.tstatic.net/belitung/foto/bank/images/mnri-spmn-glng.jpg"
             , ""
             , ""
+            , "")
+        dbHelper.insertData("51","kopiah resam", "pakaian", "kepulauan bangka belitung"
+            , "Kopiah resam adalah peci yang terbuat dari tumbuhan resam (Dicranopteris linearissyn.Gleichenia linearis) dan digunakan oleh masyarakat bangka umat muslim dalam kegiatan sehari-hari seperti ibadah solat, menghadiri pesta, kegiatan adat, dan kegiatan lainnya. Belum ditemukan penjelasan tentang asal muasal tentang kopiah resam ini, tapi menurut narasumber pembuat resam, pengetahuan tentang resam telah diwariskan dari generasi-generasi terdahulu.Tanaman resam merupakan jenis Pteridophyta (paku-pakuan/pakis) yang biasa tumbuh di tempat-tempat teduh, lembab, dan subur di daerah tropis dan subtropis. Nama latin spesies ini adalah Dicranopteris linearis. Resam dikenal sebagai tumbuhan invasif, masuk dalam jenis gulma (tanaman pengganggu), karena mendominasi permukaan tanah menyebabkan tumbuhan lain terhambat pertumbuhannya. Habitatnya adalah tebing teduh dan lembap mulai pada ketinggian 200m hingga 1500m di atas permukaan laut dengan tinggi tanaman dapat mencapai 1,5 meter. Paku-pakuan ini tumbuh melilit dan bercabang, akarnya tumbuh di dekat permukaan tanah dan keluar batang keras yang tumbuh keatas. Tumbuhan ini mudah dikenal karena peletakan daunnya yang menyirip berjajar dua dan tangkainya bercabang mendua (dikotom). Persebaran tumbuhan ini dapat diidentifikasi di daerah tropis dan subtropis, tersebar di asia dan pasifik."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485146436.jpg"
+            , "https://wonderful.pangkalpinangkota.go.id/wp-content/uploads/2021/04/kopiah-resam-780x470.jpg"
+            , "https://gelorasriwijaya.co/wp-content/uploads/2020/03/20200326_184049.jpeg"
+            , ""
+            , "")
+        dbHelper.insertData("52","kue bludar/bluder", "makanan", "kepulauan bangka belitung"
+            , "Beludar atau Bluder dikenal di Indonesia sebagai roti dari Belanda. Masyarakat di Indonesia mengadopsi teknik pengolahan roti dalam budaya kulinernya dan setiap daerah memiliki perbedaan dalam pembuatan Beludar atau Bluder. Masyarakat Muntok Kabupaten Bangka Barat Kepulauan Bangka Belitung membuat Bluder dengan tekstur yang mirip dengan bolu, tidak seperti roti yang memiliki tekstur lebih elastis dan berongga. Sedangkan Bluder di daerah seperti Jakarta atau di daerah Jawa Barat memiliki tekstur yang benar-benar mirip dengan roti. Setiap hari kue Bluder dijual di kios-kios kue di Muntok. Pada mulanya kue ini dimasak dengan menggunakan gendok sehingga terdapat aroma arang yang bercampur dengan santan kelapa pada kue, namun alat ini kini dianggap tidak praktis lagi untuk membuat kue bluder dalam jumlah yang banyak. Dalam wawancara dengan informan Ibu Rosmiyati, warga Jalan Tanjung Kalian Muntok, selaku pembuat kue Bluder yang telah memulai usahanya sejak tahun 1968, dalam sehari beliau membuat Bluder sebanyak hampir 300 kue. Begitu banyaknya peminat Bluder, dalam sehari beliau dua kali membuat kue Bluder ini. Dalam proses memasak kue Bluder, Ibu Rosmiyati dibantu oleh asistennya. Selain meningkatkan perekonomian, beliau juga telah membantu warga sekitar dengan menyediakan lahan pekerjaan, sehingga dapat mengurangi angka pengangguran di masyarakat Muntok. Peralatan memasak : 1. Oven 2. Saringan 3. Iseran 4. Baskom 5. Cetakan kue 6. Loyang 7. Parutan kelapa Bahan-bahan : - 1 kg gandum - 1 butir telur - Santan dari 1 butir kelapa - 4 ons gula - ons mentega - 1 bungkus fermipan - bungkus soda kue - Vanili secukupnya - Air Cara membuat : 1. Campur santan dengan 1 sendok gula dan sendok garam, sisihkan 2. Olesi cetakan kue dengan mentega, sisihkan 3. Semua bahan gandum, telur, santan, gula, mentega, fermipan, soda kue, vanili, dan air dicampur. Diaduk rata menggunakan yangn, kurang lebih 10 menit, hingga menghasilkan tekstur adonan yang kental. 4. Kemudian adonan ditutup, dan didiamkan selama 3-4 jam. 5. Tuang adonan dalam cetakan 6. Taburi wijen di atas adonan 7. Panggang kurang lebih selama 20 menit Kue Bluder siap dinikmati. - Fungsi dari kue bludar itu sendiri dapat digolongkan sebagai berikut : 1. Fungsi sosial Yang dilihat dalam fungsi ini adalah, kue bludar disuguhkan untuk kepentingan acara-acara keluarga, dimana tuan rumah dapat menghidangkan kue bludar sebagai makanan pendamping. Dalam penyajiannya, kue bludar sebagai suguhan kepada tamu atau keluarga, guna menunjukkan nilai dalam tata pergaulan serta tata kesopanan. 2. Fungsi kenikmatan Kue Bludar yang disuguhkan bukan untuk dinikmati sebagai makanan yang mengenyangkan, melainkan sebagai makanan yang ingin dinikmati saja. Dimakan bukan untuk penyambung kehidupan, namun makanan yang dinikmati pada saat bersantai yang biasanya disajikan dengan pendamping minuman seperti teh ataupun kopi. Tata cara dan tahap pelaksanaan memasak, waktu yang dibutuhkan Tata cara dan tahap pelaksanaan memasak Adapun bahan-bahan untuk membuat kue bludar, yaitu : - 1 kg gandum - 1 butir telur - Santan dari 1 butir kelapa - 4 ons gula - ons mentega - 1 bungkus fermipan - bungkus soda kue - Vanili secukupnya - Wijen secukupnya - Air Bahan-bahan untuk membuat Bluder., Terlebih dahulu campur santan dengan 1 sendok gula dan sendok teh garam, aduk rata lalu sisihkan. Kemudian semua bahan yaitu gandum, telur, santan, gula, mentega, fermipan, soda kue, vanili, dan air dicampur. Diaduk rata menggunakan tangan, kurang lebih 10 menit, hingga menghasilkan tekstur adonan yang kental. Selanjutnya adonan ditutup dengan kain bersih, dan didiamkan selama 3-4 jam. Berikutnya tuang adonan ke dalam cetakan yang sebelumnya sudah diolesi mentega. Lalu taburi wijen di atas adonan. Setelah semua adonan dimasukkan ke dalalam cetakan, lalu panggang adonan beludar kurang lebih selama 20 menit, dengan menggunakan oven bakar. Kue Beludar dapat dinikmati pada saat bersantai, yang biasanya disajikan dengan pendamping minuman seperti teh ataupun kopi"
+            , ""
+            , "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/06/02/1230976360.jpg"
             , ""
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "", ""
+        dbHelper.insertData("54","upacara adat nujuh jerami", "non benda", "kepulauan bangka belitung"
             , ""
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485146067.jpg"
             , ""
             , ""
             , ""
