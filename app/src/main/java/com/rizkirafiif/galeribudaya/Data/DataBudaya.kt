@@ -1120,47 +1120,99 @@ class DataBudaya(context: Context) {
             , "https://www.wartantb.com/wp-content/uploads/2017/11/gendang-beleq.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "nusa tenggara timur"
+        dbHelper.insertData("86","caci", "non benda", "nusa tenggara timur"
+            , "Caci merupakan kesenian tradisional masyarakat Manggarai, Nusa Tenggara Timur. Kata caci terdiri dari dua suku kata, yaitu ca yang berarti satu dan ci berarti paksa. Secara harfiah, caci berarti satu lawan satu, saling memukul dan menangkis. Permainan caci dilakukan oleh dua kubu yang terdiri dari penangkis dan pemukul. Pemenang dalam permainan ini adalah orang yang telah berhasil melukai lawannya di bagian wajah. Apabila mengenai bagian tubuh yang lain maka tidak akan diperhitungkan, dan tidak boleh memukul pada bagian tubuh mulai dari pinggang ke bawah. Di sela-sela permainan cad, para tetua adat baik laki-laki maupun perempuan menari (danding) dan bernyanyi (mbata) dengan penuh suka cita sambil berjalan secara teratur membentuk lingkaran. Dalam permainan ini, kubu tidak dimaknai sebagai lawan, namun teman bermain. Anggapan kubu sebagai lawan juga didasari oleh esensi dari caci sendiri yaitu menguatkan semangat kekeluargaan.\n" +
+                    "\n" +
+                    "Permainan caci menjadi wujud ungkapan syukur masyarakat Manggarai. Biasanya, permainan ini digelar di depan rumah adat dan menjadi bagian dalam upacara-upacara, antara lain perkawinan, pentahbisan imam, penyambutan tamu kehormatan, atau peringatan hari kemerdekaan.\n" +
+                    "\n" +
+                    "Untuk menggelar permainan caci, masyarakat melakukan beberapa ritual, diantaranya dilakukan di sawah dan mata air yang berada di desa tersebut. Pada malam sebelum permainan ini dimulai dilakukan upacara pemanggilan roh leluhur yang didalamnya terdapat penyembelihan ayam. Hal ini sebagai bentuk penghormatan keselamatan untuk para pemain caci dan semua masyarakat yang terlibat dalam permainan caci. Darah ayam yang disembelih diteteskan di depan pintu rumah adat sebagai pengganti keselamatan pemain caci saat acara berlangsung.\n" +
+                    "\n" +
+                    "Permainan caci dilakukan di halaman terbuka, atau dikenal dengan istilah natas oleh masyarakat Manggarai. Halaman terbuka dipilih karena setiap permainan ini dilakukan, pemain caci yang ikut bertanding bisa mencapai puluhan dan kedatangan penonton yang sekedar ingin melihat permainan ini.\n" +
+                    "\n" +
+                    "Dalam permainan caci ada kriteria yang harus dipenuhi. Adapun beberapa kriteria umum dalam permainan cad sebagai berikut:\n" +
+                    "\n" +
+                    "- Dimainkan oleh kaum pria dewasa pada acara perkawinan (tae kawing) atau acara syukuran (penti) dalam pembukaan lahan ulayat\n" +
+                    "\n" +
+                    "baru (randang lingko).\n" +
+                    "\n" +
+                    "- Cara berpakaian atau Selek. Nilai tambah bagi pemain cad adalah cara berpakaian, baik dari kerapian, kebersihan, maupun keserasian warna pakaian yang digunakan. Berpakaian menjadi ekspresi jati diri dan menunjukkan estetika budaya.\n" +
+                    "\n" +
+                    "- Lames atau tata karma menjadi hal yang utama. Raut wajah ramah, nada suara dan penggunaan bahasa kiasan yang tidak menyinggung orang lain pada saat bernyanyi dapat membuat orang lain terhibur atau kagum. Hal ini akan menimbulkan rasa simpati pada diri pemain caci tersebut.\n" +
+                    "\n" +
+                    "- llo, berarti tidak kena cambukan oleh lawan.\n" +
+                    "\n" +
+                    "- Co'o Pakin, adalah cara memukul dan mencambuk.\n" +
+                    "\n" +
+                    "Dalam permainan caci ada istilah Co'o Pakin yang merupakan cara atau aturan tentang memukul dan mencambuk. Aturan tersebut terdiri dari :\n" +
+                    "\n" +
+                    "- Mberes Paki\n" +
+                    "\n" +
+                    "Mberes Paki merupakan memukul atau mencambuk dengan kuat, yang mana kekuatan tersebut mewakili lambang kejantanan dan kekuatan energi laki-laki.\n" +
+                    "\n" +
+                    "- Nia Pakin\n" +
+                    "\n" +
+                    "Nia Pakin merupakan sasaran pukulan atau cambukan. Nia Pakin terdapat pada beberapa bagian tubuh saja. Secara umum area tubuh yang dipukul adalah bagian perut hingga ujung rambut kepala. Apabila ada seseorang yang memukul di luar area tersebut, maka pemain akan mendapat teguran dari adat atau panitia pertandingan.\n" +
+                    "\n" +
+                    "- Ngaceng Hena Paki One Ata\n" +
+                    "\n" +
+                    "Ngaceng Hena Paki One Ata, dapat diartikan terkena cambuk kubu lain. Tangan dan kepala merupakan sasaran pukulan para pemain karena memiliki bobot nilai yang cukup tinggi, terlebih jika bila melukai, dalam istilah orang Manggarai disebut hena beka. Pemain cad akan merasa malu apabila terkena pukulan cambuk pada bagian tubuh tersebut.\n" +
+                    "\n" +
+                    "- Nenggo atau Dere\n" +
+                    "\n" +
+                    "Dalam permainan cad juga terdapat Nenggo atau Dere yang berarti nyayian atau bernyayi. Nyayian yang dinyanyikan saat permainan ini berlangsung tergantung dari kaitan inti acaranya. Bisa saja nyayian itu berisi tentang pesan kepada pengantin apabila caci itu dilakukan dalam kaitan perayaan perkawinan. Ada juga lagu yang dinyanyikan berisi pesan sikap nasionalisme jika permainan cad diadakan dalam rangka perayaan kemerdekaan."
             , ""
+            , "https://cdn.medcom.id/images/content/2020/07/20/1166634/Atraksi_Tarian_Caci_Khas_Masyarakat_Manggarai_1.jpg"
+            , "https://www.goodnewsfromindonesia.id/uploads/post/large-shutterstock-660102751-e20aec117b3a53a7b6808f41cb62737a.jpg"
+            , "https://asset.kompas.com/crops/LEPHUa140NEOx9Q40jsSa7UMBbA=/0x0:1000x667/750x500/data/photo/2018/11/29/658462086.jpg"
             , ""
+            , "")
+        dbHelper.insertData("87","upacara robo-robo", "non benda", "kalimantan barat"
+            , "Upacara ini merupakan salah satu upacara yang dikenal masyarakat Mempawah. Upacara ini dilaksanakan setiap tahunnya pada hari Rabu terakhir dalam bulan Safar. Pada awalnya acara ini digelar untuk menyambut Opu Daeng Menambon dari Kerajaan Matan (Martapura) di Kabupaten Ketapang ke Kerajaan Mempawah di Kabupaten Pontianak pada tahun 1737 M atau 1448 H. Opu Daeng Menambon adalah keturunan Kerajaan Luwu, Sulawesi Selatan. Opu Daeng Menambon datang ke Mempawah untuk menyebarkan agama Islam. Selain menyebarkan agama Islam, Opu Daeng Menambon juga membangun Mempawah dengan menjadi seorang raja di Kerajaan di Mempawah.Ritual Robo-robo dimulai saat Opu Daeng Menambon beserta keluarga, serta punggawa dan pengawal berangkat dari Desa Benteng, Mempawah menggunakan perahu bidar. Perahu bidar adalah perahu kerajaan dari Istana Amantubillah. Kapal tersebut berlayar menuju muara sungai Mempawah yang berada di Desa Kuala, Mempawah dengan jarak tempuh sekitar satu jam perjalanan. Berlayar keluarga kerajaan ini diiringi dengan 40 perahu. Saat masuk Muara Kuala Mempawah, rombongan tersebut disambut dengan suka cita oleh masyarakat Mempawah. Sambutan tersebut dilakukan dengan memasang berbagai kain warna-warni dan kertas di rumah penduduk yang berada di pinggir sungai. Karena kedatangan rombongan tersebut bertepatan dengan bulan Safar, maka masyarakat Mempawah memperingatinya sebagi upacara tolak bala, karena masyarakat Mempawah yakin pada bulan Safar banyak diturunkan bala."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1484128599.jpg"
+            , "https://www.indonesia.go.id/assets/upload/headline//1557821389_Festival_Robo_Robo.jpeg"
+            , "https://cdn.antaranews.com/cache/730x487/2017/11/20171116robo_robo.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("88","karungut", "non benda", "kalimantan tengah"
+            , "Karungut berasal dari kata karunya yang diambil dari bahasa Sangiang dan bahasa Sangen/Ngaju Kuno. Korunyo berarti tembang. Puisi tradisional atau puisi rakyat yang dikenal di Kalimantan Tengah ini diwariskan oleh nenek moyang mereka dalam bentuk lagu dan syair yang disusun sendiri oleh penciptanya, sepanjang tidak menyimpang dari kaidah yang telah dianggap baku. Di awal perkembangannya, bahasa yang digunakan dalam karungut adalah bahasa Sangen (Ngaju Kuno), tapi kini sangat jarang dipergunakan lagi. Dahulu salah satu fungsi karungut adalah sebagai media pengajaran. Karena seorang balian (guru atau dukun) menyampaikan pen gajaran kepada para muridnya dengan mengarungut. Sementara para muridnya menjawab atau melaksanakan perintah dari gurunya dengan mengarungut pula. Sedangkan orang yang menuturkan karungut disebut pengarungut.\n" +
+                    "\n" +
+                    "Sejak pertama kali karungut mulai dikenal oleh masyarakat Ngaju di Kalimantan Tengah hingga perkembangannya saat ini, telah terjadi penyebaran karungut yang dilakukan dengan berbagai cara. Dahulu penyebaran dilakukan dengan cara migrasi dari satu daerah ke daerah lain, atau melalui perkawinan antar-kelompok subsuku/suku yang berbeda. Namun dewasa ini pendokumentasian, pertunjukan dan perlombaan dijadikan pula sebagai media untuk penyebaran karungut. Dahulu karungut merupakan karya budaya yang dimiliki secara kolektif. Para pencipta karungut tidak pernah mencantumkan namanya, namun setelah dikenal budaya tulis dan rekaman secara elektronik, para pencipta karungut mulai mencantumkan namanya.\n" +
+                    "\n" +
+                    "Penyair-penyair karungut tidak lahir dari pendidikan formal, juga bukan dari proses pewarisan yang dilakukan secara terstruktur dari generasi tua ke generasi muda. Kemampuan menulis/menciptakan dan melantunkan karungut berlangsung secara alamiah yang didorong oleh keinginan untuk mencoba-coba, meniru dan belajar dari orang-orang tua. Dalam perkembangannya kini proses pewarisan secara tidak langsung pun telah dilakukan. Para penulis maupun perekam karungut ada yang telah mempublikasikan karya-karyanya secara luas, melalui media cetak dan elektronik. Di wilayah pedalaman pun, warga masyarakat yang gemar berkarungut belajar dengan cara menirukan tuturan karungut melalui radio. Dengan demikian dimungkinkan terjadinya pengembangan dan perubahan karungut dari bentuk asalnya.\n" +
+                    "\n" +
+                    "Hingga saat ini karungut masih dituturkan dengan menggunakan bahasa Ngaju, baik oleh orang Ngaju sendiri ataupun orang di luar Ngaju yang telah mengusai kebudayaan dan bahasa Ngaju dengan baik. Dahulu pelantunan karungut diiringi dengan musuk pengiring berupa kacapi (kecapi) bersenar dua dan tiga. Namun dalam perkembangannya, musik pengiring karungut semakin beragam. Selain kacapi, terdapat pula gong, reba, seruling dan sebagainya. Fungsi instrumen ini semata-mata hanya untuk menyemarakkan pelantunan karungut.\n" +
+                    "\n" +
+                    "Mereka dapat digolongkan menjadi dua kelompok, yakni: 1) Pencipta (penyair) adalah mereka yang mampu menciptakan karungut dan pasti memiliki kemampuan untuk melantunkan karungut hasil ciptaannya sendiri ataupun ciptaan orang lain 2) Pelantun hanya bisa melantunkan karungut, tetapi belum tentu dapat menciptakan syair-syair karungut dengan baik.\n" +
+                    "\n" +
+                    "Tema-tema yang digarap untuk sebuah karungut biasanya tentang kejadian atau peristiwa dalam kehidupan sehari-hari. Berdasarkan isi syairnya, karungut itu bisa dikelompokkan menjadi beberapa jenis, diantaranya: karungut cinta, karungut dongeng atau pemujaan terhadap seseorang tokoh/benda/tempat dan karungut nasihat. Berdasarkan proses penciptaannya, karungut dapat dibedakan menjadi dua kelompok besar, yaitu:\n" +
+                    "\n" +
+                    "• Karungut spontan (tradisional) adalah karungut yang tercipta secara spontan bersamaan dengan ketika syair-syair lagu itu dilantunkan oleh pengarungut. Si pencipta tidak menyusun konsep atau gagasannya secara tertulis, karena syair-syair karungut itu langsung mengalir dari pikiran dan perasaannya saja saat ia sedang mengarungut.\n" +
+                    "\n" +
+                    "• Karungut tak spontan (modern) adalah karungut yang tercipta secara tidak spontan. Si pencipta menulis dahulu syair-syair yang akan dilantunkannya. Karungutyang dilantunkan bukan oleh penciptanya sendiri juga bisa dikategorikan sebagai karungut tak spontan. Jenis karungut tak spontan terdiri dari dua bentuk, yakni karungut tertulis dan rekaman. Mengingat di masa kini telah banyak pencipta dan pelantun karungut yang merekam karungut dalam bentuk kaset, CD atau alat rekam elektronik lainnya."
+            , ""
+            , "https://mediacenter.palangkaraya.go.id/wp-content/uploads/sites/24/2021/10/IMG_0066_copy_1024x683-copy.jpg"
+            , "https://mediacenter.palangkaraya.go.id/wp-content/uploads/sites/24/2022/02/kar12871-2.jpg"
+            , "https://kebudayaan.kemdikbud.go.id/bpnbkalbar/wp-content/uploads/sites/22/2020/09/Karungut.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("89","pasar terapung", "non benda", "kalimantan selatan"
+            , "Sejarah tertulis tentang pasar terapung tidak dapat diketahui dengan pasti. Akan tetapi tradisi ini telah berlangsung lama. Pasar terapung terbentuk dari belum atau tidak tersedianya fasilitas angkutan darat. Selain itu didukung oleh pemukiman masyarakat yang berada ditepi sungai (water front). Hal ini berakibat berkembanganya budaya sungai, dengan memanfaatkan sungai sebagai media transportasi dan interaksi masyarakat. Pada umumnya pasar terapung dapat dijumpai di daerah muara sungai, seperti Muara Kuin dan Lokbaintan. Aktivitas di pasar terapung dimulai dari setelah salat subuh sampai terbit matahari. Adapun barang-barang yang diperjualbelikan berasal dari daerah hulu lalu berkumpul di muara sungai. Jenis alat transportasi yang digunakan antara lain perahu jukung dan perahu klotok. Sedangkan jenis barang dagangan antara lain sayuran buah-buahan sampai makanan."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485419806.jpg"
+            , "https://www.mytrip.co.id/images/uploads/gwaWEUOL_1584686444.jpg"
+            , "https://1.bp.blogspot.com/-M5kfsyxOg9E/Wv2X2zbQ5RI/AAAAAAAAAVI/A5gPzTpPmQoLY-laywdw2aL31_P5CnIeQCPcBGAYYCw/s1600/pasar-terapung-kalimantan-selatan.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("90","upacara adat kwangkay", "non benda", "kalimantan timur"
+            , "Upacara Adat Kwangkay adalah pemakaman terakhir Suku Dayak Benuaq tempat Kabupaten Kutai Kartanegara dan Kutai Barat. Pelaksanaan prosesi upacara adat tersebut pada bulan Januari Maret. Banyak hal yang tidak boleh dilanggar atau yang dianggap tabu oleh masyarakat pendukung kebudayaan tersebut. Pelanggaran akan dikenai sanksi sesuai hukuman yang berlaku. Upacara Adat Kwangkay dilaksanakan oleh anggota keluarga yang masih hidup agar para mendiang dapat tiba di tempat yang tinggi di Puncak Lumut."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485421293.jpg"
             , ""
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "kalimantan barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "kalimantan tengah"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "kalimantan selatan"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "kalimantan timur"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "kalimantan utara"
+        dbHelper.insertData("91","", "non benda", "kalimantan utara"
             , ""
             , ""
             , ""
@@ -1250,6 +1302,264 @@ class DataBudaya(context: Context) {
             , "")
 
         // ------------------------------------ ||| ----------------------------------- //
+        dbHelper.insertData("","", "benda", "kepulauan bangka belitung"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "kepulauan riau"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "dki jakarta"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "jawa barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "jawa tengah"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "di yogyakarta"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "jawa timur"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "banten"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "bali"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "nusa tenggara barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "nusa tenggara timur"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","kledik", "benda", "kalimantan barat"
+            , "Alat musik kledik terdapat di Kabupaten Melawi, khususnya di Kecamatan Nanga Pinoh. Cara memainkannya adalah dengan meniupnya melalui lubang yang tersedia pada alat musik ini. Alat musik ini dimainkan dengan tiupan melalui lubang pada buah bambu, kemudian tangan kiri memegang bagian bawah bambu yang berlubang, selanjutnya tangan kanan memegang bambu pada bagian sebelah kanan. Setelah posisi serasi maka dimulailah meniup alat tersebut, dan bunyi yang dihasilkan tergantung pada tiupan dan nada yang tertekan pada lubang bambu."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485419214.jpg"
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","sapundu", "benda", "kalimantan tengah"
+            , "Sapundu merupakan salah satu bentuk seni ukir tradisional masyarakat Dayak Ngaju di Kalimantan Tengah, berupa patung-patung dengan motif dan fungsi yang khas. Sesungguhnya tidak terdapat aturan adat yang secara ketat mengatur motif ukiran pada sapundu. Namun pada kenyataannya motif ukiran sapundu hampir seluruhnya menggambarkan tentang manusia. Pada umumnya media ukirnya menggunakan kayu ulin, atau dalam bahasa Dayak kayu disebut juga kayu tabalian. Umumnya masyarakat Dayak Ngaju menganggap bahwa kayu ulin memiliki kekuatan yang luar biasa. Selain itu, masyarakat setempat lebih familiar dengan jenis kayu ini dibandingkan dengan kayu-kayu lainnya. Sapundu merupakan alat kelengkapan dari upacara Tiwah. Dalam upacara tersebut sapundu digunakan untuk mengikat hewan-hewan yang akan dikurbankan. Selain fungsinya itu, sapundu juga dapat digunakan untuk mengukur tinggi rendahnya tingkatan sosial seseorang di dalam suatu kelompok masyarakat. Di sisi lain sapundu juga dianggap memiliki kekuatan magis dan nilai eksotime. Hal inilah yang menyebabkan banyak sapundu-sapundu yang dicuri untuk kemudian diperjualbelikan. Apabila aksi pencurian dan penjualan sapundu dibiarkan saja tanpa adanya usaha perlindungan, maka dikhawatirkan suatu hari nanti sapundu-sapundu yang telah berusia ratusan tahun akan hilang. Keaslian sapundu pun kini mulai dipertanyakan."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485419506.jpg"
+            , "https://kaltengnews.co.id/wp-content/uploads/2021/03/IMG-20210328-WA0017-850x560.jpg"
+            , "https://jurnaltoddoppuli.files.wordpress.com/2014/09/sapundu.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("","kuriding/guriding", "benda", "kalimantan selatan"
+            , "Mitos asal usul Kuriding/Guriding adalah milik seekor macan di hutan Kalimantan selatan. Suatu ketika sang macan meminta anaknya untuk memainkan kuriding. Namun sang anak justru mati karena tenggorokannya tertusuk kuriding. Akibatnya sang macan mewanti-wanti agar anak keturunannya tidak lagi memainkan kuriding. Dalam perkembangannya, mitos ini menjadi dasar mitos masyarakat Banjar membunyikan kuriding, yakni sebagai alat ampuh untuk mengusir macan. Mereka juga menggantungkan atau meletakkannya di atas tempat tidur anak-anak mereka. Dalam kehidupan sosial dan budaya urang banjar, kuriding/guriding memiliki fungsi guna yang beragam, yaitu sebagai alat pelipur lara dikala sepi dan melepas lelah usai bekerja di kebun atau hutan, sebagai alat untuk mengingatkan mereka akan leluhur, dan sebagai media yang disakralkan."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485420017.jpg"
+            , "https://1001indonesia.net/asset/2021/08/Kuriding-min.jpg"
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","sarung tenun samarinda", "benda", "kalimantan timur"
+            , "Sarung Samarinda atau Tajong Samarinda adalah jenis kain tenunan tradisional yang bisa didapatkan di Kota Samarinda, Kalimantan Timur. Sarung ini ditenun dengan menggunakan Alat Tenun Bukan Mesin (ATBM) yang disebut Gedokan. Produk yang dihasilkan untuk satu buah sarung memakan waktu 15 hari. Ciri khas Sarung Samarinda adalah bahan bakunya yang menggunakan sutera yang khusus didatangkan dari Cina. Sebelum ditenun, bahan baku sutera masih harus menjalani beberapa proses agar kuat saat dipintal.Sehelai sarung yang dihasilkan pengrajin biasanya memiliki lebar 80 centimeter dan panjang 2 meter. Dengan ukuran sarung sebesar itu pasti ada jahitan sambungan di bagian tengahnya yang dibuat dengan menggunakan tangan. Sarung asli tidak pernah disambung dengan menggunakan mesin jahit. Inilah salah satu cara untuk membedakan kain yang asli dari yang palsu atau buatan mesin pabrik. Kerajinan tenun sarung ini pada mulanya dibawa oleh pendatang suku Bugis dari Sulawesi yang berdiam di kawasan Tanah Rendah (sekarang bernama Samarinda Seberang) pada tahun 1668. Meskipun Samarinda berada di Kalimantan Timur, rupanya kebudayaan menenun sarung di Samarinda tersebut dibawa oleh masyarakat Bugis yang mencari suaka di Kerajaan Kutai Kartanegara akibat perjanjian Bungaja antara Kerajaan Gowa dan Belanda sekitar abad ke-16. Orang Bugis pendatang inilah yang mengembangkan corak asli tenun Bugis menjadi tenun Samarinda."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1484191102.jpg"
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","jatung utang", "benda", "kalimantan utara"
+            , "Jatung Utang merupakan seni pertunjukan musik tradisional masyarakat Dayak di Kalimantan Utara khususnya. Pada awalnya, musik ini merupakan musik pengisi waktu senggang di ladang. Pada jaman dahulu alat musik ini digantung di ladang untuk dimainkan sebagai pengisi waktu istirahat.\n" +
+                    "\n" +
+                    "Jatung utang adalah alat musik tradisional yang menyerupai kulintang, yang terbuat dari kayu. Pada jaman dahulu alat musik ini digantung dengan mengunakan rotan atau tali, tetapi sekarang sudah dikreasikan mengikuti perkembangan jaman dengan dibuatkan kotak kayu untuk meletakan kayu-kayu yang berfungsi sebagai not-not musik.\n" +
+                    "\n" +
+                    "Jatung Utang pertama kali not-not musiknya tidak manggunakan notasi nada fa dan si, namun pada perkembangannya notasi tersebut dipakai ketika memainkan musik-musik modern.\n" +
+                    "\n" +
+                    "Jatung Utang merupakan salah satu bentuk seni pertunjukan yang masih hidup dan berkembang terutama di Desa Metun Sajau. Untuk menyelaraskan nada pada alat musik Jatung Utang merupakan sebuah pekerjaan yang membutuhkan konsentrasi dan keahlian khusus sehingga nada-nada yang keluar sama persis dengan nada-nada dari alat musik modern.\n" +
+                    "\n" +
+                    "Saat ini Jatung Utang sudah jarang digunakan lagi di ladang, tapi sudah mulai dipakai untuk mengiringi upacara adat atau di gereja sebagai alat pengiring nyanyian dan pertunjukan seni. Cara memainkan Jatung Utang cukup sederhana yaitu dipukul dengan 2 buah batang kayu terpisah pada tiap lempengan kayunya. Tiap lempengan kayu diikat di atas tali yang dipasang pada blok kayu yang tersusun dan akan mengeluarkan kunci nada yang berbeda-beda."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/201700550-penetapan-4_1532405515.jpg"
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/10/Bermain_Jatung-foto-by-wikimedia.org_.jpg"
+            , "https://assets.promediateknologi.com/crop/0x0:1075x534/x/photo/2022/03/11/40832494.jpeg"
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "sulawesi utara"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "sulawesi tengah"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "sulawesi selatan"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "sulawesi tenggara"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "Gorontalo"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "sulawesi barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "maluku"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "maluku utara"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "papua"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "benda", "papua barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+
+        // --------------------------------- |||| -------------------------------- //
+        dbHelper.insertData("78","kujang", "senjata", "jawa barat"
+            , "Secara umum, Kujang mempunyai pengertian sebagai pusaka yang mempunyai kekuatan tertentu yang berasal dari para dewa (Hyang), dan sebagai sebuah senjata sejak dahulu. Hingga saat ini Kujang menempati satu posisi yang sangat khusus di kalangan masyarakat Jawa Barat (Sunda). Sebagai lam bang atau simbol dengan nilai-nilai filosofis yang terkandung di dalamnya, Kujang dipakai sebagai salah satu estetika dalam beberapa lambang organisasi serta pemerintahan. Disamping itu, Kujang pun dipakai pula sebagai sebuah nama dari berbagai organisasi, kesatuan dan tentunya dipakai pula oleh Pemda Propinsi Jawa Barat.\n" +
+                    "\n" +
+                    "Di masa lalu Kujang tidak dapat dipisahkan dari kehidupan masyarakat Sunda karena fungsinya sebagai peralatan pertanian. Pernyataan ini tertera dalam naskah kuno Sanghyang Siksa Kanda Ng Karesian (1518 M) maupun tradisi lisan yang berkembang di beberapa daerah diantaranya di daerah Rancah, Ciamis. Bukti yang memperkuat pernyataan bahwa kujang sebagai peralatan berladang masih dapat kita saksikan hingga saat ini pada masyarakat Baduy, Banten dan Pancer Pangawinan di Sukabumi.\n" +
+                    "\n" +
+                    "Dengan perkembangan kemajuan, teknologi, budaya, sosial dan ekonomi masyarakat Sunda, Kujang pun mengalami perkembangan dan pergeseran bentuk, fungsi dan makna. Dari sebuah peralatan pertanian, kujang berkembang menjadi sebuah benda yang memiliki karakter tersendiri dan cenderung menjadi senjata yang bernilai simbolik dan sakral. Wujud baru kujang tersebut seperti yang kita kenal saat ini diperkirakan lahir antara abad 9 sampai abad 12.\n" +
+                    "\n" +
+                    "Dalam Wacana dan Khasanah Kebudayaan Nusantara, Kujang diakui sebagai senjata tradisional masyarakat Jawa Barat (Sundal dan Kujang dikenal sebagai senjata yang memiliki nilai sakral serta mempunyai kekuatan magis. Beberapa peneliti menyatakan bahwa istilah Kujang berasal dari kata kudihyang dengan akar kata kudi dan hyang.\n" +
+                    "\n" +
+                    "Kudi diambil dari bahasa Sunda Kuno yang artinya senjata yang mempunyai kekuatan gaib sakti, sebagai jimat, sebagai penolak bala, misalnya untukmmenghalau musuh atau menghindari bahaya/penyakit. Senjata ini juga disimpan sebagai pusaka, yang digunakan untuk melindungi rumah dari bahaya dengan meletakkannya di dalam sebuah peti atau tempat tertentu di dalam rumah atau dengan meletakkannya di atas tempat tidur. Sedangkan hyang dapat disejajarkan dengan pengertian Dewa dalam beberapa mitologi, namun bagi masyarakat Sunda Hyang mempunyai arti dan kedudukan di atas Dewa. Hal ini tercermin di dalam ajaran \"Dasa Prebakti\" yang tercermin dalam naskah Sanghyang Siksa Kanda Ng Karesian disebutkan \"Dewa bakti di Hyang''.\n" +
+                    "\n" +
+                    "Karakteristik sebuah kujang memiliki sisi tajaman dan nama bagian, antara lain : papatuk/congo (ujung kujang yang menyerupai panah), eluk/silih (lekukan pada bagian punggung), tadah (lengkungan menonjol pada bagian perut) dan mata (lubang kecil yang ditutupi logam emas dan perak). Selain bentuk karakteristik bahan kujang sangat unik cenderung tipis, bahannya bersifat kering, berpori dan banyak mengandung unsur logam alam.\n" +
+                    "\n" +
+                    "Dalam Pantun Bogar sebagaimana dituturkan oleh Anis Djatisunda (996-2000), kujang memiliki beragam fungsi dan bentuk. Berdasarkan fungsi, kujang terbagi empat antara lain : Kujang Pusaka (lambang keagungan dan pelindungan keselamatan), Kujang Pakarang (untuk berperang), Kujang Pangarak (sebagai a lat upacara) dan Kujang Pamangkas (sebagai alat berladang). Sedangkan berdasarkan bentuk bilah ada yang disebut Kujang Jago (menyerupai bentuk ayam jantan), Kujang Ciung (menyerupai burung ciung), Kujang Kuntul (menyerupai burung kuntul/bango), Kujang Badak (menyerupai badak), Kujang Naga (menyerupai binatang mitologi naga) dan Kujang Bangkong (menyerupai katak). Disamping itu terdapat pula tipologi bilah kujang berbentuk wayang kulit dengan tokoh wanita sebagai simbol kesuburan.\n" +
+                    "\n" +
+                    "Menurut orang tua ada yang memberikan falsafah yang sangat luhur terhadap Kujang sebagai; Ku-Jang-ji rek neruskeun padamelan sepuh karuhun urang Janji untuk meneruskan perjuangan sepuh karuhun urang/ nenek moyang yaitu menegakkan cara-ciri manusia dan cara ciri bangsa. Apa itu? Cara-ciri Manusia ada 5: Welas Asih (Cinta Kasih), Tatakrama (Etika Berprilaku), Undak Usuk (Etika Berbahasa), Budi Daya Budi Basa, Wiwaha Yuda Na Raga Ngaji Sadan. Ciri-ciri Bangsa ada 5: Rupa, Basa, Adat, Aksara, Kebudayaan."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483949471.jpg"
+            , "https://koropak.co.id/storage/img/cover/kujang-pusaka-dan-lambang-keagungan.jpg"
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/09/Kujang-foto-by-.pikiran-rakyat.com_.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("80","keris", "senjata", "jawa tengah"
+            , "Keris adalah benda budaya yang eksotik dan original. Keris merupakan 'karya seni' sekaligus 'benda budaya' asli Nusantara. Budaya keris terbentang dari ujung Pulau Sumatra di barat, Semenanjung Siam dan Sulu di Utara, Gugusan kepulauan Maluku di Timur dan Kepulauan Nusa Tenggara di Selatan. Keris menjadi identitas pengikat yang mendorong rasa kebangsaan itu tumbuh subur di Nusantara. Rasa kebangsaan memerlukan simbol, bukan hanya dalam pengertian simbol yang bersifat abstrak melainkan simbol nyata yang dapat mewakili hampir seluruh suku bangsa yang ada di Nusantara. Bukti sejarah menunjukkan pengaruh budaya keris dalam teknik tempa logam yang digunakan oleh suku-suku bangsa yang mendiami kepulauan Nusantara. Budaya keris menyebar sejalan dengan perdagangan dan hubungan diplomatik diantara kerajaan-kerajaan di Nusantara.\n" +
+                    "\n" +
+                    "Keris merupakan senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya) dengan banyak fungsi budaya yang dikenal di kawasan Nusantara bagian barat dan tengah. Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya karena tidak simetris di bagian pangkal yang melebar, seringkali bilahnya berkelok-kelok, dan banyak di antaranya memiliki parnor (serat-serat lapisan logam cerah) pada helai bilah. Pada masa lalu keris berfungsi sebagai senjata dalam peperangan, sekaligus sebagai benda pelengkap sesajian. Saat ini, penggunaan keris lebih banyak sebagai ornamen pelengkap dalam berbusana adat. Sebagai produk kebudayaan, keris mengandung sejumlah nilai luhur kebudayaan pembuatnya yang disimbolkan dalam berbagai bagian keris. Selain itu, keris juga marak menjadi benda koleksi yang dinilai dari segi estetikanya.\n" +
+                    "\n" +
+                    "Penggunaan keris tersebar pada masyarakat penghuni wilayah yang pernah terpengaruh oleh Majapahit, seperti Jawa, Madura, Nusa Tenggara, Sumatera, pesisir Kalimantan, sebagian Sulawesi, Semenanjung Malaya, Thailand Selatan dan Filipina Selatan (Mindanao). Keris Mindanao dikenal sebagai kalis. Keris di setiap daerah memiliki kekhasan sendiri-sendiri dalam penampilan, fungsi, teknik garapan, serta peristilahan. Keris Indonesia telah terdaftar di UNESCO sebagai Warisan Budaya Dunia Non-Bendawi Manusia sejak tahun 2005.\n" +
+                    "\n" +
+                    "Keris atau dhuwung terdiri dari tiga bagian utama, yaitu bilah (wilah atau daun keris), ganja (penopang), dan hulu keris (ukiran, pegangan keris). Bagian yang harus ada adalah bilah. Hulu keris dapat terpisah maupun menyatu dengan bilah. Ganja tidak selalu ada, tapi keris-keris yang baik selalu memilikinya. Keris sebagai senjata dan alat upacara dilindungi oleh sarung keris atau warangka.\n" +
+                    "\n" +
+                    "Bilah keris merupakan bagian utama yang menjadi identifikasi suatu keris. Pengetahuan mengenai bentuk (dhapur) atau morfologi keris menjadi hal yang penting untuk keperluan identifikasi. Bentuk keris memiliki banyak simbol spiritual selain nilai estetika. Hal-hal umum yang perlu diperhatikan dalam morfologi keris adalah kelokan (luk), ornamen (ricikan), warna atau pancaran bilah, serta pola pamor. Kombinasi berbagai komponen ini menghasilkan sejumlah bentuk standar (dhapur) keris yang banyak dipaparkan dalam pustaka-pustaka mengenai keris. Pengaruh waktu mempengaruhi gaya pembuatan."
+            , ""
+            , "https://awsimages.detik.net.id/community/media/visual/2021/03/04/keris-1.jpeg?w=700&q=90"
+            , "http://kebudayaan.kemdikbud.go.id/bpcbyogyakarta/wp-content/uploads/sites/37/2015/03/Keris-Nogososro.jpg"
+            , ""
+            , ""
+            , "")
+
+        // ------------------------------------ ||||| ----------------------------------- //
         dbHelper.insertData("","", "", "aceh"
             , ""
             , ""
@@ -1519,46 +1829,6 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , ""
-            , ""
-            , ""
-            , "")
-
-        // --------------------------------- |||| -------------------------------- //
-        dbHelper.insertData("78","kujang", "senjata", "jawa barat"
-            , "Secara umum, Kujang mempunyai pengertian sebagai pusaka yang mempunyai kekuatan tertentu yang berasal dari para dewa (Hyang), dan sebagai sebuah senjata sejak dahulu. Hingga saat ini Kujang menempati satu posisi yang sangat khusus di kalangan masyarakat Jawa Barat (Sunda). Sebagai lam bang atau simbol dengan nilai-nilai filosofis yang terkandung di dalamnya, Kujang dipakai sebagai salah satu estetika dalam beberapa lambang organisasi serta pemerintahan. Disamping itu, Kujang pun dipakai pula sebagai sebuah nama dari berbagai organisasi, kesatuan dan tentunya dipakai pula oleh Pemda Propinsi Jawa Barat.\n" +
-                    "\n" +
-                    "Di masa lalu Kujang tidak dapat dipisahkan dari kehidupan masyarakat Sunda karena fungsinya sebagai peralatan pertanian. Pernyataan ini tertera dalam naskah kuno Sanghyang Siksa Kanda Ng Karesian (1518 M) maupun tradisi lisan yang berkembang di beberapa daerah diantaranya di daerah Rancah, Ciamis. Bukti yang memperkuat pernyataan bahwa kujang sebagai peralatan berladang masih dapat kita saksikan hingga saat ini pada masyarakat Baduy, Banten dan Pancer Pangawinan di Sukabumi.\n" +
-                    "\n" +
-                    "Dengan perkembangan kemajuan, teknologi, budaya, sosial dan ekonomi masyarakat Sunda, Kujang pun mengalami perkembangan dan pergeseran bentuk, fungsi dan makna. Dari sebuah peralatan pertanian, kujang berkembang menjadi sebuah benda yang memiliki karakter tersendiri dan cenderung menjadi senjata yang bernilai simbolik dan sakral. Wujud baru kujang tersebut seperti yang kita kenal saat ini diperkirakan lahir antara abad 9 sampai abad 12.\n" +
-                    "\n" +
-                    "Dalam Wacana dan Khasanah Kebudayaan Nusantara, Kujang diakui sebagai senjata tradisional masyarakat Jawa Barat (Sundal dan Kujang dikenal sebagai senjata yang memiliki nilai sakral serta mempunyai kekuatan magis. Beberapa peneliti menyatakan bahwa istilah Kujang berasal dari kata kudihyang dengan akar kata kudi dan hyang.\n" +
-                    "\n" +
-                    "Kudi diambil dari bahasa Sunda Kuno yang artinya senjata yang mempunyai kekuatan gaib sakti, sebagai jimat, sebagai penolak bala, misalnya untukmmenghalau musuh atau menghindari bahaya/penyakit. Senjata ini juga disimpan sebagai pusaka, yang digunakan untuk melindungi rumah dari bahaya dengan meletakkannya di dalam sebuah peti atau tempat tertentu di dalam rumah atau dengan meletakkannya di atas tempat tidur. Sedangkan hyang dapat disejajarkan dengan pengertian Dewa dalam beberapa mitologi, namun bagi masyarakat Sunda Hyang mempunyai arti dan kedudukan di atas Dewa. Hal ini tercermin di dalam ajaran \"Dasa Prebakti\" yang tercermin dalam naskah Sanghyang Siksa Kanda Ng Karesian disebutkan \"Dewa bakti di Hyang''.\n" +
-                    "\n" +
-                    "Karakteristik sebuah kujang memiliki sisi tajaman dan nama bagian, antara lain : papatuk/congo (ujung kujang yang menyerupai panah), eluk/silih (lekukan pada bagian punggung), tadah (lengkungan menonjol pada bagian perut) dan mata (lubang kecil yang ditutupi logam emas dan perak). Selain bentuk karakteristik bahan kujang sangat unik cenderung tipis, bahannya bersifat kering, berpori dan banyak mengandung unsur logam alam.\n" +
-                    "\n" +
-                    "Dalam Pantun Bogar sebagaimana dituturkan oleh Anis Djatisunda (996-2000), kujang memiliki beragam fungsi dan bentuk. Berdasarkan fungsi, kujang terbagi empat antara lain : Kujang Pusaka (lambang keagungan dan pelindungan keselamatan), Kujang Pakarang (untuk berperang), Kujang Pangarak (sebagai a lat upacara) dan Kujang Pamangkas (sebagai alat berladang). Sedangkan berdasarkan bentuk bilah ada yang disebut Kujang Jago (menyerupai bentuk ayam jantan), Kujang Ciung (menyerupai burung ciung), Kujang Kuntul (menyerupai burung kuntul/bango), Kujang Badak (menyerupai badak), Kujang Naga (menyerupai binatang mitologi naga) dan Kujang Bangkong (menyerupai katak). Disamping itu terdapat pula tipologi bilah kujang berbentuk wayang kulit dengan tokoh wanita sebagai simbol kesuburan.\n" +
-                    "\n" +
-                    "Menurut orang tua ada yang memberikan falsafah yang sangat luhur terhadap Kujang sebagai; Ku-Jang-ji rek neruskeun padamelan sepuh karuhun urang Janji untuk meneruskan perjuangan sepuh karuhun urang/ nenek moyang yaitu menegakkan cara-ciri manusia dan cara ciri bangsa. Apa itu? Cara-ciri Manusia ada 5: Welas Asih (Cinta Kasih), Tatakrama (Etika Berprilaku), Undak Usuk (Etika Berbahasa), Budi Daya Budi Basa, Wiwaha Yuda Na Raga Ngaji Sadan. Ciri-ciri Bangsa ada 5: Rupa, Basa, Adat, Aksara, Kebudayaan."
-            , ""
-            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483949471.jpg"
-            , "https://koropak.co.id/storage/img/cover/kujang-pusaka-dan-lambang-keagungan.jpg"
-            , "https://pariwisataindonesia.id/wp-content/uploads/2020/09/Kujang-foto-by-.pikiran-rakyat.com_.jpg"
-            , ""
-            , "")
-        dbHelper.insertData("80","keris", "senjata", "jawa tengah"
-            , "Keris adalah benda budaya yang eksotik dan original. Keris merupakan 'karya seni' sekaligus 'benda budaya' asli Nusantara. Budaya keris terbentang dari ujung Pulau Sumatra di barat, Semenanjung Siam dan Sulu di Utara, Gugusan kepulauan Maluku di Timur dan Kepulauan Nusa Tenggara di Selatan. Keris menjadi identitas pengikat yang mendorong rasa kebangsaan itu tumbuh subur di Nusantara. Rasa kebangsaan memerlukan simbol, bukan hanya dalam pengertian simbol yang bersifat abstrak melainkan simbol nyata yang dapat mewakili hampir seluruh suku bangsa yang ada di Nusantara. Bukti sejarah menunjukkan pengaruh budaya keris dalam teknik tempa logam yang digunakan oleh suku-suku bangsa yang mendiami kepulauan Nusantara. Budaya keris menyebar sejalan dengan perdagangan dan hubungan diplomatik diantara kerajaan-kerajaan di Nusantara.\n" +
-                    "\n" +
-                    "Keris merupakan senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya) dengan banyak fungsi budaya yang dikenal di kawasan Nusantara bagian barat dan tengah. Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya karena tidak simetris di bagian pangkal yang melebar, seringkali bilahnya berkelok-kelok, dan banyak di antaranya memiliki parnor (serat-serat lapisan logam cerah) pada helai bilah. Pada masa lalu keris berfungsi sebagai senjata dalam peperangan, sekaligus sebagai benda pelengkap sesajian. Saat ini, penggunaan keris lebih banyak sebagai ornamen pelengkap dalam berbusana adat. Sebagai produk kebudayaan, keris mengandung sejumlah nilai luhur kebudayaan pembuatnya yang disimbolkan dalam berbagai bagian keris. Selain itu, keris juga marak menjadi benda koleksi yang dinilai dari segi estetikanya.\n" +
-                    "\n" +
-                    "Penggunaan keris tersebar pada masyarakat penghuni wilayah yang pernah terpengaruh oleh Majapahit, seperti Jawa, Madura, Nusa Tenggara, Sumatera, pesisir Kalimantan, sebagian Sulawesi, Semenanjung Malaya, Thailand Selatan dan Filipina Selatan (Mindanao). Keris Mindanao dikenal sebagai kalis. Keris di setiap daerah memiliki kekhasan sendiri-sendiri dalam penampilan, fungsi, teknik garapan, serta peristilahan. Keris Indonesia telah terdaftar di UNESCO sebagai Warisan Budaya Dunia Non-Bendawi Manusia sejak tahun 2005.\n" +
-                    "\n" +
-                    "Keris atau dhuwung terdiri dari tiga bagian utama, yaitu bilah (wilah atau daun keris), ganja (penopang), dan hulu keris (ukiran, pegangan keris). Bagian yang harus ada adalah bilah. Hulu keris dapat terpisah maupun menyatu dengan bilah. Ganja tidak selalu ada, tapi keris-keris yang baik selalu memilikinya. Keris sebagai senjata dan alat upacara dilindungi oleh sarung keris atau warangka.\n" +
-                    "\n" +
-                    "Bilah keris merupakan bagian utama yang menjadi identifikasi suatu keris. Pengetahuan mengenai bentuk (dhapur) atau morfologi keris menjadi hal yang penting untuk keperluan identifikasi. Bentuk keris memiliki banyak simbol spiritual selain nilai estetika. Hal-hal umum yang perlu diperhatikan dalam morfologi keris adalah kelokan (luk), ornamen (ricikan), warna atau pancaran bilah, serta pola pamor. Kombinasi berbagai komponen ini menghasilkan sejumlah bentuk standar (dhapur) keris yang banyak dipaparkan dalam pustaka-pustaka mengenai keris. Pengaruh waktu mempengaruhi gaya pembuatan."
-            , ""
-            , "https://awsimages.detik.net.id/community/media/visual/2021/03/04/keris-1.jpeg?w=700&q=90"
-            , "http://kebudayaan.kemdikbud.go.id/bpcbyogyakarta/wp-content/uploads/sites/37/2015/03/Keris-Nogososro.jpg"
             , ""
             , ""
             , "")
