@@ -826,97 +826,358 @@ class DataBudaya(context: Context) {
             , "https://t-2.tstatic.net/tribunnewswiki/foto/bank/images/Tari-Gong-1.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "tarian", "kalimantan utara"
+        dbHelper.insertData("67","jugit demaring (tari klasik kesultanan bulungan)", "tarian", "kalimantan utara"
+            , "Menurut legenda, tari jugit ini diciptakan oleh dua orang seniman sekaligus laksamana kesultanan Bulungan yaitu Datuk Maulana dan Datuk Mahubut. Umumnya orang hanya mengenal tari jugit hanya satu variasi bentuk, sebenarnya tidak, tari Jugit mempunyai dua bentuk yang memang mirip tapi memiliki perbedaan yang sangat kompleks. Tari pertama disebut Tari Jugit Paman dan yang kedua di sebut Tari Jugit Demaring. Dimasa lalu, tari ini begitu sakral, tari jugit Paman hanya di peruntukan untuk raja, artinya tarian ini tidak akan pernah dapat dilihat di luar Istana, dan memang itulah aturannya, berbeda dengan tari jugit Demaring, walaupun milik keraton, namun ia boleh di persembahkan di luar Istana, karena itu biasanya dalam setiap penyambutan tamu di luar istana, misalnya di dermaga istana atau dalam Biduk Bebandung atau kapal layar Kesultanan, tari Jugitlah demaring yang dipersembahkan.Dari segi warna baju keduanya memiliki perbedaan, dalam tarian Jugit Paman penari harus menggunakan kombinasi warna merah di atas dan kuning di bawah. Sebaliknya penari Jugit Demaring menggunakan kombinasi baju kuning di atas dan hijau di bawah. Gerak tangan dan kecepatannya juga berbeda, dalam Tari Jugit Paman biasanya tempo atau gerakan cenderung lebih cepat sedang dalam tarian Jugit Demaring lebih lambat geraknya."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485175467.jpg"
+            , "https://4.bp.blogspot.com/-GccHiQ5C6Wc/WCaH1aJU1PI/AAAAAAAAQSo/Y70xl9nWKrg0dJjQ8ElFJo4aHqMX4cJVACLcB/s1600/jugit%2Bpaman.jpg"
+            , "https://cdn-2.tstatic.net/kaltara/foto/bank/images/tarian-jugid-demaring-asli-bulungan-dibawakan-oleh-gadis-dari-sanggar-tari-setara.jpg"
             , ""
+            , "")
+        dbHelper.insertData("68","tari maengket", "tarian", "sulawesi utara"
+            , "Maengket adalah suatu tarian yang telah menjadi tradisi di Minahasa, dilakukan oleh kelompok orang yang menyanyi sambil menari bahkan saling berpegangan tangan dan KALTIM dipimpin oleh seseorang (kapen yang akan mengangkat suara/lagu pertama (tumutuur) serta tambur sebagai alat pengiringnya.\n" +
+                    "\n" +
+                    "Maengket berasal dari kata - engket yang artinya pasang, nyalakan, buka jalan, kaitkan, dan sebagainya. Apabila dilekatkan awalan ma- sebagai pembentuk kata kerja dapat diartikan sebagai kegiatan tarian. Kegiatan dimaksud berkaitan upacara dengan tujuan menerangi, membuka jalan dan mempersatukan masyarakat pendukungnya. Hal ini dilakukan dalam situasi kegiatan panen padi (maowey/makamberu), selamatan rumah baru (marambak) dan pergaulan muda mudi (lalaya'an). Versi yang lain yaitu yang dikemukakan oleh L. Ogi dalam bahasa tombulu menjelaskan bahwa maengket terjadi dari kata maha - engket, maha memiliki arti sedang melakukan pekerjaan dan kata engket berarti angkat, jengket atau sambung menyambung. Sehingga bila kedua kata ini disatukan maka memiliki pengertian melakukan angkat suara sambil berjengket dengan menyanyi sambung menyambung atau berbalasan. Sementara Posumah menjelaskan bahwa maengket terdiri dari kata ma, mah yang berarti pergi atau sementara atau sedang mau; dan kata engketyang dapat berarti bersama bergerak menari dan menyanyi lagu disatukan tanpa ada mahtuur atau tumutu'ur (pemimpin lagu). Jadi maengket sama dengan pergi berkumpul bernyanyi bersama-sama sambil menari, berpegangan tangan, membentuk lingkaran atau mapurengkey dengan gerakan maju selangkah, mundur selangkah, tangan diayunkan mengikuti ritme lagu yang dinyanyikan bersama. Sementara ada anggapan bahwa Maengket merupakan salah satu jenis tari dengan tipe setiap memulai menyanyi harus dimulai dari seseorang yang mengangkat suara kemudian diikuti oleh yang lainnya. Dengan demikian terdapat beberapa versi pendapat mengenai Maengket namun pada intinya Maengket adalah seni bernyanyi sambil menari dengan mengungkapkan sastra daerah yang dilakukan oleh sekelompok orang.\n" +
+                    "\n" +
+                    "Keberadaan tarian maengket penggunaannya tergantung dari maksud acara, tempat serta waktu. Jenis tarian ini dulu dibagi dalam 16 macam nyanyian yang menjadi tema atau judul yakni:\n" +
+                    "\n" +
+                    "• Marojor asal kata rojor yang berarti lurus, besar, bagus.\n" +
+                    "\n" +
+                    "• Maowei Makamberu berarti menyanyi sementara menuai (memetik) padi, mengumpul padi baru dan menceraikan padi itu dengan hampa-hampa jerami.\n" +
+                    "\n" +
+                    "• Marambak asal kata rambak yang berarti sentak menyentakkan kaki ke lantai.\n" +
+                    "\n" +
+                    "• Mareindeng asal kata reindeng (leindeng) yang berarti bunyi nyaring dan merdu.\n" +
+                    "\n" +
+                    "• Mawinson asal kata winson yang berarti ikut berulang ulang\n" +
+                    "\n" +
+                    "• Masambo asal kata ambo yang berarti capai\n" +
+                    "\n" +
+                    "• Mapurengkei asal kata rengkei (lengkei) yang berarti tinggi\n" +
+                    "\n" +
+                    "• Matolok (malolok) asal kata lulu yang berarti orang katik (pendek), wanita\n" +
+                    "\n" +
+                    "• Masama, masawuna, masawona asal kata sawo memiliki arti kuah, permaian, waktu isi biji padi masih cair.\n" +
+                    "\n" +
+                    "• Masiserap asal kata serap yang berarti bulan\n" +
+                    "\n" +
+                    "• Maurei asal kata urei (orei) artinya ikat berkas\n" +
+                    "\n" +
+                    "• Makarei asal kata kerei memiliki arti bersihkan\n" +
+                    "\n" +
+                    "• Maweso asal kata weso yang berarti tarik\n" +
+                    "\n" +
+                    "• Maijap asal kata ijap (riap) berarti sinar gilang gemilang\n" +
+                    "\n" +
+                    "• Marani asal kata rani (kasuai) berarti licin\n" +
+                    "\n" +
+                    "• Matambak asal kata tambak berarti ingat.\n" +
+                    "\n" +
+                    "Ke enam belas macam nyanyian maengket ini dilagukan secara puisi, namun yang berkembang dalam tarian Maengket sekarang ini hanya 2 (dua) macam yakni Makamberu, Marambak kemudian ditambah bentuk Lalayaan sehingga menjadi 3 tema nyanyian atau lagu yang biasa disebut tiga babak (maengket sebagai bentuk seni pertunjukan). Lalayaan berasal dari kata lumaya yang berarti bergembira. Terna Lalayaan dimasukkan dalam tarian Maengket sesudah Makamberu dan Marambak karena dalam mengakhiri aktivitas atau kegiatan panen padi kemudian naik rumah baru diakhiri dengan ungkapan kegembiraan.\n" +
+                    "\n" +
+                    "Dari catatan-catatan tersebut dapatlah disimpulkan dengan batasan yang sederhana bahwa Tari Maengket adalah sekelompok orang yang menyanyi sambung-menyambung dengan gerakan mengikuti irama (menari) yang dipimpin oleh seorang kapel yang mengungkapkan kegembiraan, ucapan syukur pada saat panen padi (maowey kamberu), naik rumah baru (marambak) dan pergaulan muda-mudi (lalayaan).\n" +
+                    "\n" +
+                    "Kapan munculnya Tari Maengket di Minahasa belum ada keterangan yang pasti namun menurut sejarah maengket sudah ada sejak abad ke 7. Kini mata budaya ini sudah berkembang dan dilestarikan orang Minahasa sampai sekarang dalam bentuk seni pertunjukan. Banyak pendapat yang ada mengenai asal-usul tari Maengket namun umumnya mengemukakan bahwa maengket adalah bagian dari suatu upacara ritual/sakral yang lahir dari suatu tradisi budaya gotong royong masyarakat di Minahasa dalam kegiatan agraris yaitu bercocok tanam. Budaya gotong royong ini dikenal dengan istilah mapalus. Mapalus merupakan suatu sistem kerja sama dengan dasar tolong-menolong antara beberapa orang atau sejumlah warga suatu masyarakat untuk kepentingan umum. Adapun bentuk kegiatan mapalus sampai sekarang ini dapat ditemukan ada yang terorganisir dan ada yang tidak terorganisir."
             , ""
+            , "https://1001indonesia.net/asset/2022/01/Tari-Maengket.jpg"
+            , "https://perpustakaan.id/wp-content/uploads/2019/12/Tari-Maengket.jpg"
+            , "https://www.selasar.com/wp-content/uploads/2020/10/tentang-tari-maengket.jpg"
             , ""
+            , "")
+        dbHelper.insertData("69","tari raigo", "tarian", "sulawesi tengah"
+            , "Sulawesi Tengah kaya akan tradisi yang tersebar di 12 etnik yang tersebar di seluruh wilayahnya, dan satu di antara banyak kesenian tersebut adalah kesenian Raigo. Raigo sebagai tarian tradisional dipercaya oleh masyarakat pendukungnya lahir dan berkembang lewat proses mitos yang diwujudkan dalam bentuk ritus dengan gerakan dan ungkapan yang bernilai sakral sehingga sering menyertai pelaksanan upacara adat khususnya dalam upacara syukur panen padi dan beberapa upacara tradisional lainnya. Raigo hidup dan berkembang dalam masyarakat Sulawesi Tengah khususnya pada suku bangsa Kulawi dengan sebutan Raego, Kaili menyebut Rego dan Bada menyebut Raigo. Tarian yang menggambarkan suatu kemenangan dalam usaha, kegembiraan serta pengungkapan rasa syukur atas hasil panen yang menggembirakan kemudian ditarikan dalam gerakan dan ungkapan dalam bahasa daerah yang berisikan pemujaan terhadap sang pencipta.\n" +
+                    "\n" +
+                    "Tarian raigo terdapat dalam beberapa jenis salah satunya adalah raigo mpae (raigo = tari dan mpae = padi) atau juga disebut raego vunja karena keterkaitannya dengan upacara vunja. Jadi raigo mpae atau raigo vunja adalah suatu tarian tradisional Sulawesi Tengah dalam rangkaian upacara vunja menurut irama yang menurut irama yang digerakkan oleh orang-orang yang sedang mengembangkan suatu daya dan semangat yang mempunyai arti sosial dan juga kepercayaan terhadap Sang Pencipta. Tarian ini bukan hanya semata-mata sebuah bentuk kesenian (hiburan) namun tarian ini tidak dapat terlepas dari beberapa pelaksanaan upacara adat di wilayah Kulawi atau pun di Lembah Bada. Untuk mendukung pelaksanaan tarian ini, maka tercipta pula lantunan syair-syair dalam vokal yang berisi pesan moral kepada yang mendengarkannya serta beberapa kelengkapan pendukung lainnya yang juga memiliki makna simbolik terhadap upacara ritualnya.\n" +
+                    "\n" +
+                    "Perwujudan raego melalui syair-syairnya serta fungsi dan kedudukannya pada masyarakat, merupakan bagian dari ungkapan budaya yang dilatarbelakangi oleh emosi religi dan upacara adat yang dapat ditemukan di semua suku di Indonesia. Oleh karena tidak semua suku memiliki sarana komunikasi dalam bentuk tulisan, maka kesinambungan pewarisannya hanya tertumpu pada informasi lisan yang tidak sistematis sehingga memiliki kelemahan dan keutuhannya dari generasi ke generasi. Pada umunya pelaksanaan berbagai upacara adat, khususnya yang berkaitan dengan raigo pada Suku Kulawi, masih terus dilaksanakan para orang tua (totua ngata) sampai anak-anak muda. Kenyataan ini menjadikan masyarakat luar dapat mendengarkan syair-syair raego melalui vokal yang saling sahut menyahut sekaligus menjadi pengiring bagi tarian itu sendiri. Syair-syair tersebut memiliki makna terhadap pelaksanaan upacara adat serta melihat lebih dalam fungsi dan kedudukannya pada masyarakat setempat. Suku Kulawi sebagai pemilik budaya Raigo tidak mengenal tulisan, sehingga pewarisan budaya hanya dapat dilakukan secara lisan dan peniruan tingkah laku yang keseluruhannya mengandalkan ingatan belaka. Tidak semua lapisan masyarakat Suku Kulawi memiliki kesempatan untuk memperoleh bekal pengetahuan dan keterampilan dalam pelaksanaan raigo. Dengan demikian, hanya beberapa anggota masyarakat berusia lanjut yang menjadi pelaku upacara ini. Anggapan bahwa raego hanya diperuntukan untuk para totuangata (orang yang sudah berumur), menyebabkan pengetahuan dan keterampilan melakukan tarian ini hanya terbatas pada generasi yang mengalami tarian ini (pelaku) yang jumlahnya sangat kurang dan tidak lagi merata pada semua lapisan masyarakat di daerah Kulawi.\n" +
+                    "\n" +
+                    "Secara garis besar tidak ada perbedaan esensil, dengan pola tarian keliling tapi syair yang dinyanyikan berbeda digolongkan berdasarkan upacara adat yang sedang dilakukan. Macam tarian Raigo adalah sebagai berikut:\n" +
+                    "\n" +
+                    "- Raigo vunca, tarian raigo yang dilakukan pada upacara sesudah panen.\n" +
+                    "\n" +
+                    "- Raigo tarade, tarian yang dilaksanakan pada upacara panen dengan hasil yang sangat memuaskan.\n" +
+                    "\n" +
+                    "- Raigo potinowu, raigo yang dilaksanakan pada upacara membayar mahar oleh calon pengantin pria kepada calon pengantin wanita.\n" +
+                    "\n" +
+                    "- Raigo pobalai, merupakan tarian raigo yang diadakan pada upacara perkawinan, apabila kedua mempelai masih ada hubungan kekeluargaan.\n" +
+                    "\n" +
+                    "- Raigo puncumania, raigo yang dilaksanakan pada upacara khitanan.\n" +
+                    "\n" +
+                    "- Raigo bobongka ombo, dilaksanakan pada upacara tujuh hari kematian bangsawan.\n" +
+                    "\n" +
+                    "- Raigo popowata, diadakan pada upacara kematian saat menunggu jenazah.\n" +
+                    "\n" +
+                    "- Raigopoparoma, diadakan pada upacara kematian menjelang hari terakhir.\n" +
+                    "\n" +
+                    "- Raigo mpainu, raigo yang diselenggarakan pada upacara mandi bagi pahlawan yang akan berangkat ke medan perang.\n" +
+                    "\n" +
+                    "- Raigo pantaka, diadakan pada upacara penyambutan para pahlawan dari medan perang.\n" +
+                    "\n" +
+                    "- Raigo popatunahou, diadakan pada upacara mendirikan rumah baru.\n" +
+                    "\n" +
+                    "- Raigo pangkasuwia, diadakan untuk penyambutan tamu.\n" +
+                    "\n" +
+                    "Lagu-lagu pengiring tarian raigo biasanya dinyanyikan dalam tempo con brio, deice, sesuai dengan tema gembira dan pada pengiring perang yang disebut inolu, dinyanyikan dalam tempo de Marcia, forte atau presto yang sesuai dengan tema heroik dan patriotik. Setiap lagu memiliki ciri yang sama, yaitu pengulangan kata dan syair hingga beberapa kali. Perbedaan antara lagu dan lainnya terletak pada melodi dan tempo berwarna tinggi yang tetap sama bentuknya. Eksklamasi hanya terdapat pada lagu-lagu perang sebagai selingan yang tidak boleh ditinggalkan antara syair lagu."
+            , ""
+            , "https://cdn-2.tstatic.net/palu/foto/bank/images/Tari-Raego.jpg"
+            , "https://cdn.antaranews.com/cache/800x533/2018/09/TARI-SANREGO.jpg"
+            , "https://www.indonesia.go.id/assets/upload/headline//1566893347_Raego_Paduan_Suara.jpg"
+            , "https://static.republika.co.id/uploads/images/inpicture_slide/warga-memperagakan-gerakan-tari-raego-raigo-atau-rego-saat_220721214824-701.jpg"
+            , "")
+        dbHelper.insertData("70","tari salonreng", "tarian", "sulawesi selatan"
+            , "Pada awal perkembangan agama Islam, masyrakat Gowa dan Tallo masih menarikan tarian yang disebut sere` atau jaga. Tarian tersebut berfungsi didalam upacara untuk mengusir garring pua atau wabah penyakit yang menular dan pa`repatunuba riring yang berarti ancaman bahaya kelaparan. Tercatat didalam Lontarak bahwa dalam tahun 1636-1665, Kerajaan Gowa dihinggapi garring pua, berupa penyakit sampar. Untuk mengantisipasi penyakit tersebut Raja Gowa mengadakan upacara besar-besaran, memandikan dan mengarak keliling kalompoang. Dalam upacara itu terdapat Tari Salonreng yang berfungsi sebagai tarian upacara, salah satunya untuk melepas nazar (palappasa tija` atau palappasa nasara).\n" +
+                    "\n" +
+                    "Tari Salonreng tidak diketahui muasalnya secara tertulis, hanya diketahui lewat cerita leluhur yang bersifat mitos. Didalam lontarak sendiri tidak dijelaskan secara rinci mengenai Tari Salonreng. Namun menurut beberapa anrong guru Pakarena dan Pasalonreng, tari tersebut sudah ada pada zaman manusia menganut paham animisme. Tarian itu merupakan tari pemujaan terhadap dewa-dewa, penguasa langit dan bumi. Tari Salonreng (salonreng artinya selendang) ini dipercaya berasal dari sebuah mitos dari jaman Kerajaan Gowa.\n" +
+                    "\n" +
+                    "Saat ini tarian ini dilaksanakan untuk melepas hajat seperti berhasilnya panen atau sembuh dari penyakit dan terhindar dari malapetaka. Prosesi Tarian ini dilaksanakan dengan mengelilingi satu ekor kerbau yang akan dijadikan persembahan dengan berbagai gerakan sambil menabur beras kemudian bermain pencak silat dengan menggunakan tombak dan diakhiri dengan Mangaru yang kemudian dilanjutkan dengan acara pemotongan kerbau sebagai rasa syukur dan memohon kepada Tuhan Yang Maha Kuasa untuk keselamatan.\n" +
+                    "\n" +
+                    "Tari ini dimainkan oleh 6 wanita dengan mengenakan baju bodo dan 6 pria menggunakan passapu dan dilengkapi dengan tombak, keris serta bakul yang berisi padi, gula merah, pinang, daun sirih dan beras. Alat musik yang digunakan untuk mengiringi tarian ini adalah dua buah gendang dan sebuah suling dengan lagu-lagu yang membangkitkan semangat. Tarian ini dapat dijumpai di Dusun Tanete, Desa Bonto Somba, Kecamatan Tompobulu."
+            , ""
+            , "https://jadesta.kemenparekraf.go.id/imgpost/34525.jpg"
+            , "https://jadesta.kemenparekraf.go.id/imgpost/27271.jpg"
+            , "https://asset.kompas.com/crops/au8vYFnnnrHrBqjG92AafYU2gkU=/288x374:5343x3744/490x326/data/photo/2022/02/20/6212679195040.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("71","tari linda", "tarian", "sulawesi tenggara"
+            , "Linda berasal dari kata melinda-linda yang artinya gerakan-gerakan tubuh yang ritmis yang dapat menyentuh hati, sehingga menimbulkan rasa indah dan artistik. Dahulu tari ini dipentaskan khusus oleh putri-putri reamaj yang telah dilatih terlebih dahulu. Tarian ini dilakukan oleh mereka secara sendiri-sendiri dan bergantian (tidak bersamaan). Sampai saat ini tarian ini sudah menjadi tarian pertunjukan. Penarinya terdiri dari beberapa orang yang menari secara bersamaan."
+            , ""
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/11/tari-linda-foto-by-id.pinterest.com_-640x426.jpg"
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/11/pariwisatamunacom.jpg"
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "tarian", "sulawesi utara"
+        dbHelper.insertData("72","tari lenso", "tarian", "maluku"
+            , "Tari lenso merupakan salah satu unsur warisan budaya masa lalu yang berasal dari kota Ambon yang sarat dengan nilai-nilai kultural serta historis yang begitu kuat. Dari prespektif sejarah keberadaan tari lenso tidak dapat dilepas pisahkan dengan eksistensi kaum penjajah yakni bangsa Portugis dan Belanda di Maluku dan Ambon khususnya." +
+                    "\nTarian ini pada awalnya diperkenalkan oleh bangsa Portugis namun pada masa penjajahan Belanda barulah tarian ini dipopulerkan pada tanggal 31 Agustus 1612. Saat itu penguasa Belanda yang ada di Kota Ambon merayakan hari ulang tahun ratu wihelmina ratu Belanda. Sejak itulah tari lenso pertama kalinya ditampilkan secara terbuka kepada masyarakat umum dalam pesta rakyat yang dibuat oleh Belanda. Negeri kilang dipercayakan untuk menampilkan tari lenso dalam acara pesta rakyat tersebut." +
+                    "\nOleh masyarakat kilang tari lenso dijadikan sebagai tarian pusaka yang berasal dari negeri tersebut. Tari lenso mulai merakyat dan menjadi suatu warisan budaya yang terkonstruksi melalui proses akulturasi di Maluku. Pada masa orde lama tarian ini sempat dipopulerkan oleh Presiden Soekarno ke negara-negara yang menjadi tujuan kunjungan kenegaraan atau penyambutan tamu-tamu kenegaraan. Kata lenso berasal dari bahasa Portugis yang artinya sapu tangan. Biasanya lenso (sapu tangan) yang digunakan berwarna putih dan merah, namun tidak terdapat makna simbolik dari warna lenso yang digunakan oleh masing-masing penari. Secara etimologis kata lenso berasal dari bahasa portugis yang artinya sapu tangan. " +
+                    "\nNama tarian ini berkaitan dengan properti yang digunakan oleh penari yakni dua buah lenso pada masing-masing penari. Biasanya lenso (sapu tangan) yang digunakan berwarna putih dan merah, namun tidak terdapat makna simbolik dari warna lenso yang digunakan oleh masing-masing penari. Dalam persebarannya tari lenso banyak dijumpai pada negeri-negeri yang penduduknya mayoritas beragama Kristen seperti di Pulau Ambon, Seram, Kepulauan Lease namun tak jarang dalam konteks kekinian pada negeri-negeri yang masyarakatnya mayoritas beragama Islam sering juga dijumpai jenis tarian ini. Sejalan dengan perkembangannya tari lenso yang pada mulanya menjadi tarian rakyat dan ditampilkan dalam jumlah penari yang banyak serta komposisi penari laki-laki dan perempuan namun seiring perkembangan tari lenso hanya dapat dipentaskan oleh penari wanita saja dengan jumlah penari disesuaikan dengan keinginan. Biasanya jumlah penari berkisar mulai dari 4 orang sampai 10 orang bahkan juga ditampilkan dalam jumlah yang banyak (masal). Secara umum Tari lenso memiliki tiga gerakan dasar yang seringkali dimodifikasi sesuai dengan keinginan, tiga gerakan itu yakni gerak tari maju, gerak tari jemput dan gerak tari mundur. Gerak tari maju biasanya dilakukan dengan posisi kaki kanan dan tangan kanan bersama maju, kemudian diikuti kaki kiri dengan hitungan 4/4 dengan posisi badan sedikit merendah dengan posisi lutut yang ditekuk. Bahu digoyang perlahan mengikuti irama sedangkan musik sedangkan tangan yang di depan (baik kiri maupun kanan ) diangkat sejajar pinggang dan telapak tangan dibiarkan keatas serta lenso atau sapu tangan dibiarkan berjuntai ke bawah. Posisi kepala miring kearah dalam dengan dagu sedikit bersandar pada bahu yang tanganya berada di depan. Gerak ini dipakai oleh penari untuk bergerak membuat pola lantai yang telah ditentukan. Gerakan ini memberikan gambaran suatu kebersamaan/kekompakan dalam kerja sama seta gambaran penghormatan kepada tamu atau orang luar yang baru pertama kali berkunjung. Gerak jumput, dimulai dengan gerakan lutut ditekuk rendah sehingga posisi badan berada dalam keadaan setengah duduk. Tangan kanan dan kiri maju kedepan secara bergantian. Tangan yang berada di depan diangkat setinggi dada sedangkan tangan yang lain di bawah sikut sedikit ditekuk, kemudian telapak tangan diputar dari dalam ke luar. Putaran ini di lakukan semaksimal mungkin sehingga lenso/sapu tangan turut berputar juga. Posisi bahu berputar kearah kiri dan kanan secara bergantian dengan membuat sudut putaran kira-kira 90 derajat. Semua gerakan ini dilakukan dalam hitungan empat. Pada gerakan ini tergambar makna keterbukaan masyarakat Maluku kepada orang luar atau pendatang. Simbol kesejajaran tanpa membeda-bedakan dengan kelas sosial menjadi nilai dalam setiap gerakan membungkuk dan berdiri. Dan gerakan yang terakhir adalah gerakan mundur yang merupakan kebalikan dari gerakan maju pada gerakan ini tergambar makna yang melebur dari suatu penghormatan dan keterbukaan terhadap orang luar dan para tamu melalui gerakan tangan yang mempersilahkan masuk."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "tarian", "sulawesi tengah"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2022/09/20141624/image001-21.png"
+            , "https://asset.kompas.com/crops/ThWIn0Yw8TvXFJx3c3FIdpaRG9w=/80x0:629x366/780x390/data/photo/2021/03/07/6044744d4f702.png"
+            , "https://t-2.tstatic.net/tribunnewswiki/foto/bank/images/Tari-Lenso.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "tarian", "sulawesi selatan"
+        dbHelper.insertData("73","tari legu sahu", "tarian", "maluku utara"
+            , "Tari Legu Sahu berasal dari kata Legu yang artinya pesta. Sehingga Legu Sahu berarti pesta masyarakat Sahu. Pesta perayaan panen padi diadakan setiap tahunnya dan telah menjadi tradisi, dari perayaan inilah timbul sebuah tarian rakyat yang mengekspresikan kegembiraan rakyat Sahu. Tarian Legu Sahu merupakan tarian yang merepresentasikan luapan kegembiraan rakyat saat panen padi. Tarian ini menggambarkan rasa syukur rakyat akan kesuksesan panen padi."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "tarian", "sulawesi tenggara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485490569.jpg"
+            , "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1567428318/mjaym7p1v3zdkd91mdpd.jpg"
+            , "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1567428157/hmjrqdqcbomoaaom3mhe.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "tarian", "Gorontalo"
+        dbHelper.insertData("74","bihim (tari tumbutana)", "tarian", "papua barat"
+            , "Bihim/Tari tumbutana biasanya oleh orang Arfak disebut dengan istilah tari ular. Penyebutan ini disebabkan oleh gerak dan formasi tari yang menyerupai liukan ular mengikuti irama lagu yang yang dinyanyikan. Bihim bagi suku Arfak diartikan sebagai sebuah ekspresi yang dilakukan kapan saja dalam acara mencari jodoh, menang perang, perdamaian antar suku, penyambutan tamu dan pernikahan.Tarian ini juga melambangkan kesatuan yang kokoh dalam sebuah kebersamaan yang masing-masing penari mengekspresikannya melalui lagu disertai dengan hentakan kakinya di tanah. Oleh karena itu, bagi masyarakat suku Arfak, Bihim tidak dapat dipisahkan dari kehidupan mereka karena tarian adalah bagian dari hidup mereka."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "tarian", "sulawesi barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "tarian", "maluku"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "tarian", "maluku utara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "tarian", "papua"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "tarian", "papua barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Tari_Tumbu_Tanah_%281%29.jpg/1200px-Tari_Tumbu_Tanah_%281%29.jpg"
+            , "http://3.bp.blogspot.com/-y0io-nH8ZmE/VXOo7rpVsmI/AAAAAAAAC2k/02EqWE9JwDQ/s1600/Tarian%2BTumbuk%2BTanah.jpg"
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485263640.jpg"
             , ""
             , "")
 
         // ------------------------------------ || -------------------------------------- //
 
+        dbHelper.insertData("75","makyong", "non benda", "kepulauan riau"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "dki jakarta"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "jawa barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "jawa tengah"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "di yogyakarta"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "jawa timur"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "banten"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "bali"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "nusa tenggara barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "nusa tenggara timur"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "kalimantan barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "kalimantan tengah"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "kalimantan selatan"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "kalimantan timur"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "kalimantan utara"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "sulawesi utara"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "sulawesi tengah"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "sulawesi selatan"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "sulawesi tenggara"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "Gorontalo"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "sulawesi barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "maluku"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "maluku utara"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "papua"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("","", "non benda", "papua barat"
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+
+        // ------------------------------------ ||| ----------------------------------- //
         dbHelper.insertData("","", "", "aceh"
             , ""
             , ""
@@ -1197,7 +1458,6 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-
         //dbHelper.close()
     }
 }
