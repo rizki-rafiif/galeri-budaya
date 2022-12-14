@@ -1212,91 +1212,129 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("91","", "non benda", "kalimantan utara"
+        dbHelper.insertData("91","bepadaw", "non benda", "kalimantan utara"
+            , "Bepadaw adalah Budaya Tradisi asli orang suku Tidung yang biasanya dilakukan dua tahun sekali. Pepadaw adalah kegiatan penurunan perahu Padaw Tuju Dulung (Tujuh Haluan).Perahu ini diarak keliling Kota dan berbentuk sangat khas.Pada bagian bawah perahu dipasang bilah-bilah bambu yang digunakan oleh para pemuda suku Tidung untuk mengangkat Padaw tuju Dulung ini. Padaw Tuju Dulung memiliki tiga cabang yang disebut haluan. Haluan pada bagian tengah dibuat tiga tingkat. Sementara dua haluan lainnya yang ada dikanan dan dikiri perahu dibentuk menjadi dua tingkat. Jika dihitung semua tingkat yang ada di masing-masing haluan jumlahnya adalah tujuh. Angka tujuh ini melambangkan jumlah hari dalam seminggu yang juga berarti perjalanan kehidupan manusia."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "sulawesi utara"
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485487621.jpg"
             , ""
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "sulawesi tengah"
+        dbHelper.insertData("92","tulude", "non benda", "sulawesi utara"
+            , "Tulude berasal dari bahasa Sangihe dari kata \"Manulude\" yang artinya \"menolak\". Dahulu, upacara adat Tulude dilaksanakan pada tanggal 31 Desember, malam saat pergantian tahun. Saat itu sebuah perahu kecil terbuat dari kayu (tatolang) ditolak/dilepaskan ke tengah laut yang disertai dengan kata-kata atau ucapan bahwa segala sesuatu yang buruk telah dilepaskan ke tengah laut dan telah meninggalkan kehidupan manusia, dengan kata lain yaitu sebagai penolak bala. Masyarakat etnis Sangihe dan Talaud bukan hanya merayakan upacara ini di daerah mereka, akan tetapi sampai di daerah-daerah perantauan. Maksud dan tujuan pelaksanaan upacara ini yaitu sebagai media bersyukur pada Tuhan YME atas anugerah kehidupan di tahun yang lalu dan menerima kehidupan di tahun yang baru serta selalu diridhoi Tuhan."
+            , ""
+            , "https://img.inews.co.id/media/822/files/inews_new/2022/01/31/adat.jpg"
+            , "https://1.bp.blogspot.com/-_LIH36o5KNA/VzLmScFxZwI/AAAAAAAAOv4/O1f0udR3R9EELdlhjGiptccwAudRHUP0ACKgB/s1600/sangir.JPG"
+            , "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1643628494/slfrdtuw0dwqwpscuusj.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("93","upacara melabot tumpe", "non benda", "sulawesi tengah"
+            , "Prosesi upacara Malabot Tumpe diawali dengan pengumpulan telur burung Moleo oleh Perangkat Adat sebanyak 160 butir. Setelah terkumpul, perangkat adat membawanya di rumah Ketua Adat, kemudian menyiapkan parahu dan pengantar telur sebanyak 7 orang terdiri atas: 3 orang Tua-tua Adat, dan 4 orang pendayung. Sebelum diberangkatkan ke Banggai, telur Moleo dibungkus dengan daun komunong (sejenis daun palma)."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485488929.jpg"
+            , "https://dhanimahendra.files.wordpress.com/2015/01/33728-20141202_163655.jpg"
+            , "https://cdn.antaranews.com/cache/800x533/2019/12/04/Tradisi-Malabot-Tumpe-di-Banggai-Laut-041219-bmz-6.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("94","mappadendang", "non benda", "sulawesi selatan"
+            , "Mappadendang adalah ritual untuk syukuran panen padi. Upacara ini adalah sebuah adat yang berasal dari masyarakat Bugis dari zaman dahulu. Upacara ini biasanya dilakukan setelah panen raya ketika memasuki musim kemarau. Ritual ini biasanya dilaksanakan pada malam hari. Komponen utama dalam acara ini, yaitu 6 perempuan, 3 pria, bilik Baruga, lesung, alu, dan pakaian tradisional yaitu baju Bodo. Para perempuan yang beraksi dalam bilik baruga disebut Pakkindona, sedang pria yang menari dan menabur bagian ujung lesung disebut Pakkambona. Bilik baruga terbuat dari bambu, serta memiliki pagar yang terbuat dari anyaman bambu yang disebut Walasoji.Saat musim panen tiba para warga biasanya memotong ujung batang padi dengan ani-ani. Ani-ani adalah sebuah pisau pemotong yang ukurannya kecil. Jika padi sudah terkumpul, biasanya padi hasil panenan tersebut akan dirontokkan dengan cara menumbuk dalam sebuah lesung."
+            , ""
+            , "https://mandarnesia.com/wp-content/uploads/2020/11/Mappadendang.jpg"
+            , "https://mediatani.co/wp-content/uploads/2022/10/Tradisi-Mappadendang.jpg"
             , ""
             , ""
+            , "")
+        dbHelper.insertData("95","kalosara", "non benda", "sulawesi tenggara"
+            , "Kalosara atau yang biasa disebut juga dengan kalo merupakan sebuah simbol hukum adat pada kebudayaan Tolaki di Sulawesi Tenggara yang telah diwariskan secara turun-temurun. Kalosara digunakan dalam berbagai aturan hukum adat seperti hukum dalam bidang pemerintahan, pertanahan, perkawinan, pewarisan, utang-piutang, konflik dan penyelesainnya, serta banyak bidang lainnya.\n" +
+                    "\n" +
+                    "Kalosara berbentuk lingkaran uang terbuat dari tiga utas rotan yang kemudian dililit ke arah kiri berlawanan dengan arah jarum jam. Ujung lilitannya kemudian disimpul dan diikat, dimana dua ujung dari rotan tersebut tersembunyi dalam simpulnya, sedangkan ujung rotan yang satunya dibiarkan mencuat keluar.\n" +
+                    "\n" +
+                    "Tiga ujung rotan yang dua di antaranya tersembunyi dalam simpul berkaitan erat dengan kata bijak Orang Tolaki yang berbunyi: kenota kaduki osara mokong gadu'i, toono meohai mokonggoa'i, pamaernda mokombono'i. Kalimat tersebut memiliki arti bila dalam menjalankan suatu adat terdapat kekurangan, maka hal tersebut harus dapat diterima sebagai bagian dari adat orang Tolaki dan tidak boleh dibeberkan kepada umum atau orang banyak.\n" +
+                    "\n" +
+                    "Sementara itu, lilitan tiga utas rotan mempunyai makna sebagai kesatuan dari stratifikasi sosial Orang Tolaki yang terdiri dari anakia (bangsawasan), towonua (penduduk asli atau pemilik negeri) yang juga bisa disebut sebagai toono motuo (orang yang dituakan) atau toono dadio (penduduk atau orang kebanyakan), dan o ata(budak). Selain itu, tiga lilitan rotan juga memiliki makna sebagai satuan dari keluarga, yakni bapak, ibu, dan anak sebagai unit terkecil jika digabungkan atas beberapa keluarga akan membentuk suatu masyarakat. Stratifikasi sosial tersebut mempengaruhi ukuran kalosara yang dipergunakan, yaitu:\n" +
+                    "\n" +
+                    "• Kalosara dengan ukuran lingkaran yang dapat masuk dalam tubuh manusia dewasa diperuntukkan bagi urusan golongan bangsawan.\n" +
+                    "\n" +
+                    "• Kalosara dengan ukuran lingkaran dapat masuk pada bahu manusia diperuntukkan bagi urusan-urusan golongan toono motuo yakni para pemangku adat.\n" +
+                    "\n" +
+                    "• Kalosaro dengan ukuran lingkaran dapat masuk pada kepala atau lutut manusia dewasa diperuntukkan bagi urusan-urusan golongan toono dadio atau orang kebanyakan."
             , ""
+            , "https://1001indonesia.net/asset/2022/01/Kalosara.jpg"
+            , "https://alif.id/wp-content/uploads/2020/08/Kalosara.jpg"
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("96","molapi saronde", "non benda", "Gorontalo"
+            , "Molapi Saronde secara harfiah terdiri dari kata molapi artinya menjatuhkan salentangi (selendang) yilonta (wewangian yang terbuat dari aneka kembang dan dedaunan rempah-rempah yang dicampur dengan minyak kelapa), selanjutnya disebut Saronde. Maksudnya ialah mempersilahkan menari dengan selendang yang harum semerbak kepada calon pengantin laki-laki, dalam acara mopotilantahu (mempertunangkan), sebagai bagian dari tata cara moponika (perkawinan) menurut ketentuan adat Gorontalo.\n" +
+                    "\n" +
+                    "Rangkaian acara itu (mopotilantahu dan molapi saronde) juga disebut motile huwali (meninjau kamar) dengan maksud memberi kesempatan kepada calon mempelai laki-laki untuk memastikan calon isteri yang akan dinikahi sesuai dengan yang direncanakan sebelumnya. Selain itu, calon mempelai laki-laki melalui tarian tersebut berkesempatan meninjau dan memastikan penataan kamar tidur yang dipersiapkan sesuai keinginannya.Tujuannya adalah untuk mewujudkan prosesi perkawinan adat secara ideal sebagai gerbang pencapaian keluarga sejahtera, sakinah mawaddah dan warahmah.\n" +
+                    "\n" +
+                    "Asal usul sejarah molapi saronde menurut asal histori tak bisa lepas dari masuknya Islam ke Gorontalo (sekitar tahun 1525 M). Bermula dari olongia (raja) Amai yang menjadikan Islam sebagai agama kerajaan, lalu merumuskan prinsip adati hula-hula'a to sara'a, sara'a hula'a lo adati (adat bersendi syarak, syarak bersendi adat). Formulasi itu menimbulkan ketegangan kreatif (Niode, 2007) yang melahirkan butiran-butiran tata peradatan. Secara turun-temurun terdapat 185 butir adat yang terdokumentasi dan diwariskan melalui pemangku adat dan jaringan keluarga. Pada urutan ke-11 tertulis jelas butir adat mopotilantahu (mempertunangkan) dalam adat pernikahan. Molapi saronde adalah bagian dari adat pernikahan yang melekat pada butir mopotilantahu tersebut.\n" +
+                    "\n" +
+                    "Meskipun demikian, pernyataan tertulis tentang molapi saronde pada era tersebut belum ditemukan. Beberapa kalangan dan pemangku adat berpendapat bahwa molapi saronde adalah konsep yang baru dipraktekkan secara serius di era pemerintahan Eato (1673 M - 1679 M). Pendapat demikian didasarkan atas argumentasi sejarah dan kebudayaan. Secara kultural, pada masa ini ketatanegaraan Kerajaan Gorontalo tegak berdiri mengikuti kerangka demokrasi yang unik. Tacco (1935:80-81) menyebutkan dengan \"good ingericht bestuur bezaten'l Sistem ketatanegaraan itu dibangun di atas prinsip adati hula-hula'a to sara'a sara'a hula'a to quru'ani (Adat bersendi syarak, syarak bersendi Qur'an). Detail prinsip tersebut melembaga pada berbagai pranata sosial, termasuk pranata perkawinan, yang didalamnya menginternalisasikan molapi saronde sebagai bagian dari kegiatan mopotilantahu yang diwariskan dari masa pemerintahan Amai.Tentang kuatnya peran pertautan adat dan Islam pada masa transisi pemerintahan kerajaan ke sistem pemerintahan kolonial. Pada masa itu realitas kehidupan masyarakat Gorontalo begitu terikat dengan agama Islam."
+            , ""
+            , "https://1001indonesia.net/asset/2022/01/Malopi-Saronde-e1641263422503.jpg"
+            , "https://t-2.tstatic.net/gorontalo/foto/bank/images2/15082022_Molapi-Saronde.jpg"
+            , "https://infopublik.id/resources/album/bulan-november-2019/Prosesi_Adat_Molapi_Saronde.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("97","passayang-sayang", "non benda", "sulawesi barat"
+            , "Passayang-sayang adalah seni pertunjukan musik dan nyanyian tradisional Mandar. Alat musik yang dipakai adalah 3 buah gitar. Jumlah pemain terdiri dari 3 orang pemain gitar, sekurang-kurangnya 1 orang penyanyi laki-laki dan 1 orang penyanyi perempuan, 1 orang pemain gitar melodi, 1 orang pemain gitar rytem, dan 1 orang pemain gitar bass. Biasa pula dipertunjukkan dengan formasi pemain gitar hanya 2 orang yakni 1 orang pemain gitar melodi sekaligus pemain gitar bass dan 1 orang pemain gitar rytem. Irama petikan melodi terdiri dari irama los king, irama padang pasir, irama kemayoran, irama tallu-tallu, dan irama karambangan. Irama-irama petikan gitar yang mengiringi lagu-lagu Mandar dari syair-syair kalindada tersebut adalah penyampaian isi hati seorang pamuda kepada seorang gadis, demikian pula sebaliknya. Itulah sebabnya pertunjukan ini dinamakan Passayang-sayang karena penyanyi laki-laki menyampaikan syair-syair kalindada yang menyatakan perasaan kasih sayangnya kepada penyanyi perempuan demikian pula penyanyi perempuan."
+            , ""
+            , "https://1001indonesia.net/asset/2022/04/Passayang-sayang-1.jpg"
             , ""
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "sulawesi selatan"
+        dbHelper.insertData("98","cuci negri soya", "non benda", "maluku"
+            , "Upacara Cuci Negeri merupakan sebuah tradisi yang telah lama berkembang di Negeri Soya. Upacara ini telah dilakukan sejak zaman datuk-datuk yang mendiami negeri Soya sampai sekarang. Upacara adat Cuci Negeri dilakukan di Negeri Soya dan Gunung Sirimau. Cuci Negeri berarti membersihkan negeri dari segala kotoran dan juga membersihkan hati dan pikiran dari seluruh masyarakat yang mendiami negeri Soya. Cuci Negeri Soya biasanya dilakukan melai dari tanggal satu Desember dan berakhir pada minggu pertama bulan Januari."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "sulawesi tenggara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485489971.jpg"
+            , "https://s3.theasianparent.com/tap-assets-prod/wp-content/uploads/sites/24/2022/04/cuci-negeri-soya-6_twitter-%40indorover.jpg"
+            , "https://ambon.go.id/wp-content/uploads/2018/12/IMG-20181214-WA0041.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "Gorontalo"
+        dbHelper.insertData("99","bambu gila", "non benda", "maluku utara"
+            , "Bambu Gila adalah atraksi tradisional masyarakat Kepulauan Maluku. Kesenian yang juga dikenal dengan nama Buluh Gila dan Bara Suwen ini terdapat di Provinsi Maluku dan Provinsi Maluku Utara. Di Provinsi Maluku, atraksi bernuansa magis tersebut dapat dijumpai di dua desa, yaitu Desa Liang, Kecamatan Salahatu dan Desa Mamala, Kecamatan Leihitu, Kabupaten Maluku Tengah. Sementara di Provinsi Maluku Utara, permainan yang tergolong gaib ini terdapat di beberapa daerah di Kota Ternate dan sekitarnya. Belum ditemukan data dan sumber sejarah yang dapat dipertanggungjawabkan kebenaran mengenai asal-usul atraksi Bambu Gila. Kendati demikian, atraksi ini diyakini telah ada di Kepulauan Rempah itu sebelum agama Kristen dan agama Islam masuk ke daerah tersebut.\n" +
+                    "\n" +
+                    "Pemain Bambu Gila terdiri dari tujuh orang pemuda atau laki-laki dewasa yang didampingi oleh seseorang yang bertindak sebagai pawang. Selain berbadan sehat dan kuat untuk melakukan permainan, tidak ada syarat lain bagi para pemain Bambu Gila. Hanya saja, selama pertunjukan berlangsung, para pemain dilarang memakai perhiasan atau menggunakan barang yang berbahan logam, seperti gelang, cincin, kalung, dan bahkan gigi palsu yang terbuat dari logam.\n" +
+                    "\n" +
+                    "Sebelum pertunjukan dimulai, terlebih dahulu disiapkan bambu berwarna cokelat atau bambu suanggi yang memiliki panjang sekitar 2,5 meter dengan diameter sekitar delapan sentimeter. Bambu dipotong menjadi tujuh ruas, di mana tiap-tiap potongan ruasnya dipegang oleh seorang pemain. Lalu, bambu tersebut diletakkan di dada masing-masing pemain. Perlengkapan lain untuk permainan yang tergolong gaib ini adalah kemenyan (styrax benzoin) atau jahe (zingiber officinale). Kemenyan biasanya digunakan untuk pertunjukkan bambu gila yang tergolong besar, sedangkan jahe untuk pertunjukan Bambu Gila yang tergolong kecil.\n" +
+                    "\n" +
+                    "Setelah semua keperluan permainan disiapkan, kemenyan dibakar di atas tempurung kelapa sambil membaca mantera. Asap dari kemenyan tersebut digunakan untuk melumuri ruas bambu satu-persatu. Sedangkan jika menggunakan media jahe, maka jahe diiris sebanyak tujuh irisan. Ketika membaca mantera, tujuh irisan jahe tersebut dikunyah oleh pawang dan lalu disemburkan ke setiap ruas bambu. Kemenyan dan jahe memiliki fungsi yang sama, yaitu untuk memanggil jin-jin atau roh-roh leluhur agar memberi kekuatan magis pada bambu.\n" +
+                    "\n" +
+                    "Setelah segala perlengkapan dan persyaratan dipenuhi, pawang beserta tujuh pemain Bambu Gila memasuki arena pertunjukan. Atraksi diawali dengan memanjatkan doa kepada Yang Maha Kuasa supaya pertunjukan berjalan dengan lancar dan para pemain diberi keselamatan. Kemudian, sambil membakar kemenyan atau mengunyah irisan jahe, sang pawang membaca mantera-mantera atau jampi-jampi dalam bahasa Tanah, yaitu salah satu bahasa tradisional yang terdapat di Pulau Maluku. Sambil membaca mantera, sang pawang akan melumuri ruas bambu dengan asap kemenyan atau menyemburkan irisan jahe. Hal tersebut dilakukannya berulang kali dari ruas bambu pertama hingga ruas bambu terakhir.\n" +
+                    "\n" +
+                    "Sehabis memanterai bambu, pawang kemudian berteriak \"Gila, gila, gila\", atraksi Bambu Gila pun dimulai. Tubuh para pemain akan terombang-ambing ke sana-ke mari, dan bahkan kadangkala sampai jatuh bangun, akibat mengendalikan gerak liar Bambu Gila. Permainan kian meriah seiring terdengarnya suara Tifa, tambur tradisional Maluku, yang dipukul oleh para pemuda dengan penuh semangat dengan irama tertentu. Suasana bertambah semarak dengan iringan tepuk tangan dan sorak-sorai para penonton. Atraksi Bambu Gila akan berakhir dengan jatuh pingsannya para pemain di arena pertunjukan. Uniknya, meski pertunjukan sudah selesai, kekuatan gaib bambu tersebut tidak serta merta hilang begitu saja sebelum diberi makan api yang terbuat dari kertas yang dibakar."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "sulawesi barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "maluku"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://1001indonesia.net/asset/2018/04/Bambu-Gila.jpg"
+            , "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1586860003/uonjbzcnqemn4ovxwbbg.jpg"
+            , "https://indonesia.go.id/assets/upload/headline//1570537758_Bambu_Gila_dari_Tanah_Maluku.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "maluku utara"
+        dbHelper.insertData("100","wor biak", "non benda", "papua"
+            , "Wor dalam kebudayaan orang Biak dipandang dari dua sisi, yaitu tradisi wor sebagai upacara adat dan wor sebagai nyanyian adat. Wor sebagai upacara adat mengandung suatu makna simbol dalam kehidupan orang Biak yang di dalamnya terkandung nilai-nilai budaya yang mengatur hubungan mereka dengan sang penciptanya, hubungan mereka dengan sesamanya, dan hubungan mereka dengan lingkungan alam di mana mereka berada. Dalam tradisi religi orang Biak, Wor dianggapnya sebagai suatu upacara yang sakral. Wor berfungsi melindungi seseorang individu dalam momen peralihan peran sosialnya, mulai dari saat ia lahir, hidup, hingga mati. Orang tua Biak mengatakan: Nggowor baido nari nggomar (kalau kita tidak menyanyi kami akan mati). Hakekat dari pernyataan ini adalah, bahwa Wor merupakan jaminan kepastian dan kelestarian hidup bagi orang Biak Numfor. Wor (upacara tradisi orang Biak) dibagi atas dua bagian, yaitu : (a) upacara siklus hidup, dan (b) upacara insidentil. Wor Siklus Hidup yaitu upacara yang dilakukan dalam mengikuti tahapan pertumbuhan manusia yang dikenal dengan sebutan upacara siklus hidup (daur hidup). Wor insidentil yaitu beberapa upacara yang dilakukan dalam lingkaran hidup orang Biak yang disesuaikan dengan kondisi alam dan situasi hidup yang dihadapinya, antara lain Wor Fan Nanggi untuk menunjukkan kedudukan Manseren Manggundi dalam kehidupan religi orang Biak, Wor Fan Nanggi yang merupakan media pemujaan untuk mengundang kehadiran Manseren Manggundi dan mengharapkan pertolongannya dalam kehidupan mereka selanjutnya."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "papua"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://beritapapua.id/wp-content/uploads/2020/02/Wor-dan-Yospan-Dua-Tarian-Pelindung-Asal-Papua.png"
+            , "https://xposeindonesia.com/wp-content/uploads/2021/05/Upacara-Wor-Suku-Biak-Papua.6.jpg"
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485225059.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "papua barat"
+        dbHelper.insertData("101","fararior", "non benda", "papua barat"
+            , "Di kalangan Suku Doreri, sebelum keluarga laki-laki mengadakan acara peminangan kepada seorang perempuan, pertama diadakan perundingan antara beberapa keluarga terdekat dari pihak laki-laki seperti, om-om, bapa tua, dan tete.\n" +
+                    "\n" +
+                    "Perundingan tersebut ditetapkan beberapa perempuan yang akan dipilih, salah satu diantara mereka yang akan menjadi calon istri dari laki-laki. Perundingan hanya melibatkan laki-laki saja dan dalam waktu yang cukup lama. Ini cara penentuan calon istri berdasarkan kesepakatan orang tua terhadap seorang gadis tanpa pengetahuan anaknya. Sebenarnya ada tiga cara lainnya yaitu: melalui perjanjian atau mufakat antara kedua belah pihak orang tua selama bayi masih berada dalam kandungan ibu; perjodohan yang terjadi atas bantuan dari pihak lain (om dan tante); dan suka sama suka antara perempuan dan laki-laki.\n" +
+                    "\n" +
+                    "Perundingan perlu dilakukan karena pihak keluarga laki-laki perlu mempelajari latar belakang kehidupan, status sosial keluarga perempuan yang akan dipinang. Pertimbangan untung-rugi (ekonomi) dan kekuasaan (politik) menjadi faktor penentu mengambil keputusan terhadap perempuan mana yang dipilih untuk dipinang. Pertimbangan lain, faktor sosial yakni strata sosial dari kedua mempelai harus sama. Artinya strata yang tergolong Mambri atau Manawir Beba tidak bisa kawin dengan strata biasa.\n" +
+                    "\n" +
+                    "Setelah perundingan menetapkan untuk peminangan, pihak keluarga laki-laki mengutus beberapa orang perempuan yang sudah berumur (tante, mama tua, nene, mama ade) yang dianggap berpengalaman untuk menyampaikan rencana peminangan mereka kepada keluarga perempuan dengan berbisik (panggir kna).\n" +
+                    "\n" +
+                    "Proses peminangan dilakukan selama tiga hari pada malam hari, karena utusan dari pihak laki-laki akan merasa malu jika dilakukan pada siang hari dan ternyata ditolak sehingga orang banyak akan mengetahui kejadian tersebut. Jika peminangan diterima, maka keluarga perempuan akan bereaksi dengan cara mematikan lampu sehingga rumah dalam keadaan gelap, kemudian menyiram utusan dengan air bekas cucian ikan, abu tungku, ludah pinang atau air apa saja yang berbau busuk. Utusan yang disiram tidak akan marah, namun mereka senang peminangan mereka diterima.\n" +
+                    "\n" +
+                    "Di kalangan Suku Doreri juga terdapat adat yang tidak mengharuskan orang tua calon mempelai perempuan meminta mas kawin, tetapi pihak perempuan memberikan beban tugas yang harus dilaksanakan oleh si pria seperti, memperbaiki rumah, membuat kebun, dan berlaku sopan dan hormat terhadap orang tua perempuan. Pada zaman sekarang, pihak keluarga laki-laki mengantar mas kawin diiringi dengan dansa adat."
             , ""
-            , ""
-            , ""
-            , ""
+            , "https://lh6.googleusercontent.com/zMi6kchiwgsoziREXrlxndhu3OiDG-_SEdqTtYQgGqBPAaa1IuCEBah8abm5D1iBCtdl0KqktvvUyiDMTD17E6j3iwXgbrqvVHmcBsujFkdelOW8e3NvHZ_iHcqXCG3orEvIBrRNf6tUJg0n8OuLSmA-3GWWMIZgdFBXfl-lwLjjhqt_dkGn3LOp5g"
+            , "https://menara62.com/wp-content/uploads/2017/10/papua.jpg"
             , ""
             , ""
             , "")
@@ -1390,7 +1428,7 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","kledik", "benda", "kalimantan barat"
+        dbHelper.insertData("102","kledik", "benda", "kalimantan barat"
             , "Alat musik kledik terdapat di Kabupaten Melawi, khususnya di Kecamatan Nanga Pinoh. Cara memainkannya adalah dengan meniupnya melalui lubang yang tersedia pada alat musik ini. Alat musik ini dimainkan dengan tiupan melalui lubang pada buah bambu, kemudian tangan kiri memegang bagian bawah bambu yang berlubang, selanjutnya tangan kanan memegang bambu pada bagian sebelah kanan. Setelah posisi serasi maka dimulailah meniup alat tersebut, dan bunyi yang dihasilkan tergantung pada tiupan dan nada yang tertekan pada lubang bambu."
             , ""
             , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485419214.jpg"
@@ -1398,7 +1436,7 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","sapundu", "benda", "kalimantan tengah"
+        dbHelper.insertData("103","sapundu", "benda", "kalimantan tengah"
             , "Sapundu merupakan salah satu bentuk seni ukir tradisional masyarakat Dayak Ngaju di Kalimantan Tengah, berupa patung-patung dengan motif dan fungsi yang khas. Sesungguhnya tidak terdapat aturan adat yang secara ketat mengatur motif ukiran pada sapundu. Namun pada kenyataannya motif ukiran sapundu hampir seluruhnya menggambarkan tentang manusia. Pada umumnya media ukirnya menggunakan kayu ulin, atau dalam bahasa Dayak kayu disebut juga kayu tabalian. Umumnya masyarakat Dayak Ngaju menganggap bahwa kayu ulin memiliki kekuatan yang luar biasa. Selain itu, masyarakat setempat lebih familiar dengan jenis kayu ini dibandingkan dengan kayu-kayu lainnya. Sapundu merupakan alat kelengkapan dari upacara Tiwah. Dalam upacara tersebut sapundu digunakan untuk mengikat hewan-hewan yang akan dikurbankan. Selain fungsinya itu, sapundu juga dapat digunakan untuk mengukur tinggi rendahnya tingkatan sosial seseorang di dalam suatu kelompok masyarakat. Di sisi lain sapundu juga dianggap memiliki kekuatan magis dan nilai eksotime. Hal inilah yang menyebabkan banyak sapundu-sapundu yang dicuri untuk kemudian diperjualbelikan. Apabila aksi pencurian dan penjualan sapundu dibiarkan saja tanpa adanya usaha perlindungan, maka dikhawatirkan suatu hari nanti sapundu-sapundu yang telah berusia ratusan tahun akan hilang. Keaslian sapundu pun kini mulai dipertanyakan."
             , ""
             , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485419506.jpg"
@@ -1406,7 +1444,7 @@ class DataBudaya(context: Context) {
             , "https://jurnaltoddoppuli.files.wordpress.com/2014/09/sapundu.jpg"
             , ""
             , "")
-        dbHelper.insertData("","kuriding/guriding", "benda", "kalimantan selatan"
+        dbHelper.insertData("104","kuriding/guriding", "benda", "kalimantan selatan"
             , "Mitos asal usul Kuriding/Guriding adalah milik seekor macan di hutan Kalimantan selatan. Suatu ketika sang macan meminta anaknya untuk memainkan kuriding. Namun sang anak justru mati karena tenggorokannya tertusuk kuriding. Akibatnya sang macan mewanti-wanti agar anak keturunannya tidak lagi memainkan kuriding. Dalam perkembangannya, mitos ini menjadi dasar mitos masyarakat Banjar membunyikan kuriding, yakni sebagai alat ampuh untuk mengusir macan. Mereka juga menggantungkan atau meletakkannya di atas tempat tidur anak-anak mereka. Dalam kehidupan sosial dan budaya urang banjar, kuriding/guriding memiliki fungsi guna yang beragam, yaitu sebagai alat pelipur lara dikala sepi dan melepas lelah usai bekerja di kebun atau hutan, sebagai alat untuk mengingatkan mereka akan leluhur, dan sebagai media yang disakralkan."
             , ""
             , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485420017.jpg"
@@ -1414,7 +1452,7 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","sarung tenun samarinda", "benda", "kalimantan timur"
+        dbHelper.insertData("105","sarung tenun samarinda", "benda", "kalimantan timur"
             , "Sarung Samarinda atau Tajong Samarinda adalah jenis kain tenunan tradisional yang bisa didapatkan di Kota Samarinda, Kalimantan Timur. Sarung ini ditenun dengan menggunakan Alat Tenun Bukan Mesin (ATBM) yang disebut Gedokan. Produk yang dihasilkan untuk satu buah sarung memakan waktu 15 hari. Ciri khas Sarung Samarinda adalah bahan bakunya yang menggunakan sutera yang khusus didatangkan dari Cina. Sebelum ditenun, bahan baku sutera masih harus menjalani beberapa proses agar kuat saat dipintal.Sehelai sarung yang dihasilkan pengrajin biasanya memiliki lebar 80 centimeter dan panjang 2 meter. Dengan ukuran sarung sebesar itu pasti ada jahitan sambungan di bagian tengahnya yang dibuat dengan menggunakan tangan. Sarung asli tidak pernah disambung dengan menggunakan mesin jahit. Inilah salah satu cara untuk membedakan kain yang asli dari yang palsu atau buatan mesin pabrik. Kerajinan tenun sarung ini pada mulanya dibawa oleh pendatang suku Bugis dari Sulawesi yang berdiam di kawasan Tanah Rendah (sekarang bernama Samarinda Seberang) pada tahun 1668. Meskipun Samarinda berada di Kalimantan Timur, rupanya kebudayaan menenun sarung di Samarinda tersebut dibawa oleh masyarakat Bugis yang mencari suaka di Kerajaan Kutai Kartanegara akibat perjanjian Bungaja antara Kerajaan Gowa dan Belanda sekitar abad ke-16. Orang Bugis pendatang inilah yang mengembangkan corak asli tenun Bugis menjadi tenun Samarinda."
             , ""
             , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1484191102.jpg"
@@ -1422,7 +1460,7 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","jatung utang", "benda", "kalimantan utara"
+        dbHelper.insertData("106","jatung utang", "benda", "kalimantan utara"
             , "Jatung Utang merupakan seni pertunjukan musik tradisional masyarakat Dayak di Kalimantan Utara khususnya. Pada awalnya, musik ini merupakan musik pengisi waktu senggang di ladang. Pada jaman dahulu alat musik ini digantung di ladang untuk dimainkan sebagai pengisi waktu istirahat.\n" +
                     "\n" +
                     "Jatung utang adalah alat musik tradisional yang menyerupai kulintang, yang terbuat dari kayu. Pada jaman dahulu alat musik ini digantung dengan mengunakan rotan atau tali, tetapi sekarang sudah dikreasikan mengikuti perkembangan jaman dengan dibuatkan kotak kayu untuk meletakan kayu-kayu yang berfungsi sebagai not-not musik.\n" +
@@ -1438,11 +1476,21 @@ class DataBudaya(context: Context) {
             , "https://assets.promediateknologi.com/crop/0x0:1075x534/x/photo/2022/03/11/40832494.jpeg"
             , ""
             , "")
-        dbHelper.insertData("","", "benda", "sulawesi utara"
+        dbHelper.insertData("107","kolintang", "benda", "sulawesi utara"
+            , "Kolintang adalah alat musik khas dari Minahasa (Sulawesi Utara) yang mempunyai bahan dasar kayu, jika dipukul dapat mengeluarkan bunyi yang cukup panjang dan dapat mencapai nada-nada tinggi maupun rendah, seperti kayu telur, bandaran, wenang, kakinik atau sejenisnya (jenis kayu yang agak ringan tapi cukup padat dan serat kayunya tersusun sedemikian rupa membentuk garis-gari s sejajar). Kata kolintang berasal dari bunyi: tong (nada rendah), ting (nada tinggi) dan tang (nada tengah). Dahulu dalam bahasa daerah Minahasa digunakan untuk mengajak orang bermain kolintang \"mari kita ber-Tong, Ting, Tang\" dengan ungkapan \"Maimo Kumolintang\" dan dari kebiasaan itulah muncul kolintang.\n" +
+                    "\n" +
+                    "Pada mulanya kolintang hanya terdiri dari beberapa potong kayu yang diletakkan berjejer diatas kedua kaki pemainnya dengan posisi duduk di tanah, dengan kedua kaki terbujur lurus kedepan. Dengan berjalannya waktu, kedua kaki pemain diganti dengan dua batang pisang, atau kadang-kadang diganti dengan tali seperti Arumba dari Jawa Barat. Sedangkan penggunaan peti sesonator dimulai sejak Pangeran Diponegoro berada di Minahasa pada tahun 1830. Pada saat itu, konon peralatan gamelan dan gambang dibawa oleh rombongannya.\n" +
+                    "\n" +
+                    "Adapun pemakaian kolintang erat hubungannya dengan kepercayaan tradisional rakyat Minahasa, seperti dalam upacara-upacara ritual sehubungan dengan pemujaan arwah para leluhur. ltulah sebabnya dengan masuknya agama Kristen di Minahasa, eksistensi kolintang demikian terdesak bahkan hampir menghilang sekitar 100 tahun. Sesudah Perang Dunia II, barulah kolintang muncul kembali yang dipelopori oleh Nelwan Katuuk (yang menyusun nada kolintang menurut susunan nada musik universal).\n" +
+                    "\n" +
+                    "Pada mulanya hanya terdiri dari satu melodi dengan susunan nada diatonis, dengan jarak nada 2 oktaf, dan pengiring dipakai alat-alat string seperti gitar, ukulele, dan stringbas. Tahun 1954 kolintang sudah dibuat 21/2 oktaf (masih diatonis). Pada tahun 1960 sudah mencapai 31/2 oktaf dengan nada 1 kruis, naturel, dan 1 mol. Dasar nada masih terbatas pada 3 kunci (naturel, 1 mol, 1 kruis) dengan jarak nada 4 v. oktaf dan dari F s/d C. Perkembangan musik kolintang baik kualitas alat, perluasan jarak nada, bentuk peti resonator (untuk memperbaiki suara), maupun penampilan telah berkembang dengan baik. Saat ini kolintang yang dibuat sudah mencapai 6 oktaf dengan kromatis penuh.\n" +
+                    "\n" +
+                    "Kelengkapan kolintang adalah sebagai berikut : B-Bas = Loway, C-Cello = Cello, T-Tenor 1 = Karua - Tenor 2 = Karua rua A-Alto 1 = Uner - Alto 2 = Uner rua U-Ukulele = Katelu M-Melody 1 = Ina esa - Melody 2 = Ina rua - Melody 3 = Ina taweng.\n" +
+                    "\n" +
+                    "Melodi fungsi pembawa lagu, dapat disamakan dengan melodi gitar, biola, xylophone, atau vibraphone. Hanya saja dikarenakan suaranya kurang panjang, maka pada nada yang diinginkan; harus ditahan dengan cara menggetarkan pemukulnya (ratn. Biasanya menggunakan dua pemukul, maka salah satu melodi pokok yang lain kombinasinya sama dengan orang menyanyi duet atau trio (jika memakai tiga pemukul). Bila ada 2 melodi, maka dapat digunakan bersama agar suaranya lebih kuat. Dengan begitu dapat mengimbangi pengiring (terutama untuk set lengkap) atau bisa juga dimainkan dengan cara memukul nada yang sama tetapi dengan oktaf yang berbeda, atau salah satu melodi memainkan pokok lagu, yang lain berupa improvisasi."
             , ""
-            , ""
-            , ""
-            , ""
+            , "https://cdnwpseller.gramedia.net/wp-content/uploads/2022/07/27084905/Alat-musik-kolintang1.jpg"
+            , "https://www.djkn.kemenkeu.go.id/files/images/2021/09/Manado_-_Kolintang_IE1.jpeg"
             , ""
             , ""
             , "")
@@ -1454,11 +1502,19 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "benda", "sulawesi selatan"
+        dbHelper.insertData("108","pinisi", "benda", "sulawesi selatan"
+            , "Perahu pinisi merupakan jenis perahu tradisional yang merupakan hasil dari teknologi tradisional masyarakat Bugis di Sulawesi Selatan. Perahu pinisi mempunyai ciri memiliki dua tiang layar utama dan tujuh buah layar; tiga buah layar di ujung depan, dua di tengah, dan dua di belakang. Perahu ini memiliki fungsi utama sebagai pengangkut barang antar pulau.\n" +
+                    "\n" +
+                    "Tidak diketahui secara jelas asal-usul dari nama pinisi, tetapi terdapat dua teori mengenai asal-usul penamaan pinisi. Teori pertama menyatakan bahwa pinisi berasal dari kata Venecia, sebuah kota pelabuhan di Italia. Diduga dari kata venecia inilah kemudian berubah menjadi penisi menurut dialek Konjo yang selanjutnya mengalami proses fonemik menjadi pinisi. Pengambilan nama kota tersebut diperkiran didasari atas kebiasaan orang Bugis Makassar mengabadikan nama tempat terkenal atau mempunyai kesan istimewa kepada benda kesayangannya, termasuk perahu.\n" +
+                    "\n" +
+                    "Sementara teori kedua berpendapat bahwa nama pinisi berasal dari kata panisi yang memiliki arti sisip.Mappanisi(menyisip) yaitu menyumbat semua persambungan papan, dinding, dan lantai perahu dengan bahan tertentu agar tidak kemasukan air. Dugaan tersebut berdasar pada pendapat yang menyatakan bahwa orang Bugis yang pertama menggunakan perahu pinisi. Lopi dipanisi' (Bugis) artinya perahu yang disisip. Diduga dari kata pinisi mengalami proses fonemik menjadi pinisi.\n" +
+                    "\n" +
+                    "Untuk bentuk perahu pinisi sendiri diperkirakan merupakan pengembangan dari perahu panjala. Panjala sendiri merupakan perahu yang dipergunakan nelayan untuk menjala (menangkap ikan), namun nama tersebut kemudian menjadi nama jenis perahu. Hubungan antara perahu panjala dengan pinisi terlihat dari bentuk lambung perahu pinisi yang memiliki kesamaan dengan perahu panjala.\n" +
+                    "\n" +
+                    "Sebelum masuk ke dalam proses pembuatan pinisi, kita terlebih dahulu mengenal sistem menajemen pertukangannya. Hal ini dikarenakan dalam pembuatan perahu diperlukan sekelompok tukang yang tidak sedikit sehingga diharuskan untuk memiliki pola manajemen yang tertata rapi untuk menjaga keharmonisan dalam komunitas tukang. Walaupun struktur ini bukan sesuatu yang resmi, namun ketaatan pada sistem dan struktur kerja tetap dipatuhi. Secara sederhana struktur tersebut terdiri dari punggawa atau panrita (kepala tukang), sawi (tukang) yang terdiri sawi kabusu dan sawi pemula, sambalu (pemilik perahu) dan ledeng yang merupakan dewan musyawarah."
             , ""
-            , ""
-            , ""
-            , ""
+            , "https://media.suara.com/pictures/970x544/2021/08/08/21652-kapal-pinisi.jpg"
+            , "https://asset.kompas.com/crops/gRqwCXP89p4Sxs1FDNA62VxdMLs=/128x85:1152x768/750x500/data/photo/2019/07/23/5d36afed83edd.jpg"
             , ""
             , ""
             , "")
@@ -1558,277 +1614,45 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
+        dbHelper.insertData("109","badik", "senjata", "sulawesi selatan"
+            , "Badik merupakan salah satu simbol identitas masyarakat Sulawesi. Badik secara universal berbicara bentuk, bahan, dan metode dimana di tiga wilayah ini akan ditemukan perbedaan-perbedaan dari tiap wilayah di Sulawesi. Namun jika kita masuk pada wilayah tujuan maka Badik punya tujuan yang sama. Sebab sama-sama dilahirkan oleh salah satu kebutuhan manusia yaitu rasa ingin aman, damai, dan terlindungi."
+            , ""
+            , "https://disbudpar.sulselprov.go.id/uploads/budaya/BADIK%20IDENTITAS%20BUGIS%20MAKASSAR.jpg"
+            , "https://asset.kompas.com/crops/fIOH9sh3_iYRJJFIngocAUdIh8w=/16x5:860x567/750x500/data/photo/2017/10/17/3149025439.jpg"
+            , "https://static.republika.co.id/uploads/images/inpicture_slide/badik-_131023170957-337.jpg"
+            , ""
+            , "")
 
         // ------------------------------------ ||||| ----------------------------------- //
-        dbHelper.insertData("","", "", "aceh"
+        dbHelper.insertData("110","coto makassar", "makanan", "sulawesi selatan"
+            , "Dalam masyarakat Makassar kemudian dikenal berbagai jenis masakan tradisional dengan bahan dasar daging dan tulang kerbau. Bahkan isi dalam kerbau seperti usus, hati, jeroan, limpa, dan jantung, dibuat makanan yang khas disebut coto, sementara tulang-belulangnya sampai ke tulang kaki dibuat pula makanan yang disebut konro dan sup kikil."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485488375.jpg"
+            , "https://asset.kompas.com/crops/ljY1r3f3HJaNEuLip3iARQOaK-E=/0x1226:3000x3226/750x500/data/photo/2021/06/11/60c2acf88c6f0.jpg"
             , ""
             , ""
+            , "")
+        dbHelper.insertData("111","papeda", "makanan", "papua barat"
+            , "Di Papua mempunyai makanan tradisional yaitu sagu, betatas, keladi, dan umbi-umbian. Makanan tradisional orang Papua adalah sagu. Sagu dalam bahasa orang Waropen/Napan/Sentani adalah Fi sedangkan untuk orang Yaur adalah Moore dan orang Moi menyebutnya Hi. Sagu adalah makanan pokok dan termasuk salah satu hal utama dalam setiap upacara adat masyarakat Papua. Sagu diolah menjadi beraneka ragam makanan dan mempunyai sebutan yang berbeda sesuai dengan bahan yang campur atau digunakan. Sagu yang dikelola sering dikombinasikan dengan buah-buahan, Biji-bijian, kacang-kacangan dan daging babi, ikan, udang, daging penyu dan siput laut."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485490655.jpg"
             , ""
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "", "sumatera utara"
+        dbHelper.insertData("112","rumah tongkonan", "benda", "sulawesi selatan"
+            , "Tongkonan adalah rumah tradisional masyarakat Toraja yang telah berlangsung sangat lama (tidak ada catatan resmi mengenai awal mula tongkonan). Tongkonan mengalami empat tahap perkembangan, yaitu tahap pertama disebut banua pandoko dena atau rumah pertama yang dikenal oleh masyarakat Toraja yang bentuknya agak bundar dengan dinding yang terbuat dari daun dan rumput-rumputan. Tahap kedua, banua lentong apa atau bentuk bangunan rumah yang mempunyai empat tiang tetapi tidak besar. Tahap ketiga, banua tamben atau rumah yang dibentuk menyusun kayu-kayu secara berselang-seling, dan tahap keempat banua tolo atau rumah yang menggunakan pasak besar."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "sumatera barat"
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485506703.jpg"
+            , "https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2021/12/30191712/Rumah-Adat-Tongkonan-2.jpg"
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "", "riau"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "jambi"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "sumatera selatan"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "bengkulu"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "lampung"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "kepulauan bangka belitung"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "kepulauan riau"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "dki jakarta"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "jawa barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "jawa tengah"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "di yogyakarta"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "jawa timur"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "banten"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "bali"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "nusa tenggara barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "nusa tenggara timur"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "kalimantan barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "kalimantan tengah"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "kalimantan selatan"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "kalimantan timur"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "kalimantan utara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "sulawesi utara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "sulawesi tengah"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "sulawesi selatan"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "sulawesi tenggara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "Gorontalo"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "sulawesi barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "maluku"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "maluku utara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "papua"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "", "papua barat"
-            , ""
-            , ""
-            , ""
-            , ""
+        dbHelper.insertData("113","rumah honai", "benda", "papua"
+            , "Honai berasal dari kata hun yang berarti laki-laki dewasa dan ai yang berarti rumah. Jadi, sebutan umum untuk rumah orang Dani adalah honai yang sekarang ini juga semakin dikenal luas oleh orang-orang di mana saja, baik di dalam dan di luar negeri, sedangkan Suku Yali menyebutnya Homea. Untuk mempertegas eksistensi laki-laki sebagai kepala keluarga, benda-benda berharga termasuk harta benda dan pusaka turun temurun (misalnya jimat/batu keramat/kaneke, kalung berharga, untaian kerang/jetak eken atau walimo eken, dan mikhak) disimpan di tempat khusus biasanya berupa lemari kayu kecil (kakok) yang ditutupi dengan dedaunan tertentu dan diletakkan di dinding belakang rumah. Kadang-kadang babi pun dimasukkan dalam pilamo karena babi juga merupakan harta benda berharga perlambang status sosial dan simbol yang dipakai dalam upacara adat.Honai dibangun berhadapan lurus dengan pintu utama luar. Di sini orang yang duduk di honai dapat melihat dan tahu siapa yang datang dan pergi, melihat orang berbuat apa di halaman rumah atau silimo. Pada bagian depan di bagian dalam honai antara tiang utama dengan pintu masuk, ditempatkan pipa-pipa rokok (hanom-oak) dan tempat sampah atau palungan (san). Saat upacara adat diadakan karena kematian seorang anggota masyarakat, sejumlah hewan dikorbankan selama 40 hari sejak kematian seseorang tersebut."
+            , ""
+            , "https://asset.kompas.com/crops/hfIev8H9bbgU2R7IVxbGR32wOLo=/0x0:1200x800/750x500/data/photo/2021/09/04/61334e074bfbc.jpg"
+            , "https://statics.indozone.news/local/621de13950aa8.jpg"
             , ""
             , ""
             , "")
