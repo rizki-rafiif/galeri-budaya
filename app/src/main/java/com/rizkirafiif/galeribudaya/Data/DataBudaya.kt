@@ -1264,7 +1264,7 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("96","molapi saronde", "non benda", "Gorontalo"
+        dbHelper.insertData("96","molapi saronde", "non benda", "gorontalo"
             , "Molapi Saronde secara harfiah terdiri dari kata molapi artinya menjatuhkan salentangi (selendang) yilonta (wewangian yang terbuat dari aneka kembang dan dedaunan rempah-rempah yang dicampur dengan minyak kelapa), selanjutnya disebut Saronde. Maksudnya ialah mempersilahkan menari dengan selendang yang harum semerbak kepada calon pengantin laki-laki, dalam acara mopotilantahu (mempertunangkan), sebagai bagian dari tata cara moponika (perkawinan) menurut ketentuan adat Gorontalo.\n" +
                     "\n" +
                     "Rangkaian acara itu (mopotilantahu dan molapi saronde) juga disebut motile huwali (meninjau kamar) dengan maksud memberi kesempatan kepada calon mempelai laki-laki untuk memastikan calon isteri yang akan dinikahi sesuai dengan yang direncanakan sebelumnya. Selain itu, calon mempelai laki-laki melalui tarian tersebut berkesempatan meninjau dan memastikan penataan kamar tidur yang dipersiapkan sesuai keinginannya.Tujuannya adalah untuk mewujudkan prosesi perkawinan adat secara ideal sebagai gerbang pencapaian keluarga sejahtera, sakinah mawaddah dan warahmah.\n" +
@@ -1526,7 +1526,7 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "benda", "Gorontalo"
+        dbHelper.insertData("","", "benda", "gorontalo"
             , ""
             , ""
             , ""
