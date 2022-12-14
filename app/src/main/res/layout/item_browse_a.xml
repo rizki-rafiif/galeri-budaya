@@ -14,6 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="item browse"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
         android:padding="10dp"/>
 
 </androidx.cardview.widget.CardView>

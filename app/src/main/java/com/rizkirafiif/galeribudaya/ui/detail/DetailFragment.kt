@@ -63,11 +63,29 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
         binding.tvDeskripsiDetail.text = "Jenis: $jenis\n" +
                 "Daerah: $daerah\n" +
                 "Deskripsi:\n$deskripsi"
-        binding.tvLinkGambar.text = "link gambar 1: $gambar1\n" +
-                "link gambar 2: $gambar2\n" +
-                "link gambar 3: $gambar3\n" +
-                "link gambar 4: $gambar4\n" +
-                "link gambar 5: $gambar5"
+
+        if (gambar5 != ""){
+            binding.tvLinkGambar.text = "link gambar 1: $gambar1\n" +
+                    "link gambar 2: $gambar2\n" +
+                    "link gambar 3: $gambar3\n" +
+                    "link gambar 4: $gambar4\n" +
+                    "link gambar 5: $gambar5"
+        } else if (gambar4 != ""){
+            binding.tvLinkGambar.text = "link gambar 1: $gambar1\n" +
+                    "link gambar 2: $gambar2\n" +
+                    "link gambar 3: $gambar3\n" +
+                    "link gambar 4: $gambar4\n"
+        } else if (gambar3 != ""){
+            binding.tvLinkGambar.text = "link gambar 1: $gambar1\n" +
+                    "link gambar 2: $gambar2\n" +
+                    "link gambar 3: $gambar3\n"
+        } else if (gambar2 != ""){
+            binding.tvLinkGambar.text = "link gambar 1: $gambar1\n" +
+                    "link gambar 2: $gambar2\n"
+        } else {
+            binding.tvLinkGambar.text = "link gambar 1: $gambar1\n"
+        }
+
 //        Glide.with(requireContext())
 //            .load(gambar1)
 //            .into(binding.ivDetail)
