@@ -977,75 +977,147 @@ class DataBudaya(context: Context) {
         // ------------------------------------ || -------------------------------------- //
 
         dbHelper.insertData("75","makyong", "non benda", "kepulauan riau"
+            , "Di daerah Kepulauan Riau, tradisi lisan Mak Yong telah dipertunjukkan sejak beberapa abad yang lalu dan menyebar sampai ke Bangka, Johor, Malaka, dan Pulau Pinang. Di Kepulauan Riau, Tradisi lisan ini berkembang pesat pada masa pemerintahan Kesultanan Riau (1722-1911). Seni pertunjukan teater Makyong dimainkan dengan tarian, nyanyian, dan lawakan yang terjalin dalam suatu alur cerita. Pemainnya 20 orang, yang pria bertopeng sedangkan yang wanita mengenakan kostum gemerlap. Makyong merupakan seni drama yang dapat digolongkan ke dalam bentuk drama tari yang mengandung unsur-unsur ritual. Makyong sangat digemari oleh masyarakat Riau, terutama di wilayah Kepulauan Riau, hiburan rakyat di pedesaan.\n" +
+                    "\n" +
+                    "Ada anggapan bahwa mulanya yang mempertunjukan Makyong adalah Dewa Hindu Jawa yang bernama Semar dan puteranya Turas. Ada yang menyatakan asal mula Makyong berasal dari \"Mak Hyang\", yaitu Dewi Sri, Dewi yang dikenal oleh orang Jawa. Tetapi ternyata lebih banyak pengaruh Siam dari pada pengaruh Jawa. Selain itu ada juga yang menyatakan asal usulnya bermula dari tontonan orang phatani (Thailand), Klantan , Trenggano, Pulau Pinang dan Kedah. Bentuk kesenian ini masuk ke daerah Kepulauan Riau pada masa kekuasaan Sultan Sulaiman pada abad XVIII Masehi.\n" +
+                    "\n" +
+                    "Dalam pertunjukan Makyong, pada umumnya ditampilkan cerita-cerita warisan yang diperoleh dari para tukang cerita secara lisan. Dialog antar pemain dilakukan secara improvisasi dan umumnya dialog ini berkembang sesuai kekuatan imajinatif pemain tanpa ada patokan. Diantara cerita Makyong yang dipentaskan adalah \"Tuan Putri Ratna Emas, Gunung lntan, Putri Makyang Emas, Ti mun Muda dan lain-lain.\n" +
+                    "\n" +
+                    "Cerita Makyong selalu berkisar tentang kehidupan kerajaan seperti cerita raja-raja, permaisuri, tuan putri, putri mahkota yang ditimpa musibah dan berakhir dengan kemenangan dengan melalui perjuangan. Kemenangan diperoleh dengan bantuan dewa-dewi dari kahyangan atau tokoh sakti yang berada di jalan yang benar.\n" +
+                    "\n" +
+                    "Peralatan yang diperlukan dalam pertunjukan adalah rotan, parang, keris, kapak, panah, tongkat kayu (untuk dijadikan sakti), cangai (kuku palsu yang panjang) sekali di buat dari bahan yang berkilat seperti emas dan lain-lain. Sedangkan alat-alat musik yang diperlukan adalah nafiri, gong, gedombak, gendang, mong dan breng-breng. Bertabik, selendang awang, kain kekek, timang-timang anak, dan saridam. Dan tari yang dibawakan menjunjung sambah, gembak, memanggil awang, tanduk dan lain-lain.\n" +
+                    "\n" +
+                    "Penampilan tari dan lagu yang diiringi oleh alat-alat musik disesuaikan dengan cerita yang dilakonkan. Para pemeran Makyong terdiri atas Pakyong (memerankan raja) Pak Yong Muda (memerankan pangeran), Putri Makyong (memerankan putri raja), Awang Pengasuh (pelayan raja), inang (pelayan wanita). Orang tua, dewa, jin dan raksasa, pembatak (penjahat). Kadang-kadang setiap orang memegang peran lebih dari satu (rangkap).\n" +
+                    "\n" +
+                    "Dalam penampilan, para pemain (terutama laki-laki) memakai topeng. Macam-macam topeng yang dipergunakan antara lain: topeng nenek betara guru, topeng awang pengasuh, topeng wak dukun, topeng raja jin dan topeng pembatak. Sementara pakaian dalam seni pertunjukan Makyong tidak terlalu mengikat, yang penting hendaklah dibedakan dengan jelas antara pakaian raja-raja dan keluarganya dengan orang kebanyakan."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "dki jakarta"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "jawa barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483947673.jpg"
+            , "https://www.goodnewsfromindonesia.id/uploads/post/large-mak-yong-bintan-d7df480bd45bcd1d63b9a47c9e483f4c.jpg"
+            , "https://seringjalan.com/wp-content/uploads/2020/04/Pertunjukan-Tari-Mak-Yong.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "jawa tengah"
+        dbHelper.insertData("76","ondel-ondel", "non benda", "dki jakarta"
+            , "Ondel-ondel adalah pertunjukan rakyat yang sudah berabad-abad terdapat di Jakarta dan sekitarnya, yang dewasa ini menjadi wilayah Betawi. Walau pun pertunjukan rakyat semacam itu terdapat pula di beberapa tempat lain seperti di Priangan dikenal dengan sebutan Badawang, di Cirebon disebut Barongan Buncis dan di Bali disebut Barong Landung, tetapi ondel-ondel memiliki karakteristik yang khas. Ondel-ondel tergolong salah satu bentuk teater tan pa tutur, karena pada mulanya dijadikan personifikasi leluhur atau nenek moyang, pelindung keselamatan kampung dan seisinya. Dengan demikian dapat dianggap sebagai pembawa lakon atau cerita, sebagaimana halnya dengan bekakak dalam upacara potong bekakak di gunung gamping di sebelah selatan kota Yogyakarta, yang diselenggarakan pada bu Ian sapar setiap tahunnya.\n" +
+                    "\n" +
+                    "Ondel-ondel berbentuk boneka besar dengan rangka anyaman bambu dengan ukuran kurang lebih 2,SM, tingginya dan garis tengahnya kurang dari 80 cm. Dibuat demikian rupa agar pemikul yang berada didalamnya dapat bergerak agak leluasa. Rambutnya dibuat dari ijuk, duk kata orang Betawi. Mukanya berbentuk topeng atau kedok, dengan mata bundar (bulat) melotot. Ondel-ondel yang menggambarkan laki-laki mukanya bercat merah, yang menggambarkan perempuan bermuka putih atau kuning. Ondel-ondel biasanya digunakan untuk memeriahkan arak-arakan, seperti mengarak pengantin sunat dan sebagainya. Lazimnya dibawa sepasang saja, laki dan perempuan. Tetapi dewasa ini tergantung dari permintaan yang empunya hajat. Bahkan dalam perayaan-perayaan umum seperti ulang tahun hari jadi kota Jakarta, biasa pula dibawa beberapa pasang, sehingga merupakan arak-arakan tersendiri yang cukup meriah. Disamping untuk memeriahkan arak-arakan pada masa yang lalu biasa pula mengadakan pertunjukan keliling, atau Ngamen. Terutama pada perayaan-perayaan Tahun Baru, baik masehi maupun lmlek. Sasaran pada perayaan Tahun Baru Masehi adalah daerah Menteng, yang banyak dihuni orang-orang Kristen. Pendukung utama kesenian ondel-ondel petani yang termasuk abangan, khususnya yang terdapat di daerah pinggiran kota Jakarta dan sekitarnya. Pembuatan ondel-onde/ dilakukan secara tertib, baik waktu membentuk kedoknya demikian pula pada waktu menganyam badannya dengan bahan bambu. Sebelum pekerjaan dimulai, biasanya disediakan sesajen yang antara lain berisi bubur merah putih, rujak-rujakan tujuh rupa, bunga-bungaan tujuh macam dan sebagainya, serta kemenyan yang dibakar. Demikian pula ondel-ondel yang sudah jadi, disediakan sesajen dan dibakari kemenyan, disertai mantera-mantera yang ditujukan kepada roh halus yang dianggap penunggu ondel-ondel tersebut. Sebelum dikeluarkan dari tempat penyimpanan, bila akan berangkat main, selalu diberi sesajen. Pembakaran kemenyan dilakukan oleh pimpinan rombongan, atau salah seorang yang dituakan. Menurut istilah setempat upacara demikian disebut ukup atau ngukup."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483949031.jpg"
+            , "https://cdn0-production-images-kly.akamaized.net/uEc6ru41kW4AzqKx0rcVN18C0p8=/640x853/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3471885/original/056202700_1622701319-PF25_Ondel-ondel_Betawi.jpg"
+            , "https://www.goodnewsfromindonesia.id/uploads/post/large-ondel2-ec67b0c63351df1071ba5043ec0253f7.jpg"
+            , "https://thumb.viva.co.id/media/frontend/thumbs3/2012/12/19/184598_aksi-ondel-ondel-betawi_665_374.jpg"
+            , "https://cdn.antaranews.com/cache/800x533/2022/06/20/antarafoto-pentas-budaya-betawi-di-kota-tua-jakarta-190622-app-6.jpg")
+        dbHelper.insertData("78","upacara ngarot", "non benda", "jawa barat"
+            , "Upacara Adat Ngarot atau Pesta Kasinoman diprakarsai oleh Ki Kapol yang datang dari Banten dalam rangka syiar Islam, di mana pada saat itu wilayah Lelea yang merupakan bagian dari Kerajaan Sumedang Larang masyarakatnya masih menganut agama Hindu. Pada saat itu sekitar abad ke-16, Ki Kapol memiliki sawah yang luas. Dengan cara mengumpulkan para Budak Laki Bujang (Pemuda) dan para Budak Wewe Cuwene (Pemudi/Gadis), Ki Kapol memberikan wejangan tentang bagaimana cara menggarap sawah yang baik sambil diselingi bercerita. Sehingga sawah Ki Kapol digarap oleh para Kasinoman/Budak laki, sementara Kasinoman/Budak Wewe mengantarkan makan dan minuman."
             , ""
+            , "https://terasmedia.net/wp-content/uploads/2022/07/adat-ngarot.jpg"
+            , "https://cdn0-production-images-kly.akamaized.net/HcclQRzGObZszkj3Dd7q64LBrEQ=/1231x710/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2551499/original/072116600_1545210685-20181219-Ngarot-9.jpg"
+            , "https://static.republika.co.id/uploads/images/inpicture_slide/sejumlah-gadis-mengikuti-upacara-adat-ngarot-di-desa-lelea_211222113037-210.jpg"
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485404936.jpg"
+            , "")
+        dbHelper.insertData("79","ruwatan rambut gimbal", "non benda", "jawa tengah"
+            , "Anak-anak yang berambut gimbal banyak ditemui di dataran tinggi Dieng dan lereng Gunung Sindoro-Sumbing serta di lereng Merbabu dan Kabupaten Banjarnegara. Rambut gimbal dianggap sebagai sesuker oleh karena itu untuk membersihkan sesuker itu harus dengan upacara ruwatan dengan cara mencukur bagian rambutnya yang gimbal. Ruwatan berasal dari kata ruwat yang artinya melepas dari nasib sial. Acara ruwatan dilakukan setelah si anak mengajukan permintaan sebagai persyaratan khusus yang disebut \"bebana\".Masyarakat Dieng meyakini munculnya rambut gimbal merupakan warisan leluhurnya yaitu Kyai Kolodete. Menurut cerita, demi kemakmuran desa, Kyai Kolodete bersumpah tidak akan memotong rambutnya dan tidak akan mandi sebelum desa yang dibukanya menjadi makmur, hal inilah yang menyebabkan keturunan Kyai Kolodete nantinya akan mempunyai ciri rambut yang sama seperti dirinya. Versi lain menyebutkan bahwa munculnya rambut gimbal pada anak-anak merupakan titipan Kanjeng Ratu Kidul di Pantai Selatan terutama bagi masyarakat yang masih menganut kepercayaan Kejawen."
             , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483932369.jpg"
+            , "http://assets.kompasiana.com/items/album/2021/05/08/img-20190727-wa0034-1-60964ff9d541df26c3469372.jpg"
+            , "https://jatengprov.go.id/wp-content/uploads/2019/07/IMG-20190727-WA0028.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "di yogyakarta"
+        dbHelper.insertData("81","upacara mubeng beteng", "non benda", "di yogyakarta"
+            , "Pada tahun 1919 Karaton Yogyakarta atas permintaan rakyat Yogyakarta melakukan upacara ritual berupa pengibaran bendera pusaka yang bernama Kangjeng Kyai Tunggulwulung, sambil berjalan kaki mengelilingi beteng karaton. Upacara tersebut dimaksudkan untuk mencegah dan menghentikan berjangkitnya penyakit influenza, yang saat itu mewabah secara luas melanda masyarakat Yogyakarta.Begitu besarnya keyakinan masyarakat pada masa itu terhadap keramatnya pusaka tersebut sehingga menganggap semua penyakit bisa disirnakan. Kangjeng Kyai Tunggulwulung konon merupakan bagian dari bungkus Kabah di Mekkah yang dibawa oleh Imam Syafei utusan Sultan HB I pada tahun 1784 M, sehingga karena pengaruh keyakinan dan sugesti, penyakit dan wabah tersebut dapat dihilangkan. Kejadian itu berulang pada tahun 1932, 1946, dan 1951."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "non benda", "jawa timur"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485406004.jpg"
+            , "https://img.okezone.com/content/2022/07/29/406/2638851/mengenal-tradisi-mubeng-beteng-tapa-bisu-sarana-introspeksi-diri-di-malam-1-suro-UxxQQXIYMx.JPG"
+            , "https://cdn.antaranews.com/cache/800x533/2012/11/20121114mubeng-beteng.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "banten"
+        dbHelper.insertData("82","keraben sape (karapan sapi)", "non benda", "jawa timur"
+            , "Karapan sapi merupakan salah satu jenis kesenian/olahraga/permainan tradisional yang selalu dilakukan oleh masyarakat P. Madura, Jawa Timur. Kerapan atau karapan sapi adalah satu istilah dalam bahasa Madura yang digunakan untuk menamakan suatu perlombaan pacuan sapi. Ada dua versi mengenai asal usul nama kerapan. Versi pertama mengatakan bahwa istilah \"kerapan\" berasal dari kata \"kerap\" atau \"kirap\" yang artinya \"berangkat dan dilepas secara bersama-sama atau berbondong-bondong''. Sedangkan, versi yang lain menyebutkan bahwa kata \"kerapan\" berasal dari bahasa Arab \"kirabah\" yang berarti \"persahabatan\". Pengertian yang umum saat ini, kerapan adalah suatu atraksi lomba pacuan khusus bagi binatang sapi. Sebagai catatan, di daerah Madura khususnya di Pulau Kangean terdapat lomba pacuan serupa yang menggunakan kerbau. Pacuan kerbau ini dinamakan mamajir dan bukan kerapan kerbau.\n" +
+                    "\n" +
+                    "Pada perlombaan ini, sepasang sapi yang menarik semacam kereta dari kayu (tempat joki berdiri dan mengendalikan pasangan sapi tersebut) dipacu dalam lomba adu cepat melawan pasangan-pasangan sapi lain.\n" +
+                    "\n" +
+                    "Jalur pacuan tersebut biasanya sekitar 100 meter dan lomba pacuan dapat berlangsung sekitar sepuluh sampai lima belas detik. Beberapa kota di Madura menyelenggarakan karapan sapi pada bulan Agustus dan September setiap tahun. Pertandingan final dilaksanakan di kota Pamekasan pada akhir September atau Oktober memperebutkan Piala Bergilir Presiden.\n" +
+                    "\n" +
+                    "Karapan Sapi yang menjadi ciri khas orang Madura ini sebenarnya terdiri dari beberapa macam, yaitu:\n" +
+                    "\n" +
+                    "• Kerap Keni (kerapan kecil)\n" +
+                    "\n" +
+                    "Kerapan jenis ini pesertanya hanya diikuti oleh orang-orang yang berasal dari satu kecamatan atau kewedanaan saja. Dalam kategori ini jarak yang harus ditempuh hanya sepanjang 110 meter dan diikuti oleh sapi-sapi kecil yang belum terlatih. Sedangkan penentu kemenangannya, selain kecepatan, juga lurus atau tidaknya sapi ketika berlari. Bagi sapi-sapi yang dapat memenangkan perlombaan, dapat mengikuti kerapan yang lebih tinggi lagi yaitu kerap raja.\n" +
+                    "\n" +
+                    "• Kerap Raja (kerapan besar)\n" +
+                    "\n" +
+                    "Perlombaan yang sering juga disebut kerap negara ini umumnya diadakan di ibukota kabupaten pada hari Minggu. Panjang lintasan balapnya sekitar 120 meter dan pesertanya adalah para juara kerap keni.\n" +
+                    "\n" +
+                    "• Kerap Onjangan (kerapan undangan)\n" +
+                    "\n" +
+                    "Kerap onjangan adalah pacuan khusus yang para pesertanya adalah undangan dari suatu kabupaten yang menyelenggarakannya. Kerapan ini biasanya diadakan untuk memperingati hari-hari besar tertentu.\n" +
+                    "\n" +
+                    "• Kerap Karesidenen (kerapan tingkat keresidenan)\n" +
+                    "\n" +
+                    "Kerapan ini adalah kerapan besar yang diikuti oleh juara-juara kerap dari empat kabupaten di Madura. Kerap karesidenan diadakan di Kota Pamekasan pada hari Minggu, yang merupakan acara puncak untuk mengakhiri musim kerapan.\n" +
+                    "\n" +
+                    "• Kerap jar-jaran (kerapan latihan)\n" +
+                    "\n" +
+                    "Kerapan jar-jaran adalah kerapan yang dilakukan hanya untuk melatih sapi-sapi pacuan sebelum diturunkan pada perlombaan yang sebenarnya.\n" +
+                    "\n" +
+                    "Karapan Sapi adalah salah satu jenis permainan rakyat yang banyak melibatkan berbagai pihak, yang diantaranya adalah: (1) pemilik sapi pacuan; (2) tukang tongko (orang yang bertugas mengendalikan sapi pacuan di atas kaleles); (3) tukang tambeng (orang yang menahan tali kekang sapi sebelum dilepas); (4) tukang gettak (orang yang menggertak sapi agar pada saat diberi aba-aba dapat melesat dengan cepat); (5) tukang tonja (orang yang bertugas menarik dan menuntun sapi); dan (6) tukang gubra (anggota rombongan yang bertugas bersorak-sorak untuk memberi semangat pada sapi pacuan)."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483950651.jpg"
+            , "https://awsimages.detik.net.id/community/media/visual/2020/04/19/fb4bd37e-fae2-4ef3-ad7c-1274c1ec6f29_169.jpeg?w=700&q=90"
+            , "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/07/22/2422730323.jpg"
+            , "https://cdn.antaranews.com/cache/730x487/2017/10/20171015Seleksi-Tingkat-Kabupaten-151017-sb-4.jpg"
+            , "")
+        dbHelper.insertData("83","debus banten", "non benda", "banten"
+            , "Kata Debus, sebenarnya adalah nama sebuah alat yang terbuat dari besi sepanjang 40 cm dengan ujung yang runcing. Pada pangkalnya diberi alas (dudukan) dari kayu yang diperkuat dengan lilitan pelat baja, agar tidak cepat terbelah jika dipukul. Di dalam permainan besi itu ditusukan kebagian-bagian tubuh, bahkan dipalu bagian pangkalnya, agar bisa menembus bagian-bagian tubuh yang ditusuk. Anehnya, walaupun tubuhnya tertembus alat itu pemain tidak merasa sakit dan tidak mengalami cedera, padahal dialaminya dalam keadaan sadar. Kata Debus merupakan perubahan arti dari kata Tembus.\n" +
+                    "\n" +
+                    "Pada abad XVII Masehi (tahun 1651 -1652) ketika Sultan Agung Tirtayasa memegang tampuk pemerintahan di Kesultanan Banten, sengaja diciptakan satu bentuk latihan bagi prajurit Banten ialah latihan perang atau perkelahian dengan menggunakan alat yang disebut Debus, selain alat-alat lain seperti pedang, golok, keris, tombak, dan sebagainya. Dalam latihan itu mereka berpasang-pasangan, kadang perang campuk. Dengan ketabahan, keuletan, dan keimanan yang kuat kepada Tuhan mereka dapat mengatasi segala ujian itu. Jadi pada mulanya Debus diciptakan untuk mempertahankan negara (peperangan). Karena Debus sudah ada sejak abad ke 17 tentu saja Debus termasuk permainan rakyat yang berusia cukup tua.\n" +
+                    "\n" +
+                    "Konon, kesenian yang disebut sebagai debus ini ada hubungannya dengan tarikat Rifaiah yang dibawa oleh Nurrudin Ar-Raniry ke Aceh pada abad ke-16. Para pengikut tarikat ini ketika sedang dalam kondisi epiphany (kegembiraan yang tak terhingga karena \"bertatap muka\" dengan Tuhan) kerap menghantamkan berbagai benda tajam ke tubuh mereka. Filosofi yang mereka gunakan adalah \"laa haula walla Quwata ilabillahil 'aliyyil adhim\" atau tiada daya upaya melainkan karena Allah semata. Jadi, kalau Allah mengizinkan, maka pisau, golok, parang atau peluru sekalipun tidak akan melukai mereka.\n" +
+                    "\n" +
+                    "Pada awalnya di Banten kesenian ini berfungsi untuk menyebarkan ajaran Islam. Namun, pada masa penjajahan Belanda dan pada saat pemerintahan Sultan Agung Tirtayasa, seni ini digunakan untuk membangkitkan semangat pejuang dan rakyat Banten untuk melawan Belanda. Dewasa ini, seiring dengan perkembangan zaman, kes enian ini hanya berfungsi sebagai sarana hiburan semata.\n" +
+                    "\n" +
+                    "Permainan debus biasanya dilakukan di halaman rumah pada saat diadakannya acara-acara lain yang melibatkan banyak orang. Peralatan yang digunakan dalam permainan adalah: (1) debus dengan godo-nya (2) golok yang digunakan untuk mengiris tubuh pemain debus; (3) pisau juga digunakan untuk mengiris tubuh pemain; (4) bola lampu yang akan dikunyah atau dimakan (sama seperti permainan kuda lumping di Jawa Tengah dan Timur; (5) panci yang digunakan untuk menggoreng telur di atas kepala pemain; (6) buah kelapa ; (7) minyak tanah dan lain sebagainya. Sementara alat musik pengiringnya antara lain: (1) gendang besar; (2) gendang kecil; (3) rebana; (4) seruling; dan (5) kecrek.\n" +
+                    "\n" +
+                    "Para pemain debus terdiri dari seorang syeh (pemimpin permainan), beberapa orang pezikir, pemain, dan penabuh gendang. satu sampai dua minggu sebelum diadakannya pertunjukan debus biasanya para pemain akan melaksanakan pantangan-pantangan tertentu agar selamat ketika melakukan pertunjukan, yaitu: (1) tidak boleh minum-minuman keras; (2) tidak boleh berjudi; (3) tidak boleh mencuri; (4) tidak boleh tidur dengan isteri atau perempuan lain; dan lain sebagainya."
             , ""
-            , ""
-            , ""
-            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485417931.jpg"
+            , "https://cdns.klimg.com/merdeka.com/i/w/news/2020/06/11/1186515/content_images/670x335/20200611163725-1-atraksi-debus-004-nfi.jpg"
+            , "https://i0.wp.com/www.biem.co/wp-content/uploads/2017/11/DEBUS.png"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "bali"
+        dbHelper.insertData("84","seni pertunjukan tektekan bali", "non benda", "bali"
+            , "Tektekan merupakan kesenian tradisional yang dilakukan secara turun temurun oleh masyarakat desa Kerambitan yang bersifat spontan, menggunakan alat-alat seperti cangkul, kuali, dan berbagai peralatan yang menimbulkan bunyi keras. Tektekan ini mempunyai fungsi khusus dalam kaitannya dengan kondisi dan situasi masyarakat desa Kerambitan."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://2.bp.blogspot.com/-ORCNE8nWU70/VqXKTJTBffI/AAAAAAAAAeY/OolaLTst6xA/w1200-h630-p-k-no-nu/Desa-Adat-Tenganan-Karangasem.jpg"
+            , "https://1001indonesia.net/asset/2022/03/Kesenian-Tektekan-1.jpg"
+            , "http://kebudayaan.kemdikbud.go.id/bpnbbali/wp-content/uploads/sites/14/2017/09/Dok.jpg"
             , ""
             , "")
-        dbHelper.insertData("","", "non benda", "nusa tenggara barat"
+        dbHelper.insertData("85","gendang beleq", "non benda", "nusa tenggara barat"
+            , "Gendang Beleq adalah seni musik tradisional Sasak yang dikenal oleh seluruh masyarakatnya. Penyebutan atau nama untuk Gendang Beleq bervariasi antara satu daerah dengan daerah lain. Bagi masyarakat Lombok Tengah Gendang Beleq disebut musik oncer, berbeda bagi masyarakat Lombok Barat disebut kecodak dan khususnya di Kecamatan Narmada disebut kedokdaq. Meskipun terdapat sebutan yang bervariasi namun semuanya merupakan sebarungan gamelan (peralatan gamelan) yang sama dengan menggunakan alat musik Gendang Beleq.\n" +
+                    "\n" +
+                    "Gendang Beleq adalah sebutan seperangkat peralatan musik, karena ukurannya besar dibandingkan dengan ukuran gendang pada umumnya. Gendang berarti kendang dan beleq berarti besar. Gendang besar (Gendang Beleq) ada dua jenis yang disebut gendang mama (laki-laki) dan gendang nina (perempuan). Perbedaan antara kedua gendang tersebut bukan pada bentuk fisiknya melainkan pada suara yang dihasilkan yaitu gendang mama lebih nyaring daripada gendang nina. Gendang Beleq selain sebagai alat musik sekaligus juga merupakan peralatan tari karena memainkan musik dalam keadaan menari seperti dalam tarian oncer.\n" +
+                    "\n" +
+                    "Bagian-bagian dari Gendang Beleq antara lain :\n" +
+                    "\n" +
+                    "- rampeng yaitu penampang gendang yang terbuat dari kulit sapi\n" +
+                    "\n" +
+                    "- batang yaitu badan gendang yang dibuat dari kayu tap\n" +
+                    "\n" +
+                    "- jangat, yaitu tali yang bahannya dari kulit\n" +
+                    "\n" +
+                    "- wangkis, yaitu tali penguat yang melingkari rampeng terbuat dari kulit\n" +
+                    "\n" +
+                    "- pengulung, yaitu pembungkus kawat.\n" +
+                    "\n" +
+                    "Ukuran Gendang Beleq tidak ada yang standar namun tingginya rata-rata lebih dari 90 cm. Garis tengah rempeng yang kecil kurang lebih berukuran 34 cm dan yang besar 41 cm. Pada ke dua bagian ujung gendang diberi ornamen berupa ragam hias berbentuk bunga dan daun. Sedangkan di bagian tengah diberi hiasan kotak-kotak hitam putih berselang seling dengan pinggiran warna merah.Warna-warna tersebut mempunyai makna tertentu yaitu merah melambangkan semangat, putih melambangkan kejujuran, dan hitam melambangkan semangat jiwa yang membaja. Hal ini sesuai dengan fungsi Gendang Be leq untuk memberi semangat para prajurit yang harus mempunyai semangat, harus memiliki watak satria yaitu kejujuran.\n" +
+                    "\n" +
+                    "Gendang Beleq biasa dimainkan di panggung maupun di lapangan terbuka. Susunan pendukung musik Gendang Beleq dan penarinya yang baku terdiri dari 40 orang, dan dipertunjukkan pada acara-acara khusus seperti Maulud Nabi, Lebaran, upacara perkawinan, khitanan dan cukur rambut bayi. Sedangkan yang tidak baku terdiri dari 17 orang dipertunjukkan untuk menyambut tamu, perlombaan atau festival.\n" +
+                    "\n" +
+                    "Untuk dapat bermain Gendang Beleq perlu belajar irama musiknya terlebih dahulu. Belajar memainkan Gendang Beleq dilakukan dengan cara peniruan. Pertama-tama latihan pukulan yang dilakukan dalam waktu +1 minggu dan dilakukan setiap malam. Yang sulit adalah belajar menari sambil sekaligus memainkan irama musiknya, ini memerlukan waktu lebih kurang 1 bulandan dilakukan setiap malam. Pada dasarnya siapa saja boleh ikut bermain Gendang Beleq, namun karena kesulitan terutama pada tari Gendang Beleqnya maka sedikit orang yang bisa menari Gendang Beleq."
             , ""
-            , ""
-            , ""
-            , ""
-            , ""
+            , "https://pelopor.id/wp-content/uploads/2021/12/Gendang-Beleq.jpg"
+            , "https://lh3.googleusercontent.com/-7n7uOoJdoUg/WlvgZcwQ1WI/AAAAAAAAEXQ/u4tK4JDTSq4h0bkZ0MMZat5KxEsiiGJTgCHMYCw/s640/blogger-image-1503049743.jpg"
+            , "https://www.wartantb.com/wp-content/uploads/2017/11/gendang-beleq.jpg"
             , ""
             , "")
         dbHelper.insertData("","", "non benda", "nusa tenggara timur"
@@ -1450,11 +1522,43 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "", ""
+
+        // --------------------------------- |||| -------------------------------- //
+        dbHelper.insertData("78","kujang", "senjata", "jawa barat"
+            , "Secara umum, Kujang mempunyai pengertian sebagai pusaka yang mempunyai kekuatan tertentu yang berasal dari para dewa (Hyang), dan sebagai sebuah senjata sejak dahulu. Hingga saat ini Kujang menempati satu posisi yang sangat khusus di kalangan masyarakat Jawa Barat (Sunda). Sebagai lam bang atau simbol dengan nilai-nilai filosofis yang terkandung di dalamnya, Kujang dipakai sebagai salah satu estetika dalam beberapa lambang organisasi serta pemerintahan. Disamping itu, Kujang pun dipakai pula sebagai sebuah nama dari berbagai organisasi, kesatuan dan tentunya dipakai pula oleh Pemda Propinsi Jawa Barat.\n" +
+                    "\n" +
+                    "Di masa lalu Kujang tidak dapat dipisahkan dari kehidupan masyarakat Sunda karena fungsinya sebagai peralatan pertanian. Pernyataan ini tertera dalam naskah kuno Sanghyang Siksa Kanda Ng Karesian (1518 M) maupun tradisi lisan yang berkembang di beberapa daerah diantaranya di daerah Rancah, Ciamis. Bukti yang memperkuat pernyataan bahwa kujang sebagai peralatan berladang masih dapat kita saksikan hingga saat ini pada masyarakat Baduy, Banten dan Pancer Pangawinan di Sukabumi.\n" +
+                    "\n" +
+                    "Dengan perkembangan kemajuan, teknologi, budaya, sosial dan ekonomi masyarakat Sunda, Kujang pun mengalami perkembangan dan pergeseran bentuk, fungsi dan makna. Dari sebuah peralatan pertanian, kujang berkembang menjadi sebuah benda yang memiliki karakter tersendiri dan cenderung menjadi senjata yang bernilai simbolik dan sakral. Wujud baru kujang tersebut seperti yang kita kenal saat ini diperkirakan lahir antara abad 9 sampai abad 12.\n" +
+                    "\n" +
+                    "Dalam Wacana dan Khasanah Kebudayaan Nusantara, Kujang diakui sebagai senjata tradisional masyarakat Jawa Barat (Sundal dan Kujang dikenal sebagai senjata yang memiliki nilai sakral serta mempunyai kekuatan magis. Beberapa peneliti menyatakan bahwa istilah Kujang berasal dari kata kudihyang dengan akar kata kudi dan hyang.\n" +
+                    "\n" +
+                    "Kudi diambil dari bahasa Sunda Kuno yang artinya senjata yang mempunyai kekuatan gaib sakti, sebagai jimat, sebagai penolak bala, misalnya untukmmenghalau musuh atau menghindari bahaya/penyakit. Senjata ini juga disimpan sebagai pusaka, yang digunakan untuk melindungi rumah dari bahaya dengan meletakkannya di dalam sebuah peti atau tempat tertentu di dalam rumah atau dengan meletakkannya di atas tempat tidur. Sedangkan hyang dapat disejajarkan dengan pengertian Dewa dalam beberapa mitologi, namun bagi masyarakat Sunda Hyang mempunyai arti dan kedudukan di atas Dewa. Hal ini tercermin di dalam ajaran \"Dasa Prebakti\" yang tercermin dalam naskah Sanghyang Siksa Kanda Ng Karesian disebutkan \"Dewa bakti di Hyang''.\n" +
+                    "\n" +
+                    "Karakteristik sebuah kujang memiliki sisi tajaman dan nama bagian, antara lain : papatuk/congo (ujung kujang yang menyerupai panah), eluk/silih (lekukan pada bagian punggung), tadah (lengkungan menonjol pada bagian perut) dan mata (lubang kecil yang ditutupi logam emas dan perak). Selain bentuk karakteristik bahan kujang sangat unik cenderung tipis, bahannya bersifat kering, berpori dan banyak mengandung unsur logam alam.\n" +
+                    "\n" +
+                    "Dalam Pantun Bogar sebagaimana dituturkan oleh Anis Djatisunda (996-2000), kujang memiliki beragam fungsi dan bentuk. Berdasarkan fungsi, kujang terbagi empat antara lain : Kujang Pusaka (lambang keagungan dan pelindungan keselamatan), Kujang Pakarang (untuk berperang), Kujang Pangarak (sebagai a lat upacara) dan Kujang Pamangkas (sebagai alat berladang). Sedangkan berdasarkan bentuk bilah ada yang disebut Kujang Jago (menyerupai bentuk ayam jantan), Kujang Ciung (menyerupai burung ciung), Kujang Kuntul (menyerupai burung kuntul/bango), Kujang Badak (menyerupai badak), Kujang Naga (menyerupai binatang mitologi naga) dan Kujang Bangkong (menyerupai katak). Disamping itu terdapat pula tipologi bilah kujang berbentuk wayang kulit dengan tokoh wanita sebagai simbol kesuburan.\n" +
+                    "\n" +
+                    "Menurut orang tua ada yang memberikan falsafah yang sangat luhur terhadap Kujang sebagai; Ku-Jang-ji rek neruskeun padamelan sepuh karuhun urang Janji untuk meneruskan perjuangan sepuh karuhun urang/ nenek moyang yaitu menegakkan cara-ciri manusia dan cara ciri bangsa. Apa itu? Cara-ciri Manusia ada 5: Welas Asih (Cinta Kasih), Tatakrama (Etika Berprilaku), Undak Usuk (Etika Berbahasa), Budi Daya Budi Basa, Wiwaha Yuda Na Raga Ngaji Sadan. Ciri-ciri Bangsa ada 5: Rupa, Basa, Adat, Aksara, Kebudayaan."
             , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483949471.jpg"
+            , "https://koropak.co.id/storage/img/cover/kujang-pusaka-dan-lambang-keagungan.jpg"
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/09/Kujang-foto-by-.pikiran-rakyat.com_.jpg"
             , ""
+            , "")
+        dbHelper.insertData("80","keris", "senjata", "jawa tengah"
+            , "Keris adalah benda budaya yang eksotik dan original. Keris merupakan 'karya seni' sekaligus 'benda budaya' asli Nusantara. Budaya keris terbentang dari ujung Pulau Sumatra di barat, Semenanjung Siam dan Sulu di Utara, Gugusan kepulauan Maluku di Timur dan Kepulauan Nusa Tenggara di Selatan. Keris menjadi identitas pengikat yang mendorong rasa kebangsaan itu tumbuh subur di Nusantara. Rasa kebangsaan memerlukan simbol, bukan hanya dalam pengertian simbol yang bersifat abstrak melainkan simbol nyata yang dapat mewakili hampir seluruh suku bangsa yang ada di Nusantara. Bukti sejarah menunjukkan pengaruh budaya keris dalam teknik tempa logam yang digunakan oleh suku-suku bangsa yang mendiami kepulauan Nusantara. Budaya keris menyebar sejalan dengan perdagangan dan hubungan diplomatik diantara kerajaan-kerajaan di Nusantara.\n" +
+                    "\n" +
+                    "Keris merupakan senjata tikam golongan belati (berujung runcing dan tajam pada kedua sisinya) dengan banyak fungsi budaya yang dikenal di kawasan Nusantara bagian barat dan tengah. Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya karena tidak simetris di bagian pangkal yang melebar, seringkali bilahnya berkelok-kelok, dan banyak di antaranya memiliki parnor (serat-serat lapisan logam cerah) pada helai bilah. Pada masa lalu keris berfungsi sebagai senjata dalam peperangan, sekaligus sebagai benda pelengkap sesajian. Saat ini, penggunaan keris lebih banyak sebagai ornamen pelengkap dalam berbusana adat. Sebagai produk kebudayaan, keris mengandung sejumlah nilai luhur kebudayaan pembuatnya yang disimbolkan dalam berbagai bagian keris. Selain itu, keris juga marak menjadi benda koleksi yang dinilai dari segi estetikanya.\n" +
+                    "\n" +
+                    "Penggunaan keris tersebar pada masyarakat penghuni wilayah yang pernah terpengaruh oleh Majapahit, seperti Jawa, Madura, Nusa Tenggara, Sumatera, pesisir Kalimantan, sebagian Sulawesi, Semenanjung Malaya, Thailand Selatan dan Filipina Selatan (Mindanao). Keris Mindanao dikenal sebagai kalis. Keris di setiap daerah memiliki kekhasan sendiri-sendiri dalam penampilan, fungsi, teknik garapan, serta peristilahan. Keris Indonesia telah terdaftar di UNESCO sebagai Warisan Budaya Dunia Non-Bendawi Manusia sejak tahun 2005.\n" +
+                    "\n" +
+                    "Keris atau dhuwung terdiri dari tiga bagian utama, yaitu bilah (wilah atau daun keris), ganja (penopang), dan hulu keris (ukiran, pegangan keris). Bagian yang harus ada adalah bilah. Hulu keris dapat terpisah maupun menyatu dengan bilah. Ganja tidak selalu ada, tapi keris-keris yang baik selalu memilikinya. Keris sebagai senjata dan alat upacara dilindungi oleh sarung keris atau warangka.\n" +
+                    "\n" +
+                    "Bilah keris merupakan bagian utama yang menjadi identifikasi suatu keris. Pengetahuan mengenai bentuk (dhapur) atau morfologi keris menjadi hal yang penting untuk keperluan identifikasi. Bentuk keris memiliki banyak simbol spiritual selain nilai estetika. Hal-hal umum yang perlu diperhatikan dalam morfologi keris adalah kelokan (luk), ornamen (ricikan), warna atau pancaran bilah, serta pola pamor. Kombinasi berbagai komponen ini menghasilkan sejumlah bentuk standar (dhapur) keris yang banyak dipaparkan dalam pustaka-pustaka mengenai keris. Pengaruh waktu mempengaruhi gaya pembuatan."
             , ""
-            , ""
+            , "https://awsimages.detik.net.id/community/media/visual/2021/03/04/keris-1.jpeg?w=700&q=90"
+            , "http://kebudayaan.kemdikbud.go.id/bpcbyogyakarta/wp-content/uploads/sites/37/2015/03/Keris-Nogososro.jpg"
             , ""
             , ""
             , "")
