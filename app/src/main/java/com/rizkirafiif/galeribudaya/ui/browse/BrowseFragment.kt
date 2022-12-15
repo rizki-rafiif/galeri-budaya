@@ -55,7 +55,8 @@ class BrowseFragment : Fragment() {
             bundle.putString("search", dataSearch)
             val fragRes = ResultFragment()
             fragRes.arguments = bundle
-            
+            // to clear the text
+            // binding.etSearch.text.clear()
             requireActivity().supportFragmentManager.commit {
                 replace(R.id.fragment_container_view, fragRes)
                 setReorderingAllowed(true)
