@@ -52,7 +52,6 @@ class MakananFragment : Fragment() {
                 adapter.listMakanan = budaya
             } else {
                 adapter.listMakanan = ArrayList()
-                binding.tvWarningNull.text = "Data masih kosong"
                 //Snackbar.make(binding.rvMakanan, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
             }
         }

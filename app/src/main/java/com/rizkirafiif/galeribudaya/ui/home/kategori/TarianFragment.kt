@@ -51,7 +51,6 @@ class TarianFragment : Fragment(R.layout.fragment_tarian) {
                 adapter.listBud = budaya
             } else {
                 adapter.listBud = ArrayList()
-                binding.tvWarningNull.text = "Data masih kosong"
             }
         }
     }

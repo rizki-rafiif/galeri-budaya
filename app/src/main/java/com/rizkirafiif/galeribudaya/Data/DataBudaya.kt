@@ -1340,94 +1340,6 @@ class DataBudaya(context: Context) {
             , "")
 
         // ------------------------------------ ||| ----------------------------------- //
-        dbHelper.insertData("","", "benda", "kepulauan bangka belitung"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "kepulauan riau"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "dki jakarta"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "jawa barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "jawa tengah"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "di yogyakarta"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "jawa timur"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "banten"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "bali"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "nusa tenggara barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "nusa tenggara timur"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
         dbHelper.insertData("102","kledik", "benda", "kalimantan barat"
             , "Alat musik kledik terdapat di Kabupaten Melawi, khususnya di Kecamatan Nanga Pinoh. Cara memainkannya adalah dengan meniupnya melalui lubang yang tersedia pada alat musik ini. Alat musik ini dimainkan dengan tiupan melalui lubang pada buah bambu, kemudian tangan kiri memegang bagian bawah bambu yang berlubang, selanjutnya tangan kanan memegang bambu pada bagian sebelah kanan. Setelah posisi serasi maka dimulailah meniup alat tersebut, dan bunyi yang dihasilkan tergantung pada tiupan dan nada yang tertekan pada lubang bambu."
             , ""
@@ -1494,14 +1406,6 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
-        dbHelper.insertData("","", "benda", "sulawesi tengah"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
         dbHelper.insertData("108","pinisi", "benda", "sulawesi selatan"
             , "Perahu pinisi merupakan jenis perahu tradisional yang merupakan hasil dari teknologi tradisional masyarakat Bugis di Sulawesi Selatan. Perahu pinisi mempunyai ciri memiliki dua tiang layar utama dan tujuh buah layar; tiga buah layar di ujung depan, dua di tengah, dan dua di belakang. Perahu ini memiliki fungsi utama sebagai pengangkut barang antar pulau.\n" +
                     "\n" +
@@ -1515,62 +1419,6 @@ class DataBudaya(context: Context) {
             , ""
             , "https://media.suara.com/pictures/970x544/2021/08/08/21652-kapal-pinisi.jpg"
             , "https://asset.kompas.com/crops/gRqwCXP89p4Sxs1FDNA62VxdMLs=/128x85:1152x768/750x500/data/photo/2019/07/23/5d36afed83edd.jpg"
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "sulawesi tenggara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "gorontalo"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "sulawesi barat"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "maluku"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "maluku utara"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "papua"
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , ""
-            , "")
-        dbHelper.insertData("","", "benda", "papua barat"
-            , ""
-            , ""
-            , ""
-            , ""
             , ""
             , ""
             , "")
@@ -1622,8 +1470,6 @@ class DataBudaya(context: Context) {
             , "https://static.republika.co.id/uploads/images/inpicture_slide/badik-_131023170957-337.jpg"
             , ""
             , "")
-
-        // ------------------------------------ ||||| ----------------------------------- //
         dbHelper.insertData("110","coto makassar", "makanan", "sulawesi selatan"
             , "Dalam masyarakat Makassar kemudian dikenal berbagai jenis masakan tradisional dengan bahan dasar daging dan tulang kerbau. Bahkan isi dalam kerbau seperti usus, hati, jeroan, limpa, dan jantung, dibuat makanan yang khas disebut coto, sementara tulang-belulangnya sampai ke tulang kaki dibuat pula makanan yang disebut konro dan sup kikil."
             , ""
@@ -1656,6 +1502,144 @@ class DataBudaya(context: Context) {
             , ""
             , ""
             , "")
+        dbHelper.insertData("114","mandau", "senjata", "kalimantan timur"
+            , "Mandau merupakan senjata tradisional yang terbagi menjadi 3 bagian : ulu/balung (pegangan), sarung (kumpang), dan bilah. Meskipun sekilas semua mandau terlihat sama, tetapi apabila dicermati terdapat perbedaan pada lengkungan bilahnya. Sedangkan perbedaan hiasan pada mandau dapat berfungsi sebagai identitas bagi sub-sub suku Dayak yang memiliki mandau tersebut. Dalam kepercayaan masyarakat setempat, ambang birang bitang pono ayun kayau (mandau) harus dirawat dan disimpan dengan baik, karena memiliki kekuatan spiritual yang mampu melindungi pemilikinya."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485485524.jpg"
+            , "https://asset.kompas.com/crops/tFU7dQw68kLqbgo_X_Ls2Rrn8-I=/0x0:750x500/750x500/data/photo/2022/01/17/61e58cc297a66.jpg"
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("115","golok sulangkar", "senjata", "banten"
+            , "Golok Sulangkar merupakan salah satu jenis golok yang umum ditemui di daerah Banten. Golok ini dinamakan Sulangakar, diambil dari salah satu jenis besi yang digunakan, yaitu besi Sulangkar. besi sulangkar itu merupakan besi yang diambil dari injakan, undakan, foot step delman, atau sado yang sudah tua. Besi injakan delman itulah yang disebut besi sulangkar. Besi pelat sulangkar ini dapat juga diperoleh dari bekas pelat mobil bekas, kikir bekas, bahkan ranjang besi bekas. Syaratnya jenis besi sulangkar yang dipergunakan harus asli berasal dari jenis pelat hitam yang sudah tua dan pernah dipergunakan oleh orang-orang zaman dulu atau bekas pakai. Karena menurut mitos yang beredar di Ciomas, konon besi-besi kuno dipercayai mengandung unsur mistis yang kuat, sehingga ketika dijadikan golok, aura mistisnya masih ada didalam golok tersebut.\n" +
+                    "\n" +
+                    "Dilihat dari penampilan fisiknya, Golok Sulangkar asli Ciomas memiliki ciri khas dari bilah goloknya. Sulangkar asli memiliki urat/serat yang tidak bisa lebih dari empat garis, pada umumnya hanya memiliki tiga garis atau urat serat saja dengan warna hitam kemerahan bukan hitam kehijauan seperti yang banyak ditemukan, dan garisnya pun nampak besar, karena sifat sulangkar lunak mudah mencair jadi tidak mungkin manjadi garis atau serat yang banyak dan kecil. Serat yang berwarna hitam kemerahan ini, menjadikan Golok Sulangkar Ciomas terlihat seperti berkarat dan tumpul. Padahal sebenarnya tidak, malah sebaliknya sangat tajam.\n" +
+                    "\n" +
+                    "Dari segi fungsi, Golok Sulangkar Ciomas juga memiliki kekhasan yang tidak dimiliki oleh golok-golok lainnya. Menurut penuturan para narasumber, pada masa lalu Golok Sulangkar Ciomas terkenal karena memiliki daya binasa yang sangat kuat. Daya binasa ini diperoleh golok karena ketajaman bilah dan racun yang ditanamkan pande pada bilah golok sejak awal penempaan. Racun ini dapat diperoleh dari jenis racun hewan maupun racun tumbuhan. Saking kuatnya racun yang ada pada sebuah bilah Golok Ciomas, masyarakat pada masa lalu menggunakannya untuk melumpuhkan dan mencederai musuh. Hanya dengan menggoreskan golok sedikit saja pada bagian tubuh lawan, luka yang dihasilkan akan sangat dalam dan akan sangat sulit untuk sembuh. Seiring dengan berjalannya waktu, fungsi mematikan dari Golok Ciomas berangsur menghilang, namun ketenarannya masih menjadi buah bibir ditengah masyarakat."
+            , ""
+            , "https://www.hitamputih.co.id/wp-content/uploads/2021/02/GOLOK-SULANGKAR.jpg"
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("116","golok ciomas", "senjata", "banten"
+            , "Sejarah Golok Sulangkar Ciomas, dituturkan secara turun temurun berdasarkan mitos yang beredar ditengah masyarakat, karena tidak ditemukan bukti otentik kapan sebenarnya dan siapa yang pertama kali membuat Golok Sulangkar Ciomas, hingga keberadaannya dikenal luas hingga saat ini. Demikian juga nilai mistis yang dipercaya terkandung pada Golok Sulangkar Ciomas, merupakan sebuah bukti bahwa sejarah awal keberadaannya pernah tersiar dari Ciomas.\n" +
+                    "\n" +
+                    "Peninggalan leluhur paling tua dari sejarah Golok Sulangkar Ciomas adalah sebuah palu godam yang bernama Godam Ki Cengkuk dan golok yang bernama Si Rebo. Kedua benda tersebut menjadi benda keramat yang hanya dapat dilihat oleh masyarakat umum satu tahun sekali pada bulan Mulu (Rabiul Awal), ketika dilaksanakan ritual pengolesan golok oleh Godam Ki Cengkuk. Dan keduanya hingga saat ini masih tersimpan dengan aman dibawah penjagaan seorang keturunan Ki Cengkuk sebagai pemilik awal palu godam tersebut. Dia adalah Duhari, sebagai pembawa pusaka Golok Si Rebo dan Godam Ki Cengkuk.\n" +
+                    "\n" +
+                    "Dalam menjaga tradisi Golok Ciomas sebagai, sebuah warisan budaya leluhur masyarakat Ciomas, terdapat setidaknya tiga peran yang saling berkaitan. Pertama adalah pande, pemegang pusaka Godam Si Denok, dan pemimpin ritual Mulud Golok Ciomas. Pada Ritual Mulud juga terdapat seorang yang sangat berperan mengendalikan popularitas Golok Ciomas, yaitu Ki Muhaimin. Ki Muhaimin juga merupakan salah satu keturunan Ki Cengkuk, bersama dengan tokoh-tokoh masyarakat Ciomas lainnya, Ki Muhaimin didaulat menjadi pemimpin Ritual Muludan. Tidak hanya itu, karena Ritual Muludan golok di Ciomas syarat dengan berbagai tahapan ritual, maka tugas Ki Muhaimin ini juga cukup pada setiap pelaksanaan Ritual Muludan golok di Ciomas.\n" +
+                    "\n" +
+                    "Ki Muahimin bertugas dari awal, yaitu sejak pertama kali mendapatkan ilafat atau petunjuk mencari lokasi besi ini di daerah Ciomas hingga sebuah Golok Ciomas selesai dibuat oleh pande, Ki Muhaimin bertanggungjawab mengawalnya. Proses Ritual Muludan dimulai pada saat besi inti mulai ditemukan, kemudian puncaknya pada malam hari tanggal 11 mulud menjelang tanggal 12 mulud."
+            , ""
+            , "https://cdn.idntimes.com/content-images/post/20211019/golokciomas4-031253f1cce71612b4cafa1130713d84.jpeg"
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("117","karawo", "benda", "gorontalo"
+            , "Karawo merupakan kerajinan khas Gorontalo yang dikenal sejak abad ke - 18. Kata Karawo merupakan kepanjangan dari Ka = Kakayita,artinya saling kait; La = Lalanteya, artinya saling berantai; Wo = wowo'ala, artinya saling pisah, maksudnya pekerjaan menyulam yang dilaksanakan dengan cara mengaitkan benang satu ke benang yang lain dan berantai. Apabila salah dalam mengerjakannya, benang tersebut bisa dipisahkan atau dibuka kembali. Kerajinan tangan ini awalnya dikerjakan oleh ibu-ibu dan anak gadis secara individual sebagai pengisi waktu senggang dan hasilnya dipakai untuk kebutuhan sendiri."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485507308.jpg"
+            , "https://akcdn.detik.net.id/visual/2015/05/11/f3277dd0-2ad3-4ebf-b64a-fdf95c5d1c63_169.jpg?w=650"
+            , "https://voinews.id/indonesian/media/k2/items/cache/c563332796a8fa6fedfaa03008eb1a2d_XL.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("118","calong", "benda", "sulawesi barat"
+            , "Calong adalah alat musik tradisional dari peovinsi Sulawesi Barat dan sudah digunakan sejak dahulu kala dan masih digunakan hingga saat ini. Calong adalah alat musik pukul yang terbuat dari buah kelapa tua yang dipotong permukaan atas dan bawah, kemudian pada permukaan atasnya diberi besi dan bambu yang dipotong sebanyak empat dengan ukuran panjang 30 cm. Cara memainkannya dengna dipukul dengan menggunakan potongan bambu mirip cara memainkan kolintang, dipadukan dengan alat musik tradisional lainnya untuk mengiringi tarian tradisional Sulawesi Barat. Mengenai asal-usulnya, diperkirakan alat musik calong adalah hasil pengembangan gandi-ganding yang diperkirakan sebelum abad ke-15. Sedangkan pengembangannya menjadi calong diperkirakan di awal peradaban Arajang Balanipa (abad ke-15). Disebut calong, mungkin berasal dari dua kata caq dan long. Caq itu bunyi yang dikeluarkan saat pemukul mengenai bilah dan long berasal dari kata tillotillong (suara mendayu-dayu) atau unsur bunyi alat musik yang menghantar getaran tabuh inti instrumen itu sendiri. Sedangkan calong secara terminologi adalah sebuah alat musik tradisional Mandar yang termasuk jenis musik idiofon."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1485223654.jpg"
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/11/Calong-by-referensi.data_.kemdikbud.go_.id_.jpg"
+            , "https://pariwisataindonesia.id/wp-content/uploads/2020/11/alat-musik-calong-by-referensidatakemdikbudgoid-640x425.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("119","kerak telor", "makanan", "dki jakarta"
+            , "Kerak telor adalah makanan asli daerah Jakarta (Betawi) yangsudah dikenal sejak zaman Belanda. Adapun bahan utama kerak telor terdiri dari beras ketan putih, telur ayam, ebi (udang kering yang diasinkan) yang disangrai kering ditambah bawang merah goreng, lalu diberi bumbu yang dihaluskan berupa kelapa sangrai, cabai merah, kencur, jahe, merica butiran, garam dan gula pasir. Sajian kerak telor biasanya diiringi dengan secangkir teh atau kopi dan sangat nikmat untuk disantap pada pagi, sore atau malam hari."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1484030400.jpg"
+            , "https://www.goodnewsfromindonesia.id/uploads/post/large-serundeng-dan-bawnag-goreng-b3690e2b99b28f0deeff89ea3ec895cc.jpg"
+            , "https://img.okezone.com/content/2020/06/22/298/2234131/rayakan-hut-dki-jakarta-bikin-kerak-telor-di-rumah-yuk-P6OVMIX9xJ.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("120","bir pletok", "makanan", "dki jakarta"
+            , "Bir pletok yang dikenal sebagai minuman khas betawi ini ternyata sudah dikenal sejak zaman Belanda. Bir Pletok merupakan salah satu minuman hangat dan menyegarkan, dan tidak mengandung unsure alkohol. bir pletok diolah dari bahan rempah seperti jahe, serai, kayu manis, serta daun pandan. Bir pletok terkenal sebagai minuman tradisional khasnya masyarakat Betawi. khasiat yang terkandung dalam bir pletok adalah memperlancar peredaran darah. warga Betawi umumnya mengonsumsi minuman ini pada waktu malam hari, atau kala cuaca sedang dingin sebagai penghangat tubuh."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1484030774.jpg"
+            , "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/08/13/190674039.jpg"
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("121","angklung", "benda", "jawa barat"
+            , "Angklung adalah alat musik bernada ganda yang telah dikenal sejak abad ke 11. Nama angklung sendiri berasal dari Bahasa Sunda yaitu \"angkleung-angkleungan\". Angklung terdiri dari dua suku kata yaitu angka yang berarti nada dan lung yang berarti pecah. Alat musik ini terbuat dari bambu yang dibunyikan dengan cara digoyangkan. Bunyi tersebut dihasilkan oleh benturan badan pipa bambu sehingga menghasilkan bunyi yang bergetar dalam susunan nada 2, 3, sampai 4 nada dalam setiap ukuran, balk besar maupun kecil.\n" +
+                    "\n" +
+                    "Tidak ada petunjuk sejak kapan angklung digunakan, tetapi diduga bentuk primitifnya telah digunakan dalam kultur Neolitikum yang berkembang di Nusantara sampai awal penanggalan modern, sehingga angklung merupakan bagian dari relik pra-Hinduisme dalam kebudayaan Nusantara.\n" +
+                    "\n" +
+                    "Catatan mengenai angklung baru muncul merujuk pada masa Kerajaan Sunda (abad ke-12 sampai abad ke-16). Asal usul terciptanya musik bambu, seperti angklung berdasarkan pandangan hidup masyarakat Sunda yang agraris dengan sumber kehidupan dari padi (pare) sebagai makanan pokoknya. Hal ini melahirkan mitos kepercayaan terhadap Nyai Sri Pohaci sebagai lambang Dewi Padi pemberi kehidupan (hirup-hurip). Masyarakat Baduy, yang dianggap sebagai sisa-sisa masyarakat Sunda asli, menerapkan angklung sebagai bagian dari ritual mengawali penanaman padi. Permainan angklung gubrag di Jasinga, Bogor, adalah salah satu yang masih hidup sejak lebih dari 400 tahun lampau. Kemunculannya berawal dari ritus padi. Angklung diciptakan dan dimainkan untuk memikat Dewi Sri turun ke bumi agar tanaman padi rakyat tumbuh subur.\n" +
+                    "\n" +
+                    "Jenis bambu yang biasa digunakan sebagai alat musik tersebut adalah bambu hitam (awl wulung) dan bambu putih (awl temen). Tiap nada (faros) dihasilkan dari bunyi tabung bambunya yang berbentuk bilah (wilahan) setiap ruas bambu dari ukuran kecil hingga besar.\n" +
+                    "\n" +
+                    "Dikenal oleh masyarakat sunda sejak masa kerajaan Sunda, di antaranya sebagai penggugah semangat dalam pertempuran. Fungsi angklung sebagai pemompa semangat rakyat masih terus terasa sampai pada masa penjajahan, itu sebabnya pemerintah Hindia Belanda sempat melarang masyarakat menggunakan angklung. Pada waktu itu pelarangan itu sempat membuat popularitas angklung menurun dan hanya di mainkan oleh anak-anak.\n" +
+                    "\n" +
+                    "Selanjutnya lagu-lagu persembahan terhadap Dewi Sri tersebut disertai dengan pengiring bunyi tabuh yang terbuat dari batang-batang bambu yang dikemas sederhana yang kernudian melahirkan struktur alat musik bambu yang kita kenal sekarang bernama angklung. Demikian pula pada saat pesta panen dan seren taun dipersembahkan permainan angklung. Terutama pada penyajian angklung yang berkaitan dengan upacara padi. Kesenian ini menjadi sebuah pertunjukan yang sifatnya arak-arakan atau helaran, bahkan di sebagian tempat menjadi iring-iringan Rengkong dan Dongdang serta Jampana (usungan pangan) dan sebagainya. Dalam perkembangannya, angklung berkembang dan menyebar ke seantero Jawa, lalu ke Kalimantan dan Sumatera. Pada 1908 tercatat sebuah misi kebudayaan dari Indonesia ke Thailand, antara lain ditandai penyerahan angklung, lalu permainan musik bambu ini pun sempat menyebar di sana. Bahkan, sejak 1966, Udjo Ngalagena tokoh angklung yang mengembangkan teknik permainan berdasarkan laras-laras pelog, salendro, dan madenda mulai mengajarkan bagaimana bermain angklung kepada banyak orang dari berbagai komunitas."
+            , ""
+            , "https://asset.kompas.com/crops/SR-fKV8jE8ALyzP2WSqf-dbKGec=/0x91:1000x591/750x500/data/photo/2019/12/14/5df48b6692b3a.jpg"
+            , "https://www.kalderanews.com/wp-content/uploads/2022/11/Anak-anak-memainkan-alat-musik-Angklung.-Ist.-600x381.jpg"
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("122","lukis kaca cirebon", "benda", "jawa barat"
+            , "Lukisan Kaca Cirebon merupakan seni lukis yang menggunakan media kaca. Teknik melukisnya dilakukan dengan cara terbalik atau melukis di bagian belakang. Hasil lukisannya biasa dilihat dari bagian depan. Lukisan Kaca Cirebon memiliki keunikan dalam penggarapannya. Melukis di bagian belakang sangat membutuhkan ketelitian, keterampilan dan kesabaran. Seorang pelukis kaca harus mampu menghindarkan diri dari kesalahan ketika melakukan pengecatan. Pewarnaannya menganut gelap ke terang dan terang ke gelap. Demikian pula, ketelitian dalam menggoreskan kuas perlu dimiliki, agar tidak menabrak kontour (garis gambar), ketelitian dalam mencampur/mengoplos warna dan ketelitian dalam menentukan ragam hias.Lukisan Kaca telah dikenal di Cirebon sejak abad ke-17 Masehi. Keberadaannya bersamaan dengan berkembangnya Agama Islam di Pulau Jawa. Lukisan Kaca berperan sebagai media dakwah Islam pada masa pemerintahan Panembahan Ratu di Cirebon. Lukisannya berupa Kaligrafi dan Wayang. Pengaruh Islam menjadi ciri khas dari lukisan kaca Cirebon, seperti gambar kabah, masjid dan kaligrafi berisi ayat-ayat Alquran atau Hadist."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/foto_1483931870.jpg"
+            , ""
+            , ""
+            , ""
+            , "")
+        dbHelper.insertData("123","sate maranggi", "makanan", "jawa barat"
+            , "Tidak diketahui secara pasti tanggal berapa nama kuliner Sate Maranggi dipopulerkan. Data yang diperoleh dari informan menyebutkan bahwa seorang penjual Sate Maranggi bernama Bustomi Sukmawirdja atau dikenal dengan sebutan Mang Udeng, telah berjualan Sate Maranggi pada tahun 1962 di Kecamatan Plered. Informasi tersebut sekaligus mematahkan permasalahan lokasi asal mula Sate Maranggi yang sebelumnya juga diklaim oleh Kecamatan Wanayasa. Adapun angka tahun awal adanya Sate Maranggi di Wanayasa adalah lebih muda dibandingkan dengan angka tahun informasi keberadaan Sate Maranggi di Plered, yaitu tahun 1970, atau lebih muda 8 tahun. Informasi atau data awal mula adanya penjual Sate di Wanayasa datang dari seorang dengan nama panggilan Mak Unah. Beliau menyebutkan bahwa sekitar tahun 1970 beliau telah berjualan sate. Tidak lantas beliau mengistilahkan dengan nama Sate Maranggi. Beliau hanya menyebutkan Sate Panggang. Dan, beliau juga telah mengetahui bahwa di Plered sebelumnya juga telah ada yang berjualan sate, yaitu Mang Udeng. Daging yang digunakan kala itu berasal dari daging sapi atau kerbau. Mak Unah melanjutkan bahwa, ia memang sebelumnya juga menggunakan bahan daging yang sama (sapi dan kerbau). Sekitar tahun 1965, beliau mencoba menggunakan jenis daging lain dalam racikan bumbunya, yaitu daging domba. Menurut beliau bahwa racikan bumbunya yang dimasak dengan menggunakan daging domba lebih enak jika dibandingkan dengan menggunakan jenis daging yang lain. Mengkaji dari data sejarah tersebut di atas, antara Wanayasa dan Plered terdapat sebuah sinergi yang mencuatkan nama Maranggi sebuah sebuah kuliner yang kemudian mengemuka dan menjadi ikon Kabupaten Purwakarta. Memang dalam melihat angka tahun, Wanayasa memang lebih muda dibandingkan dengan Plered. Namun dilihat dari jenis daging yang digunakan membuat kedua daerah tersebut dapat dikatakan sebagai awal mula adanya Sate Maranggi di Kabupaten Purwakarta."
+            , ""
+            , "https://asset.kompas.com/crops/R2M4rb0pG5qXNfxc43iHs19sl2s=/95x0:939x563/780x390/data/photo/2022/07/10/62ca309364500.jpeg"
+            , "https://www.piknikdong.com/wp-content/uploads/2020/08/Resep-Sate-Maranggi.jpg"
+            , "https://img-global.cpcdn.com/recipes/0ad338be1e2bd498/1200x630cq70/photo.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("124","lumpia semarang", "makanan", "jawa tengah"
+            , "Loenpia atau dieja lun pia diserap dari kata dialek bahasa Cina Hokkian run bing yang kemudian bersinergi dengan bahasa Jawa lum ping (kulit) menjadi lumpia. Lumpia merupakan spring roll (kue gulung) sehingga dimungkinkan lumpia belum digoreng hanya lumpia basah. Lumpia atau lunpia keduanya benar. Lun atau lum berarti lunak atau lembut, bergantung pada dialek pengucapnya. Pia berarti kue. Dari penyebutan ini, sebenarnya lumpia seharusnya tidak digoreng, melainkan basah.Lumpia Semarang bahan utamanya rebung, rasanya gurih manis dan dimakan dengan saus kental agak manis dengan acar mentimun, cabai rawit, dan daun bawang. Lunpia disajikan ketika perayaan Imlek. Kehadiran makanan ini bermakna harapan agar semua manusia dapat lebih meningkatkan rasa cinta kasih kepada sesama. Makna dari kata gulungan atau chun adalah manusia di seluruh bumi bersatu padu tanpa memandang perbedaan seperti halnya gulungan tersebut."
+            , ""
+            , "https://kurio-img.kurioapps.com/20/10/13/29a1a2bc-7a57-4997-8121-7c2ce9855a05.jpeg"
+            , "https://asset.kompas.com/crops/qm3Ahs2JCCmTpXZJgwJw_NRDoRU=/91x63:971x649/780x390/data/photo/2022/05/05/62733ab5cdfbf.jpg"
+            , "https://img-global.cpcdn.com/recipes/0d6fbd899b31a631/400x400cq70/photo.jpg"
+            , ""
+            , "")
+        dbHelper.insertData("125","mendoan banyumas", "makanan", "jawa tengah"
+            , "Banyumas memiliki makanan tradisional yang beragam Pengolahan yang serba digoreng menjadi ciri khas tersendiri yang melekat pada makanan Banyumas. Beberapa makanan khas tersebut seperti Mendoan\n" +
+                    "\n" +
+                    "Mendoan berasal dari kedelai yang dicuci bersih, direbus sampai air mendidih sampai matang, kurang lebih membutuhkan waktu 2 (dua) jam dengan api yang cukup besar dan stabil.\n" +
+                    "\n" +
+                    "Kemudian diangkat dari perapian, ditaruh di tampah (di ler) supaya dingin, setelah itu direndam di ember besar sehari semalam, sampai keluar lendirnya (kecutan), setelah itu air yang berlendir dipisahkan dengan kedelainya. Kedelai dimasukkan ke dalam krinjing atau tumbu untuk diinjak-injak agar kulit ari terpisah dengan kedelai sehingga benar-benar bersih terpisah sambil disirami air yang bening. Setelah kedelai bersih ditiriskan sampai air tidak di dalam krinjing. Kulit ari kedelai dalam krinjing. Kulit ari kedelai dapat digunakan untuk pakan sapi, kambing dan sejenisnya, termasuk kecutannya.\n" +
+                    "\n" +
+                    "Setelah ditiriskan , kedelai diberi ragi tempe. Pemberian ragi tempe ada beberapa cara yang pertama kedelai diolesi dengan bekas bungkus tempe yang jamurnya banyak menempel di daun tersebut, sambil diaduk-aduk, sekitar 4 lembar daun atau secukupnya. Yang kedua ditaburi  dengan ragi tempe untuk porsi 10 kg dicampur dengan 2 sdm ragi tempe (kalau musim dingin), kalau musim panas 1 sdm untuk + 10 kg kedelai. Pengaruh musim atau suhu udara berpengaruh terhadap cepatnya tempe berjamur.\n" +
+                    "\n" +
+                    "Kemudian tempe dibungkus daun pisang dengan ukuran dan tebal tertentu. Dalam 1 bungkus tempe terdapat 2 atau 3 tumpukan tempe di dalamnya, maka ini dinamakan tempe lempit lalu diikat. Cara penyimpanannya ada yang ditaruh di lantai, di baki dan di rak-rak. Untuk yang di lantai ditutupi kain yang bersih agar panasnya merata, ini berpengaruh pada matang atau menjamurnya tempe. untuk tempe lempit rata-rata sehari semalam sudah matang atau menjamur.\n" +
+                    "\n" +
+                    "Selanjutnya tehapan pembuatan mendoan yaitu  untuk 20 (dua puluh) biji tempe + 2 liter minyak goreng dan 1 kg tepung (tepung diaduk dengan bumbu yang sudah dihaluskan). Bumbu yang dihaluskan untuk membuat mendoan adalah ketumbar, garam, bawang putih dan kencur secukupnya. Setelah itu siapkan perapian sambil menunggu minyak goreng panas, tempe dimasukkan ke dalam adonan yang sudah dicampur bumbu, dengan tingkat kekentalan dan rasa tertentu. Setelah minyak panas, tempe yang sudah diberi adonan siap digoreng, tingkat kematangan mendoan yang digoreng disesuaikan dengan selera konsumen. Kemudian mendoan yang sudah matang diangkat dan ditiriskan, biasanya disajikan dengan cabe rawit.\n" +
+                    "\n" +
+                    "Mendoan memiliki makna budaya sebagai bentuk slametan \"NJABELI =ndaut dan menanam padi. MIMITI PADI=mulai mau panen padi . sesaji dg mendoan dan nasi ketan. sbg bentuk sukur pd DEWI KEMAKMURAN =DEWI  SRI.dan bentuk bentuk adat yg lain. membuat rumah.ketika menaik kan atap rumah selesai. diadakan slametan MAYU RUMAH. mskansn mendoan sbg bagian makanan =jajan pasar hadir di situ. untuk mdnghormati BOPO BUMI. DAN IBU BUMI."
+            , ""
+            , "https://warisanbudaya.kemdikbud.go.id/dashboard/media/photos/1610433667-tetap-kedelai%20dibungkus%20dengan%20daun%20pisang.%20Dalam%201%20bungkus%20terdapat%202%20sampai%203%20tumpukan%20tempe%20kemudian%20diikat,%20maka%20dinamakan%20tempe%20lempit%20atau%20ikat.jpg"
+            , "https://img-global.cpcdn.com/recipes/12922fdbdae15bcf/1200x630cq70/photo.jpg"
+            , "https://asset.kompas.com/crops/4jBZzW5FuaQMzlZdMosmVIbX7Dc=/0x0:0x0/750x500/data/photo/2021/10/30/617cf46654ed1.jpg"
+            , ""
+            , "")
+        // ------------------------------------ ||||| ----------------------------------- //
+        dbHelper.insertData("","", "", ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , ""
+            , "")
+
         //dbHelper.close()
     }
 }

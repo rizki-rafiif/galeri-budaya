@@ -47,7 +47,6 @@ class PakaianFragment : Fragment(R.layout.fragment_pakaian) {
                 adapter.listBud = budaya
             } else {
                 adapter.listBud = ArrayList()
-                binding.tvWarningNull.text = "Data masih kosong"
             }
         }
     }
