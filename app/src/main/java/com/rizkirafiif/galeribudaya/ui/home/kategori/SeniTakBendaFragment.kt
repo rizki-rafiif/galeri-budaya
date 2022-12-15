@@ -49,7 +49,6 @@ class SeniTakBendaFragment : Fragment() {
                 adapter.listBud = budaya
             } else {
                 adapter.listBud = ArrayList()
-                binding.tvWarningNull.text = "Data masih kosong"
             }
         }
     }

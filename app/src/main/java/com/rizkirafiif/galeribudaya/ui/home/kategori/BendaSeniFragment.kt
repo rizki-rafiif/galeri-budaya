@@ -50,7 +50,7 @@ class BendaSeniFragment : Fragment(R.layout.fragment_benda_seni) {
                 adapter.listBud = budaya
             } else {
                 adapter.listBud = ArrayList()
-                binding.tvWarningNull.text = "Data masih kosong"
+
             }
         }
     }

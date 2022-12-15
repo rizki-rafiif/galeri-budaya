@@ -50,7 +50,6 @@ class SenjataFragment : Fragment(R.layout.fragment_senjata) {
                 adapter.listBud = budaya
             } else {
                 adapter.listBud = ArrayList()
-                binding.tvWarningNull.text = "Data masih kosong"
             }
         }
     }
