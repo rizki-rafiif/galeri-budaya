@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Transparent" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="colorPrimary">#fffc8f</item>
+        <item name="colorPrimaryDark">#fffc8f</item>
+        <item name="android:statusBarColor" >#fffc8f</item>
+    </style>
+</resources>

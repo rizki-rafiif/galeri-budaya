@@ -42,11 +42,10 @@ class BrowsedFragment : Fragment() {
         databaseHelper.open()
         if (savedInstanceState == null){
             loadData(daerah)
-        } else {
-            val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
-            if (list != null){
-                adapter.listBudaya = list
-            }
+        }
+
+        binding.ibBack.setOnClickListener {
+            requireActivity().supportFragmentManager.popBackStack()
         }
     }
 

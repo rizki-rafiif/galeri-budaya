@@ -44,11 +44,9 @@ class ResultFragment : Fragment() {
         databaseHelper.open()
         if (savedInstanceState == null){
             loadData(nama)
-        } else {
-            val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
-            if (list != null){
-                adapter.listBudaya = list
-            }
+        }
+        binding.ibBack.setOnClickListener {
+            requireActivity().supportFragmentManager.popBackStack()
         }
     }
 
@@ -60,7 +58,7 @@ class ResultFragment : Fragment() {
             adapter.listBudaya = budaya
         } else {
             adapter.listBudaya = ArrayList()
-            Snackbar.make(binding.rvResult, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
+            Snackbar.make(binding.rvResult, "Tidak ada data saat ini", Snackbar.LENGTH_LONG).show()
         }
     }
 

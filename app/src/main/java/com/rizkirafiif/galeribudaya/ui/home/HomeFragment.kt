@@ -16,7 +16,7 @@ import com.rizkirafiif.galeribudaya.ui.detail.DetailFragment
 import com.rizkirafiif.galeribudaya.ui.home.adapter.ViewPagerAdapter
 import kotlinx.coroutines.DelicateCoroutinesApi
 
-class HomeFragment : Fragment(R.layout.fragment_home) {
+class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding?= null
     private val binding get() = _binding!!
@@ -53,7 +53,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             }.attach()
         }
     }
-
 
     override fun onDestroyView() {
         super.onDestroyView()
