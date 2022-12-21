@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.GaleriBudaya" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#79ff97</item>
+        <item name="colorPrimary">#00CE2E</item>
         <item name="colorPrimaryVariant">#fffc8f</item>
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->

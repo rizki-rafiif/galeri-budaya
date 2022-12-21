@@ -3,13 +3,13 @@
     <item
         android:id="@+id/nav_menu_home"
         android:icon="@drawable/ic_home"
-        android:title="Home"/>
+        android:title="Beranda"/>
     <item
         android:id="@+id/nav_menu_browse"
-        android:icon="@drawable/ic_browse"
-        android:title="Browse"/>
+        android:icon="@drawable/ic_search"
+        android:title="Pencarian"/>
     <item
         android:id="@+id/nav_menu_about"
-        android:icon="@drawable/ic_about"
-        android:title="About"/>
+        android:icon="@drawable/ic_info"
+        android:title="Info"/>
 </menu>

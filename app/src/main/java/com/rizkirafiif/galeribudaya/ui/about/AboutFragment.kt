@@ -8,6 +8,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
+import com.bumptech.glide.request.target.Target.SIZE_ORIGINAL
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentAboutBinding
 
@@ -29,10 +32,17 @@ class AboutFragment : Fragment(R.layout.fragment_about) {
         super.onViewCreated(view, savedInstanceState)
         binding.tvPesanAbout.text = "Aplikasi ini dibuat dengan tujuan membantu melestarikan " +
                 "warisan budaya yang ada di indonesia dengan membuat akses lebih terpadu dan mudah, " +
-                "yaitu hanya dengan melalui smartphone dengan basis android"
+                "yaitu hanya dengan menggunakan aplikasi basis android"
         binding.tvKontakAbout.text = "Silahkan bisa kontak dengan pengembang bila " +
                 "memiliki saran, kritik, dan lain-lain melalui email " +
-                "\n19104010@ittelkom-pwt.ac.id\natau"
+                "\n19104010@ittelkom-pwt.ac.id\natau tekan tombol gmail dibawah"
+        // making the image button circle
+        Glide.with(requireContext())
+            .load(R.drawable.gmail_logo)
+            .apply(RequestOptions.overrideOf(260))
+            .apply(RequestOptions.circleCropTransform())
+            .into(binding.ibGmail)
+
         binding.ibGmail.setOnClickListener {
             val selectorIntent = Intent(Intent.ACTION_SENDTO)
             selectorIntent.data = Uri.parse("mailto:")

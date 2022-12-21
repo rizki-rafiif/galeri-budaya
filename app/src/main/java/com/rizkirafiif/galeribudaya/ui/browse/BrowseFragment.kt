@@ -1,14 +1,20 @@
 package com.rizkirafiif.galeribudaya.ui.browse
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.EditorInfo
+import android.view.inputmethod.InputMethodManager
+import android.widget.TextView
+import androidx.core.content.ContextCompat.getSystemService
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.snackbar.Snackbar
 import com.rizkirafiif.galeribudaya.Data.Budaya
+import com.rizkirafiif.galeribudaya.MainActivity
 import com.rizkirafiif.galeribudaya.R
 import com.rizkirafiif.galeribudaya.databinding.FragmentBrowseBinding
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
@@ -41,47 +47,66 @@ class BrowseFragment : Fragment() {
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
         if (savedInstanceState == null) {
-            loadData()
-        } else {
-            val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
-            if (list != null) {
-                adapter.listBudaya = list
+            val cursor = databaseHelper.queryOfDaerah()
+            var budaya = helper.mapBrowseCursorToArrayList(cursor)
+            if (budaya.size > 0) {
+                adapter.listBudaya = budaya
+            } else {
+                adapter.listBudaya = ArrayList()
+                Snackbar.make(binding.rvBrowse, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
             }
         }
 
         binding.ibSearch.setOnClickListener {
             val dataSearch = binding.etSearch.text.toString()
-            val bundle = Bundle()
-            bundle.putString("search", dataSearch)
-            val fragRes = ResultFragment()
-            fragRes.arguments = bundle
-            // to clear the text
-            // binding.etSearch.text.clear()
-            requireActivity().supportFragmentManager.commit {
-                replace(R.id.fragment_container_view, fragRes)
-                setReorderingAllowed(true)
-                addToBackStack(null)
+            if (dataSearch == ""){
+                binding.etSearch.error = "Pastikan kolom tidak kosong"
+            }else{
+                val bundle = Bundle()
+                bundle.putString("search", dataSearch)
+                val fragRes = ResultFragment()
+                fragRes.arguments = bundle
+                // to clear the text
+                binding.etSearch.text.clear()
+                requireActivity().supportFragmentManager.commit {
+                    replace(R.id.fragment_container_view, fragRes)
+                    setReorderingAllowed(true)
+                    addToBackStack(null)
+                }
             }
         }
 
-    }
-
-    private fun loadData() {
-
-        val cursor = databaseHelper.queryOfDaerah()
-        var budaya = helper.mapBrowseCursorToArrayList(cursor)
-        if (budaya.size > 0) {
-            adapter.listBudaya = budaya
-        } else {
-            adapter.listBudaya = ArrayList()
-            Snackbar.make(binding.rvBrowse, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
-        }
+        // to set action enter button on keyboard
+        // parameter 1 = textview
+        // parameter 2 = id
+        // parameter 3 = key event
+        binding.etSearch.setOnEditorActionListener(TextView.OnEditorActionListener{_, actionId, _ ->
+            if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+                val dataSearch = binding.etSearch.text.toString()
+                if (dataSearch == ""){
+                    binding.etSearch.error = "Pastikan kolom tidak kosong"
+                }else{
+                    val bundle = Bundle()
+                    bundle.putString("search", dataSearch)
+                    val fragRes = ResultFragment()
+                    fragRes.arguments = bundle
+                    // to clear the text
+                    binding.etSearch.text.clear()
+                    requireActivity().supportFragmentManager.commit {
+                        replace(R.id.fragment_container_view, fragRes)
+                        setReorderingAllowed(true)
+                        addToBackStack(null)
+                    }
+                }
+                return@OnEditorActionListener true
+            }
+            false
+        })
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
-
 
 }

@@ -45,37 +45,13 @@ class MakananFragment : Fragment() {
         databaseHelper = context?.let { DatabaseHelper.getInstance(it) }!!
         databaseHelper.open()
         if (savedInstanceState == null){
-            //loadData()
             val cursor = databaseHelper.queryMakanan()
             var budaya = helper.mapCursorToArrayList(cursor)
             if (budaya.size > 0){
                 adapter.listMakanan = budaya
-            } else {
-                adapter.listMakanan = ArrayList()
-                //Snackbar.make(binding.rvMakanan, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
             }
         }
-//        else {
-//            val list = savedInstanceState.getParcelableArrayList<Budaya>("EXTRA_STATE")
-//            if (list != null){
-//                adapter.listMakanan = list
-//            }
-//        }
-
-
     }
-
-    //@OptIn(DelicateCoroutinesApi::class)
-//    private fun loadData(){
-//        val cursor = databaseHelper.queryMakanan()
-//        var budaya = helper.mapCursorToArrayList(cursor)
-//        if (budaya.size > 0){
-//            adapter.listMakanan = budaya
-//        } else {
-//            adapter.listMakanan = ArrayList()
-//            //Snackbar.make(binding.rvMakanan, "Tidak ada data saat ini", Snackbar.LENGTH_SHORT).show()
-//        }
-//    }
 
     override fun onDestroyView() {
         super.onDestroyView()

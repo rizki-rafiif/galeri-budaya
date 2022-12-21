@@ -14,6 +14,8 @@
         tools:targetApi="m">
         <activity
             android:name=".ui.splash.SplashActivity"
+            android:theme="@style/Theme.Transparent"
+            android:screenOrientation="nosensor"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="nosensor"
             android:exported="false">
         </activity>
     </application>
