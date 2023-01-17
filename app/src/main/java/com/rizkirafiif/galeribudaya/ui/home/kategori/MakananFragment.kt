@@ -6,11 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.material.snackbar.Snackbar
-import com.rizkirafiif.galeribudaya.Data.Budaya
-import com.rizkirafiif.galeribudaya.Data.Communicator
 import com.rizkirafiif.galeribudaya.databinding.FragmentMakananBinding
 import com.rizkirafiif.galeribudaya.db.DatabaseHelper
 import com.rizkirafiif.galeribudaya.helper

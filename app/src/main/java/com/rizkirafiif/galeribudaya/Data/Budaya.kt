@@ -10,7 +10,6 @@ data class Budaya (
     var jenis: String ?= null,
     var daerah: String ?= null,
     var deskripsi: String ?= null,
-    var video: String ?= null,
     var gambar1: String ?= null,
     var gambar2: String ?= null,
     var gambar3: String ?= null,

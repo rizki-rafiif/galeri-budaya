@@ -11,7 +11,6 @@ class DatabaseContract {
             const val JENIS = "jenis"
             const val DAERAH = "daerah"
             const val DESKRIPSI = "deskripsi"
-            const val VIDEO = "link_video"
             const val GAMBAR_1 = "link_gambar_1"
             const val GAMBAR_2 = "link_gambar_2"
             const val GAMBAR_3 = "link_gambar_3"

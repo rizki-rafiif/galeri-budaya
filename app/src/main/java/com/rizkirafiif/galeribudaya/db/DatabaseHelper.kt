@@ -40,12 +40,6 @@ class DatabaseHelper(context: Context) {
         dbCreation.close()
         if (database.isOpen) database.close()
     }
-    fun queryAll(): Cursor {
-        return database.query( TABLE_BUDAYA, null, null, null, null, null, "$DAERAH ASC")
-    }
-//    fun queryById(id: String): Cursor {
-//        return database.query( TABLE_BUDAYA, null, "$_ID = ?", arrayOf(id), null, null, null, null)
-//    }
 
     fun queryById(id:String):Cursor{
         val query = "SELECT * FROM $TABLE_BUDAYA todo WHERE $_ID = '$id'"
@@ -105,15 +99,14 @@ class DatabaseHelper(context: Context) {
     val db = dbCreation.writableDatabase
 
     // Create a new map of values, where column names are the keys
-    fun insertData(id:String, nama:String, jenis:String, daerah:String, deskripsi:String, video:String,
-                   gambar1:String, gambar2:String, gambar3:String, gambar4:String, gambar5: String){
+    fun insertData(id:String, nama:String, jenis:String, daerah:String, deskripsi:String, gambar1:String,
+                   gambar2:String, gambar3:String, gambar4:String, gambar5: String){
         val values = ContentValues().apply {
             put(DatabaseContract.BudayaColumns._ID, id)
             put(DatabaseContract.BudayaColumns.NAME, nama)
             put(DatabaseContract.BudayaColumns.JENIS, jenis)
             put(DatabaseContract.BudayaColumns.DAERAH, daerah)
             put(DatabaseContract.BudayaColumns.DESKRIPSI, deskripsi)
-            put(DatabaseContract.BudayaColumns.VIDEO, video)
             put(DatabaseContract.BudayaColumns.GAMBAR_1, gambar1)
             put(DatabaseContract.BudayaColumns.GAMBAR_2, gambar2)
             put(DatabaseContract.BudayaColumns.GAMBAR_3, gambar3)
