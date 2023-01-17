@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation_layout"
-    app:startDestination="@id/home_fragment">
+    app:startDestination="@id/home_fragment"
+    >
 
     <fragment
         android:id="@+id/home_fragment"
@@ -22,37 +23,5 @@
         android:name="com.rizkirafiif.galeribudaya.ui.about.AboutFragment"
         android:label="fragment_about"
         tools:layout="@layout/fragment_about"/>
-
-    <fragment
-        android:id="@+id/fragment_detail"
-        android:name="com.rizkirafiif.galeribudaya.ui.detail.DetailFragment"
-        android:label="fragment detail"
-        tools:layout="@layout/fragment_detail">
-        <argument
-            android:name="id"
-            app:argType="com.rizkirafiif.galeribudaya.Data.Budaya" />
-        <action
-            android:id="@+id/to_makanan"
-            app:destination="@id/fragment_makanan"/>
-    </fragment>
-
-    <fragment
-        android:id="@+id/fragment_makanan"
-        android:name="com.rizkirafiif.galeribudaya.ui.home.kategori.MakananFragment"
-        android:label="fragment makanan"
-        tools:layout="@layout/fragment_makanan">
-        <action
-            android:id="@+id/action_makanan_to_detail"
-            app:destination="@id/fragment_detail"/>
-    </fragment>
-    <fragment
-        android:id="@+id/item"
-        android:label="item budaya"
-        android:name="com.rizkirafiif.galeribudaya.ui.home.HomeFragment"
-        tools:layout="@layout/item_vp_content_home">
-        <action
-            android:id="@+id/item_makanan_to_detail"
-            app:destination="@id/fragment_detail"/>
-    </fragment>
 
 </navigation>

@@ -13,7 +13,6 @@ import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.JENIS
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.NAME
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.TABLE_BUDAYA
-import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion.VIDEO
 import com.rizkirafiif.galeribudaya.db.DatabaseContract.BudayaColumns.Companion._ID
 
 class DatabaseCreation(context: Context) : SQLiteOpenHelper
@@ -22,12 +21,11 @@ class DatabaseCreation(context: Context) : SQLiteOpenHelper
         private const val DATABASE_NAME = "db_galeri_budaya"
         private const val DATABASE_VERSION = 1
         private const val SQL_CREATE_TABLE_GALERI_BUDAYA = "CREATE TABLE $TABLE_BUDAYA" +
-                " ( $_ID TEXT ," +
+                " ( $_ID TEXT PRIMARY KEY," +
                 " $NAME TEXT ," +
                 " $JENIS TEXT ," +
                 " $DAERAH TEXT ," +
                 " $DESKRIPSI TEXT ," +
-                " $VIDEO TEXT ," +
                 " $GAMBAR_1 TEXT ," +
                 " $GAMBAR_2 TEXT ," +
                 " $GAMBAR_3 TEXT ," +
@@ -47,5 +45,4 @@ class DatabaseCreation(context: Context) : SQLiteOpenHelper
     override fun onDowngrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
         onUpgrade(db, oldVersion, newVersion)
     }
-
 }

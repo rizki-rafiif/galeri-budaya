@@ -52,7 +52,6 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
         val jenis = contenDetail[0].jenis.toString()
         val daerah = contenDetail[0].daerah.toString()
         val deskripsi = contenDetail[0].deskripsi.toString()
-        val video = contenDetail[0].video.toString()
         val gambar1 = contenDetail[0].gambar1.toString()
         val gambar2 = contenDetail[0].gambar2.toString()
         val gambar3 = contenDetail[0].gambar3.toString()
